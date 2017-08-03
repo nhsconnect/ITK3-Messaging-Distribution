@@ -15,7 +15,7 @@ There are a number of extensions added to the ITK messageHeader profile which ar
 
 **Important Note 1: There is no default behaviour, therefore when the handling specification keys are not set by a sender , receiving systems should do nothing.**
 
-## ITKMeassageHandling Extension ##
+## ITKMessageHandling Extension ##
 
 This is a complex extension which consists of a coded key using an extensible value set and an associated value which can be a boolean or a string. The table below shows the values which should be assigned to the key / value pairs. 
 
