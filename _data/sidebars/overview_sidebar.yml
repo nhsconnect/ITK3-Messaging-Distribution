@@ -1,0 +1,221 @@
+entries:
+- title: ITK3 Distribution 
+  product: ITK3 Distribution
+  version: 2.0.0-alpha.0
+  levels: one
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: The Journey
+      url: /overview_the_journey.html
+      output: web
+    - title: Providing a Messaging Solution
+      url: /overview_messaging_provide.html
+      output: web
+    - title: Guide Versioning
+      url: /overview_guide_versioning.html
+      output: web
+    - title: Release Notes
+      url: /overview_release_notes.html
+      output: web
+    - title: Glossary
+      url: /overview_glossary.html
+      output: web
+
+  - title: Messaging Architecture
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+    - title: Bundle Structures
+      url: /explore_bundle_structures.html
+      output: web
+    - title: Interactions
+      url: /explore_interactions.html
+      output: web
+    - title: Messages
+      url: /explore_messages.html
+      output: web
+    - title: Handling Specification
+      url: /explore_hand_spec.html
+      output: web
+    - title: Sender & Receiver Requirements
+      url: /explore_snd&rec_req.html
+      output: web
+
+    - title: Error Codes
+      url: /explore_error_codes.html
+      output: web
+    - title: Resource Referencing
+      url: /explore_resource_referencing.html
+      output: web
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
+        subfolderitems:
+
+        - title: Overview
+          url: /workflow_overview.html
+          output: web
+     
+
+  - title: Case Studies
+    output: web
+    folderitems:
+
+    - title: Case Study Overview
+      url: /engage_case_studies.html
+      output: web
+
+ #  - title: Engagement Approach
+      url: /engage.html
+      output: web, pdf
+      type: homepage
+
+#      subfolders:
+#      - title: Case Studies
+#        output: web
+#        subfolderitems:
+
+#        - title: Case Study Overview
+#          url: /engage_case_studies.html
+#          output: web
+#        - title: Test Case Study
+#          url: /engage_test_case_study.html
+#          output: web
+
+  - title: Design & Build
+    output: web
+    folderitems:
+    - title: Overview
+      url: /design.html
+      output: web
+    - title: Patterns / Topology
+      url: /design_patterns.html
+      output: web
+    - title: Exchange Patterns
+      url: /design_exchange_patterns.html
+      output: web
+    - title: Security
+      url: /design_security.html
+      output: web
+      subfolders:
+      - title: Build
+        output: web
+        subfolderitems:
+          - title: Data Mapping
+            url: /build_data_mapping.html
+            output: web
+          - title: Constructing Clinical Coded Structures
+            url: /build_constructing_coded_structures.html
+            output: web
+ #         - title: Medication Lists
+ #          url: /build_medication_lists.html
+ #           output: web
+ #        - title: Allergy Lists
+ #           url: /build_allergy_lists.html
+ #           output: web
+  - title: Test
+    output: web
+    folderitems:
+    - title: Overview
+      url: /test.html
+      output: web
+    - title: Patterns / Topology
+      url: /test_patterns.html
+      output: web
+    - title: Access
+      url: /test_access.html
+      output: web
+    - title: Security
+      url: /test_security.html
+      output: web
+    - title: Test Data
+      url: /test_data.html
+      output: web
+
+  - title: Assure
+    output: web
+    folderitems:
+    - title: Overview
+      url: /assure.html
+      output: web
+    - title: Access
+      url: /assure_access.html
+      output: web
+    - title: Security
+      url: /assure_security.html
+      output: web
+    - title: End To End
+      url: /assure_end_to_end.html
+      output: web
+
+  - title: Deploy
+    output: web
+    folderitems:
+    - title: Overview
+      url: /deploy.html
+      output: web
+    - title: Access
+      url: /deploy_access.html
+      output: web
+    - title: Security
+      url: /deploy_security.html
+      output: web
+
+  - title: Help & Support
+    output: web
+    folderitems:
+    - title: Frequently Asked Questions (FAQ)
+      url: /support_faq.html
+      output: web
+    - title: Communication Channels
+      url: /support_communications.html
+      output: web
+      subfolders:
+      - title: Where Else Can I Look?
+        output: web
+        subfolderitems:
+        - title: Community
+          url: /support_community.html
+          output: web
+        - title: FHIR Tools
+          url: /support_fhirtools.html
+          output: web
+        - title: 
+          url: /support_referencedocumentation.html
+          output: web
+
+  - title: Tags
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /tag_overview.html
+      output: web
+    - title: FHIR&reg;
+      url: /tag_fhir.html
+      output: web
+    - title: User Stories
+      url: /tag_user_stories.html
+      output: web
+    - title: Case Studies
+      url: /tag_casestudies.html
+      output: web
+    - title: Design
+      url: /tag_design.html
+      output: web
+    - title: Development
+      url: /tag_development.html
+      output: web
+    - title: Support
+      url: /tag_support.html
+      output: web
