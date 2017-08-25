@@ -12,16 +12,16 @@ summary: "The structures of the bundles used in the messages"
 {% include custom/messaging_overview.svg %}
 
 ## Background ##
-To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK Message Bundle and the ITK Message Header that combine to make up the ITK3 Distribution Bundle. 
+To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK Message Bundle and the ITK Message Header that combine to make up the ITK3 Messaging Distribution Bundle. 
 
-The ITK3 Distribution Bundle may be used to wrap any payload. This provides a lightweight structure to carry information relating to the end-to-end technical distribution of payloads.
-The ITK3 Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added the the ITK Message Header profile to allow a similar functionality to the previous versions of ITK. 
+The ITK3 Messaging Distribution Bundle may be used to wrap any payload. This provides a lightweight structure to carry information relating to the end-to-end technical distribution of payloads.
+The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added the the ITK Message Header profile to allow a similar functionality to the previous versions of ITK. 
 
-This specification also defines an Infrastructure Acknowledgement and a Business Acknowledgement which may be used with the ITK3 Distribution Bundle.
+This specification also defines an Infrastructure Acknowledgement and a Business Acknowledgement which may be used with the ITK3 Messaging Distribution Bundle.
 
-## The ITK3 Distribution Bundle ##
+## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Distribution Bundle structure.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure.
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
 
@@ -33,7 +33,7 @@ The ITK message bundle is the container for the ITK message header and any paylo
 
 ## ITK3 FHIR Document Structure Example ##
 
-The diagram below is an example of a ITK FHIR document payload that may be used with the ITK3 Distribution Bundle. When sending FHIR Documents the is a bundle of type document.
+The diagram below is an example of a ITK FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the is a bundle of type document.
 
 <img src="images/explore/ITKDocExample.png" style="width:50%;max-width: 50%;">
 

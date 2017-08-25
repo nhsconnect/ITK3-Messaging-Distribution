@@ -84,7 +84,7 @@ This is a complex extension which consists of a coded key using an extensible va
 
 An example of how this works is for  when an infrastructure acknowledgement is required by a sender of a message. The sender would send a code of "INFACK" with a boolean value of "true".
 
-<script src="https://gist.github.com/unicorn150161/62a30e5ce737c696494648c06b06c1e6.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/0967d8a887fca4fa918d07ab623d1968.js"></script>
 
 ## senderReference Extension ##
 

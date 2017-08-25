@@ -4,7 +4,7 @@ keywords:  messaging
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_messages.html
-summary: "ITK3 Distribution Messages"
+summary: "ITK3 Messaging Distribution Messages"
 ---
 
 {% include custom/search.warnbanner.html %}
@@ -17,13 +17,15 @@ This message is a generic message for sending any payload.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
-- **ITK-Message-Bundle-1** - A NHS Digital Profile of the FHIR Bundle resource.
-- **ITK-MessageHeader-1** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **CareConnect-Practitioner-1** - A CareConnect Profile of the FHIR Practitioner resource 
-- **CareConnect-Location-1** - A CareConnect Profile of the FHIR Location resource.
-- **CareConnect-Organization-1** - A CareConnect Profile of the FHIR Organization resource.
-- **Payload** - Any Resource or Profile. 
-- 
+- **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
+- **[ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
+- **[CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)** - A CareConnect Profile of the FHIR Practitioner resource 
+- **[CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)** - A CareConnect Profile of the FHIR Location resource.
+- **[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)** - A CareConnect Profile of the FHIR Organization resource.
+- **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - A NHS Digital Profile of the Device resource
+- **Payload** - Any Resource or Profile.
+ 
+ 
 ## ITK Send Payload Bundle Diagram ##
 
 The diagram shows the referencing between the profiles in the bundle which make up the Send Payload Message.
@@ -32,7 +34,7 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 ## ITK Send Payload Example ##
 
-<script src="https://gist.github.com/unicorn150161/4cc76d52e3a93ce529efdffcaa487396.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/6d9972c89354a0cdd07714464fdb5698.js"></script>
 
 ## ITK Infrastructure Acknowledgement Response ##
 
@@ -40,12 +42,13 @@ ITK Infrastructure Acknowledgements are used to convey information from the rece
 
 The Bundle consists of the following FHIR Resource Profiles.
 
-- **ITK-Message-Bundle-1** - A NHS Digital Profile of the FHIR Bundle resource.
-- **ITK-MessageHeader-1** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **CareConnect-Practitioner-1** - A CareConnect Profile of the FHIR Practitioner resource 
-- **CareConnect-Location-1** - A CareConnect Profile of the FHIR Location resource.
-- **CareConnect-Organization-1** - A CareConnect Profile of the FHIR Organization resource.
-- **ITK-OperationOutcome-1** - A NHS Digital Profile of the OperationOutcome resource
+- **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
+- **[ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
+- **[CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)** - A CareConnect Profile of the FHIR Practitioner resource 
+- **[CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)** - A CareConnect Profile of the FHIR Location resource.
+- **[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)** - A CareConnect Profile of the FHIR Organization resource.
+- **[ITK-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
+- **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - A NHS Digital Profile of the Device resource
 
 
 ## ITK Infrastructure Acknowledgement Bundle Diagram ##
@@ -55,19 +58,19 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 ## ITK Infrastructure Acknowledgement Bundle Success Example ##
 
-<script src="https://gist.github.com/unicorn150161/8894acb45610bdebae8b7f18bffea35c.js"></script>
-
+<script src="https://gist.github.com/IOPS-DEV/7fce3d2e89fb18c91f0581819e1bbaa6.js"></script>
 ## ITK Business Acknowledgement Response ##
 ITK Business Acknowledgements are used to convey information from the receiving Clinical Systems back to the sending system, this can include Patient Known or Patient Unknown information alongside information regarding accuracy or inaccuracy of the clinical payload.This response message also allows systems or individuals to acknowledge that a message was received without error
 
 The Bundle consists of the following FHIR Resource Profiles.
 
-- **ITK-Message-Bundle-1** - A NHS Digital Profile of the FHIR Bundle resource.
-- **ITK-MessageHeader-1** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **CareConnect-Practitioner-1** - A CareConnect Profile of the FHIR Practitioner resource 
-- **CareConnect-Location-1** - A CareConnect Profile of the FHIR Location resource.
-- **CareConnect-Organization-1** - A CareConnect Profile of the FHIR Organization resource.
-- **ITK-OperationOutcome-1** - A NHS Digital Profile of the OperationOutcome resource
+- **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
+- **[ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
+- **[CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)** - A CareConnect Profile of the FHIR Practitioner resource 
+- **[CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)** - A CareConnect Profile of the FHIR Location resource.
+- **[CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)** - A CareConnect Profile of the FHIR Organization resource.
+- **[ITK-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
+- **[ITK-Device-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Device-1)** - A NHS Digital Profile of the Device resource
 
 
 ## ITK Business Acknowledgement Bundle Diagram ##
@@ -75,13 +78,21 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 <img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;"> 
 
-
 ## ITK Business Acknowledgement Bundle Success Example ##
 
-<script src="https://gist.github.com/unicorn150161/6d74aac6b6e7305814f56188ea9b9baa.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/1072bb0a3297e59d12a6ea0070e70c6f.js"></script>
+
+## Extensions Used ##
+
+- **[Extension-ITK-CareSettingType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-CareSettingType-1)** - An NHS Digital extension to header resource to allow the details care setting type that the document was sent from.
+- **[Extension-ITK-MessageHandling-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-1)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK message handling key.
+- **[Extension-ITK-SenderReference-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-SenderReference-1)** -An NHS Digital extension to the MessageHeader resource to support a local sender reference.
+- **[Extension-CareConnect-NHSCommunication-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1)** - A CareConnect extension to Patient and Practitioner resources to carry language information suitable for NHS use.
+- **[Extension-CareConnect-MainLocation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MainLocation-1)** - A CareConnect extension to the Location resource to allow the main location to be carried/indicated.
+- **[organization-period](http://hl7.org/fhir/StructureDefinition/organization-period)** - An HL7 common extension to the Organization resource allow the periods of time to be associated with the organization.
 
 
 
-[ITK Send Payload]: ../Profile.ITKSendPayload/Profile.ITKSendPayload.html
-[ITK Infrastructure Acknowledgement Response]: ../Profile.ITKInfAckResponse/Profile.ITKInfAckResponse.html
-[ITK Business Acknowledgement Response]: ../Profile.ITKBusinessAckResponse/Profile.ITKBusinessAckResponse.html
+
+
+

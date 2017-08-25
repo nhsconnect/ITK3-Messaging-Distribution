@@ -4,99 +4,18 @@ keywords: design, build
 tags: [design, build]
 sidebar: foundations_sidebar
 permalink: design_exchange_patterns.html
-summary: "The Exchange Patterns introduce the three ways of exchanging FHIR Resources using RESTful API, messaging and documents."
+summary: "The Exchange Patterns introduce the ways of exchanging FHIR Resources using messaging and documents."
 ---
 
 {% include custom/search.warnbanner.html %}
 
-## Exchange Paradigms ##
+## Exchange Patterns ##
 
 This section has been included to show the types of exchange patterns and how these ways of exchanging FHIR resources relates to Information Sharing Patterns.
 
 The exchange patterns are complimentary, each having it's strengths and weaknesses. The best solution will probably to use a combination of pattern.
 
-**Note: for ITK3 only Messaging or Documents can be used.  **
 
-## RESTful API
-
-
-Manipulate data held in a remote system while avoiding direct coupling to remote procedures.
-
-Many web services use messages to form their own domain-specific APIs. These messages incorporate common logical commands like Create, Read (i.e. Get), Update, or Delete (CRUD). Also across the health and social care domain, we have many common entities such as Patient, Practitioner, Organisation, etc. For example, many systems will implement an API that allows you to search for Patients by their NHS Number, maybe called GetPatient, QueryPatient, CreatePatient, etc.
-
-Rather than implementing a system specific API, we could utilise standards defined in the HTTP specification (i.e. GET, POST, etc) and standarise how we return the payload.
-
-So rather than a wide variety of GetPatient, QueryPatient we have:
-
-<table width="60%">
-    <tr>
-        <td>
-            <b>GET Request</b>
-        </td>
-        <td>
-            <b>Response (server)</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            URI
-        </td>
-        <td>
-            FHIR Resource <br> E.g. Patient
-        </td>
-    </tr>
-</table>
-
-<table width="60%">
-    <tr>
-        <td>
-            <b>POST/PUT Request</b>
-        </td>
-        <td>
-            <b>Response (server)</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            URI + FHIR Resource <br> Patient
-        </td>
-        <td>
-            FHIR Resource <br> E.g. OperationOutcome
-        </td>
-    </tr>
-</table>
-
-<table width="60%">
-    <tr>
-        <td>
-            <b>DELETE Request</b>
-        </td>
-        <td>
-            <b>Response (server)</b>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            URI
-        </td>
-        <td>
-            FHIR Resource <br> E.g. OperationOutcome
-        </td>
-    </tr>
-</table>
-
-
-This type of interface may also be called as **ResourceAPI** and is useful for real time applications and mobile/web based access.
-
-**Benefits**
-- Mobile and web application friendly, can be reused for messaging simplifying interfacing.
-- Quick to develop
-- Real Time Systems
-- Uses modern web technologies
-- Can be used with modern security and consent technologies ([OAuth2](https://oauth.net/2/), [OpenID](http://openid.net/what-is-openid/), [SMART on FHIR](http://docs.smarthealthit.org/))
-
-**Concerns**
-- Less suitable for large transfers of data between organisations and large systems.
 
 ### Information Sharing Patterns ###
 
@@ -145,7 +64,7 @@ For example a Referral Request will typically contain supporting information suc
     </tr>
     <tr>
         <td>
-            ITK3 DistributionHeader
+            ITK3 Messaging DistributionHeader
         </td>
     </tr>
     <tr>
@@ -161,14 +80,6 @@ For example a Referral Request will typically contain supporting information suc
 </table>
 
 
-**Benefits**
-- Established and mature pattern in Health and Social Care domain
-- Process isolation, useful for communication between organisations and large systems.
-
-**Concerns**
-- Not suitable mobile or browser use
-- Information Governance concerns especially when used with broadcast pattern.
-- Messages need handling, this may be unnecessary for small transactions
 
 ### Information Sharing Patterns ###
 

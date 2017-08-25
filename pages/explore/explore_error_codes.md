@@ -69,18 +69,18 @@ This page describes how error information is carried. The example fragments are 
 **Ok at infrastructure level**
 This uses the MessageHeader resource to carry the code.
 
-<script src="https://gist.github.com/unicorn150161/d70e5115e1bc1def9ac9111152674c09.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/b6678b59daaa95a18fd4f808b0e8f32d.js"></script>
 
 **Ok at business level**
 
 This use the MessageHeader and the OperationOutcome resources
 
-<script src="https://gist.github.com/unicorn150161/8a49f03fa0fffffb5449b2863c6a27fb.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
 
 **Error at business level due to patient not registered**
 
 This use the MessageHeader and the OperationOutcome resources
 
-<script src="https://gist.github.com/unicorn150161/1d1f6c626ed0676aab082fa53556906c.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
 
 

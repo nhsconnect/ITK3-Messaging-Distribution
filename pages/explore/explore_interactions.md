@@ -4,24 +4,24 @@ keywords:  messaging, interactions
 tags: [fhir,messaging,interactions]
 sidebar: foundations_sidebar
 permalink: explore_interactions.html
-summary: "ITK3 Distribution Interactions"
+summary: "ITK3 Messaging Distribution Interactions"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 {% include custom/messaging_overview.svg %}
 
-## ITK3 Distribution Interactions Overview ##
-This section provides ITK3 implementers with the information required to utilise the ITK3 Distribution Interactions.
+## ITK3 Messaging Distribution Interactions Overview ##
+This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution Interactions.
 
-The ITK3 Distribution provides a consistent standardised approach to message headers, whilst also providing a message handling specification to control the use of infrastructure and business acknowledgement responses through the use of flags.
+The ITK3 Messaging Distribution provides a consistent standardised approach to message headers, whilst also providing a message handling specification to control the use of infrastructure and business acknowledgement responses through the use of flags.
 
 
 **Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  The MESH acknowledgements and responses are not defined in this specification
 
 **Note 2:** Messages are structured in eXtensible Markup Language (XML) only.
 
-The ITK3 Distribution is based on the [HL7 FHIR STU3 Messaging Implementation] Messaging Implementation and supports multiple interactions. 
+The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Implementation] Messaging Implementation and supports multiple interactions. 
 
 ----------
 

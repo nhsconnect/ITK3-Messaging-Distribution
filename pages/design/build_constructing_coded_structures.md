@@ -11,7 +11,7 @@ summary: "Constructing coded clinical structures"
 
 ## What is a Coded Clinical Structure ##
 
-A coded clinical structure is a FHIR resource or resources populated with the elements required to define a discreet clinical concept or group of concepts, for example a allergy or a list of allergies. The ITK3 Distribution Bundles do not contain any such structures and the relevant payload specification should be consulted for more information.  
+A coded clinical structure is a FHIR resource or resources populated with the elements required to define a discreet clinical concept or group of concepts, for example a allergy or a list of allergies. The ITK3 Messaging Distribution Bundles do not contain any such structures and the relevant payload specification should be consulted for more information.  
 
 
 

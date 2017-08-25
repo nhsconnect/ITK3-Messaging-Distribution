@@ -11,7 +11,7 @@ summary: "The Design Patterns / Topology demonstrates and describes how various 
 
 # Patterns #
 
-This section has been included to emphasise the use of design patterns in to the process of deciding how to use ITK3 Distribution within ITK3 Messaging Solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
+This section has been included to emphasise the use of design patterns in to the process of deciding how to use ITK3 Messaging Distribution within ITK3 Messaging Solutions. The information has been taken from [developer.nhs.uk](https://developer.nhs.uk/library/architecture/integration-patterns/information-sharing-patterns-summary/).
 
 ## Overview ## 
 
@@ -36,9 +36,9 @@ Below is a list of patterns. If you require more detail please go to [developer.
 - Registry Repository
 - Publish Subscribe
 
-# Patterns and ITK3 Distribution Based ITK3 Messaging Solutions  #
+# Patterns and ITK3 Messaging Distribution Based ITK3 Messaging Solutions  #
 
-Considering the design pattern / topology influences how any exposed ITK3 Distribution based ITK3 Messaging Solutions can be used and work within a system. ITK3 Messaging Solutions help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. This implementation guide concentrates on [Case Studies](/engage_case_studies.html) to expose and demonstrate how design pattern can use ITK3 Distribution ITK3 Messaging Solutions to interoperate with other systems, patterns, and level of digital maturity within and between organisations.
+Considering the design pattern / topology influences how any exposed ITK3 Messaging Distribution based ITK3 Messaging Solutions can be used and work within a system. ITK3 Messaging Solutions help to expose information to all design patterns allowing great user experiences to be created quickly, securely and consistantly. This implementation guide concentrates on [Case Studies](/engage_case_studies.html) to expose and demonstrate how design pattern can use ITK3 Messaging Distribution ITK3 Messaging Solutions to interoperate with other systems, patterns, and level of digital maturity within and between organisations.
 
 # ITK3 Messaging Solutions Considerations #
 
