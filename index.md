@@ -20,7 +20,7 @@ The ITK3 Messages are created using the formally defined HL7 approach and method
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
 
-The INTEROPen vision is to create a library of nationally defined HL7® FHIR® resources and interaction patterns that implementers can adopt to simplify integration and interoperability within UK health and social care.
+The INTEROPen vision is to create a library of nationally defined HL7® FHIR® resources and interaction patterns that implementers can adopt to simplify integration and interoperability within England's health and social care systems.
 
 Find out more on the [INTEROPen website](http://interopen.org/).
 
@@ -41,7 +41,7 @@ The current site focuses on a typical FHIR ITK3 Messaging Solution Developer's J
 
 # Resource Roadmap #
 
-The [ITK3 Messaging Distribution journey](overview_message_journey.html) outlines the development roadmap for FHIR Messaging using the ITK3 Messaging Distribution component outlined messaging within this site. Note: This roadmap would include components from other NHS Digital specifications for example Transfer OF Care Document Profiles, CareConnect profiles etc.
+The [ITK3 Messaging Distribution journey](overview_the_journey.html) outlines the development roadmap for FHIR Messaging using the ITK3 Messaging Distribution component outlined messaging within this site.
 
 <img src="images/roadmap/messaging_roadmap-online.png" style="width:100%;max-width: 100%;">
 
