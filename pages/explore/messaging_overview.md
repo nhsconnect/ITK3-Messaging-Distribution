@@ -15,8 +15,8 @@ summary: "Overview of the Messaging Architecture section"
 ## ITK Messaging Requirements ##
 
 - SHALL support HL7 FHIR STU3
-- SHALL Implement ITK Sender and/or Receiver Responsibilities as per [ITK Sender and Receiver Requirements ](..\explore_snd&rec_req.html)
-- Resources SHALL identify the CareConnect profile supported as part of the [FHIR Base Resource](https://hl7.org/fhir/resource-definitions.html#Resource.meta)
+- SHALL Implement ITK Sender and/or Receiver Responsibilities as per [ITK Sender and Receiver Requirements ](explore_snd&rec_req.html)
+- Resources SHALL identify the profile supported as part of the [FHIR Base Resource](https://hl7.org/fhir/resource-definitions.html#Resource.meta)
 - SHALL support XML format for all NHS Digital ITK3 interactions and SHOULD support both XML and JSON formats.
 
 
