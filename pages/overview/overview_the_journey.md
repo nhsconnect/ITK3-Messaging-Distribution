@@ -9,9 +9,6 @@ summary: The journey outlines the approach of developing FHIR ITK3 Messaging Sol
 
 {% include important.html content="All phases outlined below are indicative and subject to on-going review." %}
 
-
-# The Journey ##
-
 The Journey is a guide from imagination and exploring to developing local FHIR ITK3 Messaging Solutions using NHS Digital message profiles all the way to deploying a live FHIR ITK3 Messaging Solution.  
 
 {% include custom/messaging_overview.svg %}
