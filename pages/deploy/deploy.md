@@ -21,7 +21,7 @@ The Deploy section contains descriptions of approaches and suggestions for build
 
 # Providing an ITK3 Messaging Solution #
 
-The following diagram explains the elements of ITK3 Messaging Solution allowing a the development of ITK3 Messaging Solution:
+The following diagram explains the elements of ITK3 Messaging Solution allowing the development of ITK3 Messaging Solution:
 
 {% include custom/provide_messaging.svg %}
 

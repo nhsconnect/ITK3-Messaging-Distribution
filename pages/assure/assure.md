@@ -18,7 +18,7 @@ The Assure section contains descriptions of approaches and suggestions for build
 
 # Providing an ITK3 Messaging Solution #
 
-The following diagram explains the elements of ITK3 Messaging Solutions allowing a the development of ITK3 Messaging Solutions:
+The following diagram explains the elements of ITK3 Messaging Solutions allowing the development of ITK3 Messaging Solutions:
 
 {% include custom/provide_messaging.svg %}
 
