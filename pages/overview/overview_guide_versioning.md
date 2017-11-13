@@ -11,7 +11,7 @@ summary: An overview of this implementation guide is versioned.
 
 ## Alpha ##
 
-This implementation guide is in currently in an alpha state at the moment. This means that changes and releases are occuring regularly.
+This implementation guide is in currently in an alpha state at the moment. This means that changes and releases are occurring regularly.
 
 ## Semantic Versioning ##
 
