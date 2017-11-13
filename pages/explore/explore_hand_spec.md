@@ -11,7 +11,7 @@ summary: "The ITK3 handling specification usage."
 
 ## Overview ##
 
-There are a number of extensions added to the ITK messageHeader profile which are referred to as the handling specification. These extensions are used to control messaging behaviour such as when to send an acknowledgement. 
+There are a number of extensions added to the ITK messageHeader profile which are referred to as the handling specifications. These extensions are used to control messaging behaviour such as when to send an acknowledgement. 
 
 **Important Note 1: There is no default behaviour, therefore when the handling specification keys are not set by a sender , receiving systems should do nothing.**
 
@@ -39,7 +39,7 @@ This is a complex extension which consists of a coded key using an extensible va
 
 <tr>
 <td>INFACK</td>
-<td>Populated when sender requires a infrastructure acknowledgement to be returned</td>
+<td>Populated when sender requires an infrastructure acknowledgement to be returned</td>
 <td>true or false</td>
 <td>true</td>
 </tr>
@@ -75,7 +75,7 @@ This is a complex extension which consists of a coded key using an extensible va
 <tr>
 <td>SNDSRVC</td>
 <td>Informs the receiver of the message the service being used for this message</td>
-<td>Any Sevice identifier</td>
+<td>Any Service identifier</td>
 <td>SendDocument-v1-0</td>
 </tr>
 
