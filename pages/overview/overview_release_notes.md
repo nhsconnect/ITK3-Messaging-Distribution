@@ -21,7 +21,18 @@ The following new profiles are constrained versions of the corresponding Care Co
 
 The following profiles have changed for this release:
 
-- [ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1): the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-1 value set.
+- [ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1): the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
+
+The following valuesets have changed and light of changes to their codesystems:
+
+- [ITK-MessageEvent-2](https://fhir.nhs.uk/STU3/ValueSet/ITK-MessageEvent-2)
+- [ITK-HandlingKey-2](https://fhir.nhs.uk/STU3/ValueSet/ITK-HandlingKey-2)
+
+The following codesystems have changed:
+
+- [ITK-MessageEvent-2](https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2): new code values for eDischarge, Mental Health eDischarge, Emergency Care eDischarge and Outpatient Letter.
+- [ITK-HandlingKey-2](https://fhir.nhs.uk/STU3/CodeSystem/ITK-HandlingKey-2): new requirements for the coded values.
+
 
 ## 2.0.0-alpha.0 ##
 First version published using Jekyll.
