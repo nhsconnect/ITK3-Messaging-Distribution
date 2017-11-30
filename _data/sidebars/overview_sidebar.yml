@@ -41,7 +41,7 @@ entries:
     - title: Interactions
       url: /explore_interactions.html
       output: web
-    - title: Messages
+    - title: Message Definitions
       url: /explore_messages.html
       output: web
     - title: Handling Specification
