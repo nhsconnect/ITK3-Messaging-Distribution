@@ -21,7 +21,7 @@ The ITK3 Messaging Distribution provides a consistent standardised approach to m
 
 **Note 2:** Messages are structured in eXtensible Markup Language (XML) only.
 
-The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Implementation] Messaging Implementation and supports multiple interactions. 
+The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and and supports multiple interactions. 
 
 ----------
 
