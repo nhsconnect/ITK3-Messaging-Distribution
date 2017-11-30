@@ -65,18 +65,18 @@ entries:
           output: web
      
 
-  - title: Case Studies
-    output: web
-    folderitems:
+ # - title: Case Studies
+  #  output: web
+  #  folderitems:
 
-    - title: Case Study Overview
-      url: /engage_case_studies.html
-      output: web
+   # - title: Case Study Overview
+     # url: /engage_case_studies.html
+     # output: web
 
  #  - title: Engagement Approach
-      url: /engage.html
-      output: web, pdf
-      type: homepage
+     # url: /engage.html
+     # output: web, pdf
+     # type: homepage
 
 #      subfolders:
 #      - title: Case Studies
