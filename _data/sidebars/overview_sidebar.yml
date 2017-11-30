@@ -96,28 +96,38 @@ entries:
     - title: Overview
       url: /design.html
       output: web
-    - title: Patterns / Topology
-      url: /design_patterns.html
-      output: web
-    - title: Exchange Patterns
-      url: /design_exchange_patterns.html
-      output: web
-    - title: Security
-      url: /design_security.html
-      output: web
+    - title: Data Mapping
+      url: /build_data_mapping.html
+      output: web  
+    - title: Resource Referencing
+      url: /explore_resource_referencing.html
+      output: web      
       subfolders:
-      - title: Build
+      - title: Constructing Clinical Coded Structures
+        url: /build_constructing_coded_structures.html
         output: web
-        subfolderitems:
-          - title: Data Mapping
-            url: /build_data_mapping.html
-            output: web
-          - title: Constructing Clinical Coded Structures
-            url: /build_constructing_coded_structures.html
-            output: web
-          - title: Resource Referencing
-            url: /explore_resource_referencing.html
-            output: web
+     #- title: Patterns / Topology
+     # url: /design_patterns.html
+     # output: web
+    #- title: Exchange Patterns
+     # url: /design_exchange_patterns.html
+     # output: web
+    #- title: Security
+     # url: /design_security.html
+     # output: web
+    #  subfolders:
+     # - title: Build
+     #   output: web
+     #   subfolderitems:
+     #     - title: Data Mapping
+     #       url: /build_data_mapping.html
+     #       output: web
+     #     - title: Constructing Clinical Coded Structures
+     #       url: /build_constructing_coded_structures.html
+     #       output: web
+     #     - title: Resource Referencing
+     #       url: /explore_resource_referencing.html
+     #       output: web
  #         - title: Medication Lists
  #          url: /build_medication_lists.html
  #           output: web
