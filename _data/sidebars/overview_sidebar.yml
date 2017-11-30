@@ -165,12 +165,12 @@ entries:
     - title: Overview
       url: /deploy.html
       output: web
-    - title: Access
-      url: /deploy_access.html
-      output: web
-    - title: Security
-      url: /deploy_security.html
-      output: web
+    #- title: Access
+     # url: /deploy_access.html
+     # output: web
+    #- title: Security
+     # url: /deploy_security.html
+     # output: web
 
   - title: Help & Support
     output: web
