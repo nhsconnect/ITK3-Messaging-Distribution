@@ -102,10 +102,9 @@ entries:
     - title: Resource Referencing
       url: /explore_resource_referencing.html
       output: web      
-      subfolders:
-      - title: Constructing Clinical Coded Structures
-        url: /build_constructing_coded_structures.html
-        output: web
+    - title: Constructing Clinical Coded Structures
+      url: /build_constructing_coded_structures.html
+      output: web
      #- title: Patterns / Topology
      # url: /design_patterns.html
      # output: web
