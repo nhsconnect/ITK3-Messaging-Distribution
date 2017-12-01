@@ -21,7 +21,7 @@ The following new profiles are constrained versions of the corresponding Care Co
 
 The following profiles have changed for this release:
 
-- [ITK-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-1): the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
+- [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2): the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
 
 The following valuesets have changed and light of changes to their codesystems:
 
