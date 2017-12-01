@@ -134,24 +134,24 @@ entries:
  #        - title: Allergy Lists
  #           url: /build_allergy_lists.html
  #           output: web
-  - title: Test
-    output: web
-    folderitems:
-    - title: Overview
-      url: /test.html
-      output: web
-    - title: Patterns / Topology
-      url: /test_patterns.html
-      output: web
-    - title: Access
-      url: /test_access.html
-      output: web
-    - title: Security
-      url: /test_security.html
-      output: web
-    - title: Test Data
-      url: /test_data.html
-      output: web
+ # - title: Test
+  #  output: web
+  #  folderitems:
+   # - title: Overview
+    #  url: /test.html
+    #  output: web
+   # - title: Patterns / Topology
+    #  url: /test_patterns.html
+    #  output: web
+   # - title: Access
+    #  url: /test_access.html
+    #  output: web
+   # - title: Security
+    #  url: /test_security.html
+    #  output: web
+   # - title: Test Data
+    #  url: /test_data.html
+    #  output: web
 
   - title: Assure
     output: web
