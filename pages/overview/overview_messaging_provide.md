@@ -1,5 +1,5 @@
 ---
-title: Providing a ITK3 Messaging Solution
+title: Providing an ITK3 Messaging Solution
 keywords: development,overview, ITK3 Messaging Solution
 tags: [explanation]
 sidebar: overview_sidebar
@@ -18,15 +18,4 @@ The diagram below explains the parts involved in providing ITK3 Messaging Soluti
 - considerations when managing live ITK3 Messaging Solutions (in gray)
 
 {% include custom/provide_messaging.svg %}
-
-Please see the explanation of the complete development roadmap.
-
-## Approach to developing a ITK3 Messaging Solution ##
-
-The current site focuses on a typical ITK3 Messaging Solution Developer's Journey as highlighted by the green boxes below in the developer journey:
-
-<img src="images/roadmap/guide-focus.png" style="width:100%;max-width: 100%;"> 
-
-Please see the explanation of the complete development roadmap.
-
 

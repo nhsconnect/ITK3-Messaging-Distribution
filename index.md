@@ -28,7 +28,3 @@ Find out more on the [INTEROPen website](http://interopen.org/).
 
 This guide has been created to support the adoption of NHS Digital defined FHIR Messages. As such the site is structured around stakeholders involved in building FHIR ITK3 Messaging Solutions including  ITK3 Messaging Solution users, developers and architects.  
 
-{% include custom/messaging_overview.svg %}
-
-The above steps outline a complete journey from imagination and exploring to developing local ITK3 Messaging Solutions using NHS Digital Messages, all the way to deploying a live ITK3 Messaging Solution.
-
