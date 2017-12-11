@@ -13,7 +13,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 ## 2.1.0-alpha ##
 The second version published using Jekyll.
 
-The following new profiles are constrained versions of the corresponding Care Connect profiles:
+The following profiles are tightly constrained ITK replacements of the corresponding Care Connect profiles:
 
 - CareConnect-ITK-Header-Practitioner-1
 - CareConnect-ITK-Header-PractitionerRole-1
