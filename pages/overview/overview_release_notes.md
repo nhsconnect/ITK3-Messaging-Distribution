@@ -15,23 +15,23 @@ The second version published using Jekyll.
 
 The following new profiles are constrained versions of the corresponding Care Connect profiles:
 
-- [ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)
-- [CareConnect-ITK-Header-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-PractitionerRole-1)
-- [ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)
+- CareConnect-ITK-Header-Practitioner-1
+- CareConnect-ITK-Header-PractitionerRole-1
+- CareConnect-ITK-Header-Organization-1
 
 The following profiles have changed for this release:
 
-- [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2): the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
+- ITK-MessageHeader-2: the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
 
-The following valuesets have changed and light of changes to their codesystems:
+The following valuesets have changed in light of changes to their codesystems:
 
-- [ITK-MessageEvent-2](https://fhir.nhs.uk/STU3/ValueSet/ITK-MessageEvent-2)
-- [ITK-HandlingKey-2](https://fhir.nhs.uk/STU3/ValueSet/ITK-HandlingKey-2)
+- ITK-MessageEvent-2
+- ITK-HandlingKey-2
 
 The following codesystems have changed:
 
-- [ITK-MessageEvent-2](https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2): new code values for eDischarge, Mental Health eDischarge, Emergency Care eDischarge and Outpatient Letter.
-- [ITK-HandlingKey-2](https://fhir.nhs.uk/STU3/CodeSystem/ITK-HandlingKey-2): new requirements for the coded values.
+- ITK-MessageEvent-2: new code values for eDischarge, Mental Health eDischarge, Emergency Care eDischarge and Outpatient Letter.
+- ITK-HandlingKey-2: new requirements for the coded values.
 
 
 ## 2.0.0-alpha.0 ##
