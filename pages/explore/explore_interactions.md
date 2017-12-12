@@ -9,8 +9,6 @@ summary: "ITK3 Messaging Distribution Interactions"
 
 {% include custom/search.warnbanner.html %}
 
-<!--{% include custom/messaging_overview.svg %}-->
-
 ## ITK3 Messaging Distribution Interactions Overview ##
 This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution Interactions.
 
