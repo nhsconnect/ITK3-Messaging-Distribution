@@ -8,7 +8,6 @@ summary: "Overview of the Messaging Architecture section"
 ---
 
 {% include custom/search.warnbanner.html %}
-{% include custom/messaging_overview.svg %}
 
 ## Pre-Requisites for FHIR ITK3 Messaging Solutions ##
 

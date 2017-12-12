@@ -9,7 +9,7 @@ summary: "ITK3 Messaging Distribution Interactions"
 
 {% include custom/search.warnbanner.html %}
 
-{% include custom/messaging_overview.svg %}
+<!--{% include custom/messaging_overview.svg %}-->
 
 ## ITK3 Messaging Distribution Interactions Overview ##
 This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution Interactions.
@@ -39,7 +39,7 @@ The following additional message handling specifications are supported:
 - *Key* - PID / INTID / SNDSRVC
 - *Value* - string
 
-These flags are configured within the [ITK-MessageHeader-1]
+These flags are configured within the [ITK-MessageHeader-2]
 
 ---
 
@@ -102,7 +102,7 @@ The hospital system, on receipt of this ITK Business Acknowledgement Response, s
 
 <img src="images/explore/ITKFHIRBusinessErrorInteractions.png" style="width:75%;max-width: 75%;">
 
-[ITK-MessageHeader-1]: ../Profile.ITKSendPayload\itk-messageheader-1.html
+[ITK-MessageHeader-2]: ../Profile.ITKSendPayload\itk-messageheader-2.html
 [ITKBundle-1]: ../Profile.ITKBundle\Profile.ITKBundle.html
 [ITKInfAckResponse-1]: ../Profile.ITKInfAckResponse\Profile.ITKInfAckResponse.html
 [ITKBusinessAckResponse-1]: ../Profile.ITKBusinessAckResponse\Profile.ITKBusinessAckResponse.html

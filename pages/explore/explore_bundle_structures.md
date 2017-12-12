@@ -9,7 +9,7 @@ summary: "The structures of the bundles used in the messages"
 
 {% include custom/search.warnbanner.html %}
 
-{% include custom/messaging_overview.svg %}
+<!--{% include custom/messaging_overview.svg %}-->
 
 ## Background ##
 To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK Message Bundle and the ITK Message Header that combine to make up the ITK3 Messaging Distribution Bundle. 
