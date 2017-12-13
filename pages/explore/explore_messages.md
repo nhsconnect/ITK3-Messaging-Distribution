@@ -85,7 +85,7 @@ The diagram shows the referencing between the profiles in the bundle which make 
 ## Extensions Used ##
 
 - **[Extension-ITK-CareSettingType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-CareSettingType-1)** - An NHS Digital extension to header resource to allow the details care setting type that the document was sent from.
-- **[Extension-ITK-MessageHandling-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-1)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK message handling key.
+- **[Extension-ITK-MessageHandling-2](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK message handling key.
 - **[Extension-ITK-SenderReference-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-SenderReference-1)** -An NHS Digital extension to the MessageHeader resource to support a local sender reference.
 - **[Extension-CareConnect-NHSCommunication-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1)** - A CareConnect extension to Patient and Practitioner resources to carry language information suitable for NHS use.
 - **[Extension-CareConnect-MainLocation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MainLocation-1)** - A CareConnect extension to the Location resource to allow the main location to be carried/indicated.
