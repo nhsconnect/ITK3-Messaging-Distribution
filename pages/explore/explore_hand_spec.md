@@ -28,7 +28,6 @@ This is a complex extension which consists of a Extension URL that carries the H
 <th>Usage</th>
 <th>Allowable Values</th>
 <th>Definition</th>
-<!--<th>Example Value</th>-->
 </tr>
 
 <tr>
@@ -63,7 +62,6 @@ This is a complex extension which consists of a Extension URL that carries the H
 <tr>
 <td>FI</td>
 <td>For information - No Action is required by the recipient and they may process the payload as they see fit.</td>
-</td>
 </tr>
 
 <tr>
@@ -85,12 +83,9 @@ This is a complex extension which consists of a Extension URL that carries the H
 <td>The request should be actioned immediately - highest possible priority. E.g. an emergency</td>
 </tr>
 
-</td>
-</tr>
-
 <tr>
 <td>MessageDefinitionReference</td>
-<td>A reference to a URL for the MessageDefinition for the payload  </td>
+<td>A reference to a URL for the MessageDefinition for the payload</td>
 <td>URL</td>
 <td>This MessageDefinition will detail the information to allow correct processing of the payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
 </tr>
