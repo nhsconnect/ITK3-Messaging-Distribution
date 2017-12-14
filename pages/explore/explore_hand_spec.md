@@ -62,15 +62,16 @@ The action required by the recipient will be either explicit in the payload or t
 <tr>
 <td>RecipientType</td>
 <td>Indicates the type of recipient</td>
-<td>
-<ul>
+<td><ul>
 <li>FA -  For Action - the recipient has been sent the payload for action.</li>  
 <li>FI - For information</li>
+</ul>
 </td>
 <td>
 <ul>
 <li>FA - The action required by the recipient will be either explicit in the payload or there will be a business rule defined.</li>  
 <li>FI - No Action is required by the recipient and they may process the payload as they see fit.</li>
+</ul>
 </td>
 </tr>
 
