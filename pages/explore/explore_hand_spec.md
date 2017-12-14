@@ -99,16 +99,10 @@ This is a complex extension which consists of a Extension URL that carries the H
 
 <tr>
 <td>LocalExtension</td>
-<td>A reference to a local uri</td>
+<td>A local Handling Specification Key</td>
 <td>This can be any type of value</td>
-<td>This provides the flexibility of locally defined extensions being used</td>
+<td>This provides the flexibility of locally defined local Handling Specifications being used.</td>
 </tr>
-
-
 </table>
 
-
-An example of how this works is for  when an infrastructure acknowledgement is required by a sender of a message. The sender would send a code of "INFACK" with a boolean value of "true".
-
-<script src="https://gist.github.com/IOPS-DEV/0967d8a887fca4fa918d07ab623d1968.js"></script>
 
