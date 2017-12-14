@@ -27,57 +27,88 @@ This is a complex extension which consists of a coded key using an extensible va
 <th>Key</th>
 <th>Usage</th>
 <th>Allowable Values</th>
-<th>Example Value</th>
+<th>Comments</th>
+<!--<th>Example Value</th>-->
 </tr>
 
 <tr>
 <td>BUSACK</td>
 <td>Populated when sender requires a business acknowledgement to be returned</td>
 <td>true or false</td>
-<td>true</td>
+<td>-</td>
 </tr>
 
 <tr>
 <td>INFACK</td>
 <td>Populated when sender requires an infrastructure acknowledgement to be returned</td>
 <td>true or false</td>
-<td>true</td>
+<td>-</td>
+</tr>
+
+
+<!--<tr>
+<td>RecipientType</td>
+<td>Indicates the type of recipient</td>
+<td>
+FA -  For Action - the recipient has been sent the payload for action.
+<br>FI - For information
+</td>
+<td>
+The action required by the recipient will be either explicit in the payload or there will be a business rule defined.
+<br>No Action is required by the recipient and they may process the payload as they see fit.
+</td>
+</tr>-->
+
+<tr>
+<td>RecipientType</td>
+<td>Indicates the type of recipient</td>
+<td>
+<ul>
+<li>FA -  For Action - the recipient has been sent the payload for action.</li>  
+<li>FI - For information</li>
+</td>
+<td>
+<ul>
+<li>FA - The action required by the recipient will be either explicit in the payload or there will be a business rule defined.</li>  
+<li>FI - No Action is required by the recipient and they may process the payload as they see fit.</li>
+</td>
 </tr>
 
 <tr>
-<td>INTID</td>
-<td>Informs the receiver of the interaction identifier associated with the message flow</td>
-<td>Any valid interaction identifier</td>
-<td>DOC-ToC-Primary-Recipient-eDischarge-1</td>
+<td>Priority</td>
+<td>Indicates the priority that processing of the payload should be given by the recipient</td>
+<td>
+<ul>
+<li>routine - The request has normal priority</li>
+<li>urgent - The request should be actioned promptly - higher priority than routine</li>
+<li>asap - The request should be actioned as soon as possible - higher priority than urgent</li>
+<li>stat - The request should be actioned immediately - highest possible priority. E.g. an emergency</li>
+</ul>
+</td>
+<td>These codes are taken from the valueset https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1. This valueset is derived from the FHIR value set  http://hl7.org/fhir/ValueSet/request-priority. </td>
 </tr>
 
 <tr>
-<td>PID</td>
-<td>Informs the receiver of the message specification identifier and version that the sending system is built from or conforms to.</td>
-<td>Any valid message profile identifier</td>
-<td>eDischarge 1.0.0-alpha.1</td>
+<td>MessageDefinition Reference</td>
+<td>A reference to a URL for the MessageDefinition for the payload  </td>
+<td>URL</td>
+<td>This MessageDefinition will detail the information to allow correct processing of the payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
 </tr>
 
 <tr>
-<td>SNDO</td>
-<td>Informs the receiver of the message that this is a send only transaction i.e. this is an asynchronous message flow.</td>
-<td>true</td>
-<td>true</td>
+<td>SenderReference </td>
+<td>A reference that the sender includes and wants returned in any response. </td>
+<td>Any String up to 255 Characters  </td>
+<td>This is a NHS 111 requirement.  This extension allows the sender to send a reference string which can be returned to the sender when there are issues.  The default behaviour is that if a sender reference is received the receiving system should be capable of returning the reference to the sender.  Note, in the previous release of this specification this was a separate extension.</td>
 </tr>
 
-<tr>
-<td>SNDREC</td>
-<td>Informs the receiver of the message that this is a send and receive transaction i.e. this is an synchronous message flow.</td>
-<td>true</td>
-<td>true</td>
-</tr>
+<!--<tr>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+</tr>-->
 
-<tr>
-<td>SNDSRVC</td>
-<td>Informs the receiver of the message the service being used for this message</td>
-<td>Any Service identifier</td>
-<td>SendDocument-v1-0</td>
-</tr>
 
 </table>
 
@@ -85,8 +116,4 @@ This is a complex extension which consists of a coded key using an extensible va
 An example of how this works is for  when an infrastructure acknowledgement is required by a sender of a message. The sender would send a code of "INFACK" with a boolean value of "true".
 
 <script src="https://gist.github.com/IOPS-DEV/0967d8a887fca4fa918d07ab623d1968.js"></script>
-
-## senderReference Extension ##
-
-This extension allows the sender to send a reference string which can be returned to the sender when there are issues. The default behaviour is that if a sender reference is received the receiving system should be capable of returning the reference to the sender.
 
