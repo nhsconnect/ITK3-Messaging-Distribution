@@ -38,11 +38,8 @@ entries:
     - title: Bundle Structures
       url: /explore_bundle_structures.html
       output: web
-    - title: Interactions
-      url: /explore_interactions.html
-      output: web
     - title: Message Definitions
-      url: /explore_messages.html
+      url: /explore_message_definitions.html
       output: web
     - title: Handling Specification
       url: /explore_hand_spec.html
