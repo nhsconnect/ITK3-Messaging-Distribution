@@ -797,9 +797,9 @@ This uses the MessageHeader resource to carry the code.
 
 **Error at the infrastructure level**
 
-This uses the MessageHeader and the OperationOutcome resources
+This uses the MessageHeader and the OperationOutcome resources.
 
-<script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911"></script>
+<script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911.js"></script>
 
 **Ok at the business level**
 
