@@ -789,19 +789,25 @@ These errors should be returned to the sender using the Business Acknowledgement
 
 ## Examples of Error Codes in Responses ##
 
-**Ok at infrastructure level**
+**Ok at the infrastructure level**
 
 This uses the MessageHeader resource to carry the code.
 
 <script src="https://gist.github.com/IOPS-DEV/b6678b59daaa95a18fd4f808b0e8f32d.js"></script>
 
-**Ok at business level**
+**Error at the infrastructure level**
 
-This use the MessageHeader and the OperationOutcome resources
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911"></script>
+
+**Ok at the business level**
+
+This uses the MessageHeader and the OperationOutcome resources.
 
 <script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
 
-**Error at business level due to patient not registered**
+**Error at the business level due to patient not registered**
 
 This uses the MessageHeader and the OperationOutcome resources
 
