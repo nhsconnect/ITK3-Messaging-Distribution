@@ -40,6 +40,8 @@ This codesystem has been removed:
 
 - ITK-HandlingKey-1: this is no longer needed due to the way that the handling key information is modelled in the Extension-ITK-MessageHandling-2 profile
 
+The XML Examples have been updated to reflect the changes outlined above.
+
 ## 2.0.0-alpha.0 ##
 First version published using Jekyll.
 
