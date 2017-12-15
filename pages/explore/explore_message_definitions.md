@@ -1,7 +1,7 @@
 ---
 title: Message Definitions
 keywords:  messaging, message definitions
-tags: [fhir,messaging,message definitions]
+tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
 permalink: explore_message_definitions.html
 summary: "ITK3 Messaging Distribution Message Definitions"

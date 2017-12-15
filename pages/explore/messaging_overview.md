@@ -21,7 +21,7 @@ summary: "Overview of the Messaging Architecture section"
 
 ## FHIR Conformance ##
 
-SHOULD declare a Conformance identifying the list of profiles and message bundles supported.
+Systems SHOULD declare a Conformance identifying the list of profiles and message bundles supported.
 
 
 

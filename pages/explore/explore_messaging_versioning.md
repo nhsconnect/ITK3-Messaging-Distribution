@@ -1,7 +1,7 @@
 ---
 title: Messaging Versioning
 keywords: development, versioning
-tags: [rest,fhir]
+tags: [fhir]
 sidebar: overview_sidebar
 permalink: explore_messaging_versioning.html
 summary: An overview of how messages and profiles are versioned.
