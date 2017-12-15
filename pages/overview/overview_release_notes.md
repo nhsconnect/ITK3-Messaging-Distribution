@@ -22,28 +22,23 @@ The following profiles are tightly constrained ITK replacements of the correspon
 The following profiles have changed for this release:
 
 - ITK-MessageHeader-2: the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
-- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by it's own extension element, containing the appropriate allowable value.
+- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by it's own extension URL element, containing the appropriate allowable value.
 
-The following valuesets have changed:
+This valueset has changed:
 
 - ITK-MessageEvent-2 - the value of the system element has changed to "https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2".
-- ITK-HandlingKey-2 - the value of the system element has changed to "https://fhir.nhs.uk/STU3/CodeSystem/ITK-HandlingKey-2".
 
-The following codesystems have changed:
+This valueset has been removed:
+
+- ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of a Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
+
+This codesystem has changed:
 
 - ITK-MessageEvent-2: there are new code values for eDischarge, Mental Health eDischarge, Emergency Care eDischarge and Outpatient Letter.
-- ITK-HandlingKey-2: the transport used for ITK 3 is only MESH, so a number of the handling specification keys are redundant.  Secondly, the interaction identifier has been replaced with a URL of a MessageDefinition profile, which will detail the required information. Therefore, the following changes have been made:
-  + *Removed the concept element for "INTID" (Interaction ID)*
-  + *Removed the concept element for "PID" (Profile ID)*
-  + *Removed the concept element for "SNDO" (Send Only)*
-  + *Removed the concept element for "SNDREC" (Send And Receive)*
-  + *Removed the concept element for "SNDSRVC" (Sending Service)*
-  + *Removed the concept element for "FHIRVER" (FHIR Version)*
-  + *Added the concept element for "RecipientType " (Indicates the type of recipient)*
-  + *Added the concept element for "Priority" (Indicates the type of recipient)*
-  + *Added the concept element for "MessageDefinition Reference" (A reference to a URL for the MessageDefinition for the payload)*
-  + *Added the concept element for "SenderReference " (A reference that the sender includes and wants returned in any response.)*
 
+This codesystem has been removed:
+
+- ITK-HandlingKey-1: this is no longer needed due to the way that the handling key information is modelled in the Extension-ITK-MessageHandling-2 profile
 
 ## 2.0.0-alpha.0 ##
 First version published using Jekyll.
