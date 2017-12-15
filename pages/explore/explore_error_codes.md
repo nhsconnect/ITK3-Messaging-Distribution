@@ -19,7 +19,7 @@ This page describes how error information is carried. The example fragments are 
 
 ## Elements And Value Sets Used To Carry Error Information ##
 
-<table width="125%">
+<table width="100%">
 <tr>
 <th>Resource</th>
 <th>Element</th>
@@ -42,7 +42,7 @@ This page describes how error information is carried. The example fragments are 
 </tr>
 <tr>
 <td>OperationOutcome</td>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>
 <a href="https://fhir.nhs.uk/ValueSet/itk-acknowledgement-1" target="_blank">itk-acknowledgement</a>
 </td>
@@ -93,7 +93,7 @@ These errors should be returned to the sender using the Infrastructure Acknowled
 <td></td>
 </tr>	
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC001</td>
 <td>A generic error code which gives a minimum level 
@@ -126,7 +126,7 @@ relating to Handling Specification faults.</td>
 <th colspan="4" align="left">OperationOutcome elements</th>
 </tr>
 <tr>
-<td>issue.severity</td>	
+<td>issue.severity.code</td>	
 <td>IssueSeverity</td>
 <td>fatal</td>
 <td></td>
@@ -136,37 +136,47 @@ relating to Handling Specification faults.</td>
 <td>IssueType</td>
 <td>processing</td>
 <td></td>
+</tr>
+<tr>
+<td colspan="4"><b>A code from the list below which is applicable for the handling specification which has an error. Example usage is for incorrect or unreadable values.</b>
+</td>
 </tr>	
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC002</td>
 <td>Business Acknowledgement - Processing Error</td>
 </tr>
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC003</td>
 <td>Infrastructure Acknowledgement - Processing Error</td>
 </tr>
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC004</td>
 <td>Message Definition – Processing Error</td>
 </tr>
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC005</td>
 <td>Priority - Processing Error</td>
 </tr>
 <tr>
-<td>issue.details</td>	
+<td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
 <td>RC006</td>
 <td>Sender Reference - Processing Error</td>
-</tr>	
+</tr>
+<tr>
+<td>issue.details.code</td>	
+<td>ITK-Acknowledgement</td>
+<td>RC999</td>
+<td>Handling Specification Usage Does Not Match Business Rules For Message Definition</td>
+</tr>		
 </table>
 
 ## Payload Validation Error Codes ##
@@ -194,7 +204,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>information</td>
 <td></td>
@@ -206,10 +216,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>	
 <td>51001</td> 
 <td>Success</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>	
 <th colspan="4" align="left">MessageHeader</th>
@@ -224,7 +243,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -236,10 +255,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>51002</td>
 <td>Unrecognised Recipient Person - The Recipient Person is not recognised but the Recipient Organisation is.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -254,7 +282,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -266,10 +294,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		
 <td>51003</td>
 <td>Unrecognised Sender - The Receiving system does not recognise the Sender but the message has been passed on for local (recipient) investigation / processing.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -284,7 +321,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -296,10 +333,20 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		 
 <td>51004</td>
 <td>Non Approved file type received as an attachment - The Receiving system has received an attached file whose file type is on the Authorities ‘Black List’.</td>
+</tr>
+</table>
+
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr> 
 <th colspan="4" align="left">MessageHeader</th>
@@ -314,7 +361,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -340,11 +387,20 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 </td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>51005</td> 
 <td>Payload validation failure - Content validation has failed</td>
 </tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
+</tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
 </tr>
@@ -356,8 +412,9 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 </tr>	
 <tr>	
 <th colspan="4" align="left">OperationOutcome</th>
+</tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -383,10 +440,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 </td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>51006</td>
 <td>Document content validation failure - Document Content validation has failed.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -401,7 +467,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -413,10 +479,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>51007</td>
 <td>Attachment file type invalid - One or more attachments has an invalid file type.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -431,7 +506,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -443,10 +518,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		 
 <td>51008</td>
 <td>Unrecognised Recipient Organisation - The Recipient Organisation identified, is not supported by this End Point (Receiving System).</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -460,7 +544,8 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <tr>	
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
-<td>issue.severity</td> 	
+<tr>
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -472,10 +557,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		 
 <td>51009</td> 
 <td>Unauthorised Sender - The Receiving system identified in the document is configured to reject messages from unauthorised senders.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -490,7 +584,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -502,10 +596,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		 
 <td>51010</td>
 <td>Duplicate Message received - message/transmission ID "{0}" has already been processed.)	A message with this message/transmission ID has already been received and processed by this recipient.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -520,7 +623,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -532,10 +635,19 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		 
 <td>51011</td>
 <td>Duplicate Document received - Document with UUID ''{0}'' has already been processed.)	A Document with this document ID has already been received and processed by this recipient.</td>
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>	
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="4" align="left">MessageHeader</th>
@@ -550,7 +662,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -562,7 +674,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td></td>
 </tr>
 <tr>
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>51012</td>
 <td>Service failure - Unexpected recoverable fault caught in Recipient System. Could not process this message at this time.</td>
@@ -595,7 +707,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <th colspan="4" align="left">OperationOutcome</th> 
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>
 <td>information</td>
 <td></td>
@@ -607,7 +719,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		
 <td>41001</td>
 <td>Patient known here. (e.g. Patient is registered here)</td>	
@@ -625,7 +737,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td> 	
+<td>issue.severity.code</td> 	
 <td>IssueSeverity</td>
 <td>fatal</td>
 <td></td>
@@ -637,7 +749,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>
 <td>41002</td>	
 <td>Patient not known here. (aka ‘patient record not present in system’)</td>
@@ -655,7 +767,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <th colspan="4" align="left">OperationOutcome</th>
 </tr>
 <tr>
-<td>issue.severity</td>
+<td>issue.severity.code</td>
 <td>IssueSeverity</td>	
 <td>fatal</td>
 <td></td>
@@ -667,7 +779,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 <td></td>
 </tr>
 <tr>	
-<td>issue.details</td>
+<td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>		
 <td>41022</td>
 <td>Patient no longer at this clinical setting</td>	
