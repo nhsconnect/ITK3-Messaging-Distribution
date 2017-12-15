@@ -84,9 +84,9 @@ This is a complex extension which consists of a Extension URL that carries the H
 </tr>
 
 <tr>
-<td>MessageDefinitionReference</td>
-<td>A reference to a URL for the MessageDefinition for the payload</td>
-<td>URL</td>
+<td>MessageDefinition</td>
+<td>A reference to the MessageDefinition for the payload</td>
+<td></td>
 <td>This MessageDefinition will detail the information to allow correct processing of the payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
 </tr>
 
@@ -94,7 +94,7 @@ This is a complex extension which consists of a Extension URL that carries the H
 <td>SenderReference </td>
 <td>A reference that the sender includes and wants returned in any response. </td>
 <td>Any String up to 255 Characters  </td>
-<td>This is a NHS 111 requirement.  This extension allows the sender to send a reference string which can be returned to the sender when there are issues.  The default behaviour is that if a sender reference is received the receiving system should be capable of returning the reference to the sender.  Note, in the previous release of this specification this was a separate extension.</td>
+<td>This extension allows the sender to send a reference string which can be returned to the sender.  The default behaviour is that if a sender reference is received the receiving system should be capable of returning the reference to the sender.</td>
 </tr>
 
 <tr>
