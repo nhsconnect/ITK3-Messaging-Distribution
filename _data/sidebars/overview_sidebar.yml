@@ -15,9 +15,9 @@ entries:
     - title: The Journey
       url: /overview_the_journey.html
       output: web
-    - title: Providing a Messaging Solution
-      url: /overview_messaging_provide.html
-      output: web
+    - # title: Providing a Messaging Solution
+      # url: /overview_messaging_provide.html
+      # output: web
     - title: Guide Versioning
       url: /overview_guide_versioning.html
       output: web
