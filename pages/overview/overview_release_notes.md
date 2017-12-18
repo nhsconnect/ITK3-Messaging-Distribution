@@ -22,7 +22,7 @@ The following profiles are tightly constrained ITK replacements of the correspon
 The following profiles have changed for this release:
 
 - ITK-MessageHeader-2: the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
-- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by it's own extension URL element, containing the appropriate allowable value.
+- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by its own extension URL element, containing the appropriate allowable value.
 
 This valueset has changed:
 
@@ -30,7 +30,7 @@ This valueset has changed:
 
 This valueset has been removed:
 
-- ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of a Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
+- ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
 
 This codesystem has changed:
 
