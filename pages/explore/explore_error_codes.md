@@ -59,7 +59,7 @@ The MessageHeader carries a code to indicate success or failure. The ITK error c
 
 These errors should be returned to the sender using the Infrastructure Acknowledgement message.
 
-**Minimum requirement that MUST be supported by receiving systems.**
+**Minimum requirements that MUST be supported by receiving systems.**
 
 <table width="100%">
 <tr>
@@ -685,7 +685,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 
 These errors should be returned to the sender using the Business Acknowledgement message.
 
-**Minimum requirement that MUST be supported.**
+**Minimum requirements that MUST be supported.**
 
 <table>
 <tr>

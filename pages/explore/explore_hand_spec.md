@@ -17,7 +17,7 @@ There are a number of extensions added to the ITK messageHeader profile which ar
 
 ## ITKMessageHandling Extension ##
 
-This is a complex extension which consists of a Extension URL that carries the Handling Key and an associated allowable value which is described in the table below. 
+This is a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value which is described in the table below. 
 
 **Important Note 2: As this value set is extensible other keys and values may be used by local agreement.**
 
@@ -66,13 +66,13 @@ This is a complex extension which consists of a Extension URL that carries the H
 
 <tr>
 <td rowspan="4">Priority</td>
-<td rowspan="4">Indicates the priority that processing of the payload should be given by the recipient.<br>These codes are taken from the valueset: https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1. <br>This valueset is derived from the FHIR valueset: http://hl7.org/fhir/ValueSet/request-priority.</td>
+<td rowspan="4">Indicates the priority that processing of the payload should be given by the recipient.<br>These codes are taken from the value set: https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1. <br>This value set is derived from the FHIR value set: http://hl7.org/fhir/ValueSet/request-priority.</td>
 <td>routine</td>
 <td>The request has normal priority</td>
 </tr>
 <tr>
 <td>urgent</td>
-<td>The request should be actioned promptly - higher priority than routine</td>
+<td>The request should be actioned promptly – a higher priority than routine</td>
 </tr>
 <tr>
 <td>asap</td>
@@ -92,7 +92,7 @@ This is a complex extension which consists of a Extension URL that carries the H
 
 <tr>
 <td>SenderReference </td>
-<td>A reference that the sender includes and wants returned in any response. </td>
+<td>A reference that the sender includes and wants returning in any response.</td>
 <td>Any String up to 255 Characters  </td>
 <td>This extension allows the sender to send a reference string which can be returned to the sender.  The default behaviour is that if a sender reference is received the receiving system should be capable of returning the reference to the sender.</td>
 </tr>
