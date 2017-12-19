@@ -27,7 +27,7 @@ The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Impleme
 
 Acknowledgement responses can be requested using the message handling flags:
 
-These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Messageheader-2) and the actual responses allowed are specified in the payload message definitions. 
+These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the payload message definitions. 
 
 ---
 
@@ -37,7 +37,7 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Send Pay
 
 - *Sender:* Sending System
 - *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-SendPayload-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-SendPayload-MessageDefinition-1)
+- *MessageDefinition:* [ITK-SendPayload-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-SendPayload-MessageDefinition-1)
 
 ---
 
@@ -47,7 +47,7 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Infrastr
 
 - *Sender:* Sending System
 - *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-InfAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-InfAck-MessageDefinition-1)
+- *MessageDefinition:* [ITK-InfAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-InfAck-MessageDefinition-1)
 
 ----------
 
@@ -57,7 +57,7 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Business
 
 - *Sender:* Sending System
 - *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-BusAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-BusAck-MessageDefinition-1)
+- *MessageDefinition:* [ITK-BusAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-BusAck-MessageDefinition-1)
 
 ----------
 
