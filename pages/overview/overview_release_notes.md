@@ -9,9 +9,28 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
-  
+
+## 2.1.0-beta ##
+This is the third version published using Jekyll.
+
+The following profiles have changed:
+
+- ITK-MessageHeader-2 - This was changed to ensure the ITK3 solution aligns to the ITK2.x solution.
+ - Removed the following elements (and sub-elements): author, enterer, destination, responsible and reason.
+ - Made the focus element 1..1 (mandatory).
+ - The source element is constrained by the removal of all sub elements apart from the endpoint.
+- Extension-ITK-MessageHandling-2
+ - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory). 
+
+The diagrams and examples have changed to reflect the changes to the profiles.
+
+The following examples have changed:
+
+- ITK-SendPayload-Invalid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".  The message header is corrected to reference the practitioner and organization.
+- ITK-SendPayload-Valid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1". The message header is corrected to reference the practitioner and organization.
+
 ## 2.1.0-alpha ##
-The second version published using Jekyll.
+This is the second version published using Jekyll.
 
 The following profiles are tightly constrained ITK replacements of the corresponding Care Connect profiles:
 
