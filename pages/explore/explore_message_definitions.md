@@ -27,7 +27,7 @@ The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Impleme
 
 Acknowledgement responses can be requested using the message handling flags:
 
-These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the payload message definitions. 
+These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the payload message definitions. 
 
 ---
 
