@@ -116,8 +116,8 @@ relating to Handling Specification faults.</td>
 <th>Element</th>
 <th>CodeSystem</th>	
 <th>Value</th>	
-<th>Definition</th>
 <th>Display</th>
+<th>Definition</th>
 </tr>
 <tr>
 <th colspan="5" align="left">MessageHeader</th>
@@ -203,9 +203,9 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <tr>
 <th>Element</th>	
 <th>CodeSystem</th>	
-<th>Value</th>	
+<th>Value</th>
+<th>Display</th>	
 <th>Definition</th>
-<th>Display</th>
 </tr>
 <tr>
 <th colspan="5" align="left">MessageHeader</th>
