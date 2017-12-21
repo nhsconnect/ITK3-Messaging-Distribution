@@ -26,14 +26,17 @@ The diagrams and examples have changed to reflect the changes to the profiles.
 
 The following examples have changed:
 
-- ITK-SendPayload-Invalid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".  The message header is corrected to reference the practitioner and organization.
-- ITK-SendPayload-Valid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1". The message header is corrected to reference the practitioner and organization.
+- ITK-SendPayload-Invalid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".  The message header is corrected to reference the practitioner and organization.  The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
+- ITK-SendPayload-Valid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1". The message header is corrected to reference the practitioner and organization.    The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
 - ITK-BusinessAck-Success-Example-2.xml - Removed the elements: destination and response, added the element focus.
 - ITK-InfAck-Fail-Example-2.xml - Removed the elements: destination and response, added the element focus.
 - ITK-InfAck-Success-Example-2.xml- Removed the element: destination and added the element focus.
 - ITK-SendPayload-Invalid-Example-2.xml - Removed the element: destination and added the element focus.
 - ITK-SendPayload-Valid-Example-2.xml - Removed the element: destination and added the element focus.
 
+The following are new examples for the Distribution Level Errors:
+
+- Coming Soon.
 
 ## 2.1.0-alpha ##
 This is the second version published using Jekyll.
