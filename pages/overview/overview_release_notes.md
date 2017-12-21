@@ -11,7 +11,6 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 
 ## 2.1.0-beta ##
-This is the third version published using Jekyll.
 
 The following profiles have changed:
 
@@ -20,7 +19,9 @@ The following profiles have changed:
  - Made the focus element 1..1 (mandatory).
  - The source element is constrained by the removal of all sub elements apart from the endpoint.
 - Extension-ITK-MessageHandling-2
- - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory). 
+ - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory).
+- CareConnect-ITK-Header-Organization-1
+ - The name elemnent is not required, so the cardinality on the name element has been changed to 0..0.
 
 This value set has changed:
 
