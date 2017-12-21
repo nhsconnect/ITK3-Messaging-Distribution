@@ -22,6 +22,22 @@ The following profiles have changed:
 - Extension-ITK-MessageHandling-2
  - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory). 
 
+This value set has changed:
+
+- ITK-InfAcknowledgement-1
+ - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
+ - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+ 
+This code system has changed:
+
+- ITK-Acknowledgement-1
+ - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
+ - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+
+The [ITK 3 Error Codes](explore_error_codes.html) has been improved by including the display values of the error codes.
+
+The [Bundle Structure Diagrams](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
+
 The diagrams and examples have changed to reflect the changes to the profiles.
 
 The following examples have changed:
@@ -52,19 +68,19 @@ The following profiles have changed for this release:
 - ITK-MessageHeader-2: the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
 - Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by its own extension URL element, containing the appropriate allowable value.
 
-This valueset has changed:
+This value set has changed:
 
 - ITK-MessageEvent-2 - the value of the system element has changed to "https://fhir.nhs.uk/STU3/CodeSystem/ITK-MessageEvent-2".
 
-This valueset has been removed:
+This value set has been removed:
 
 - ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
 
-This codesystem has changed:
+This code system has changed:
 
 - ITK-MessageEvent-2: there are new code values for eDischarge, Mental Health eDischarge, Emergency Care eDischarge and Outpatient Letter.
 
-This codesystem has been removed:
+This code system has been removed:
 
 - ITK-HandlingKey-1: this is no longer needed due to the way that the handling key information is modelled in the Extension-ITK-MessageHandling-2 profile
 
