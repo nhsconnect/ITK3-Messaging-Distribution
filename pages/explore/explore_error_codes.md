@@ -921,4 +921,15 @@ This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
 
+**Handling Specification Error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/ae61ef54e2827502cf382e3a6e19a986.js"></script>
+
+**Infrastructure Acknowledgement - Processing Error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/313aeb38232f92aacdbabf235f24b0af.js"></script>
 
