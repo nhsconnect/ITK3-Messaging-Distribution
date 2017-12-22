@@ -565,7 +565,7 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <td>The issue caused the action to fail, and no further checking could be performed.</td>
 </tr>
 <tr>	
-<td>issue.codecode</td>
+<td>issue.code</td>
 <td>IssueType</td>
 <td>not-found</td>
 <td>Not Found</td>
