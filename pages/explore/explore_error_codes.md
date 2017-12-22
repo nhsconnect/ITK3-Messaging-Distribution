@@ -956,3 +956,34 @@ This uses the MessageHeader and the OperationOutcome resources
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1aed32d6c6446127883aa1e5a193ed26.js"></script>
+
+**Attachment file type invalid**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/d0fd48f3c19e498218f06f025295b9fc.js"></script>
+
+**Unrecognised recipient organisation error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/5eef74d5e9207ffc206e1cbd66db137d.js"></script>
+
+**Unauthorised sender error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/43445fc1ed2e3761da20f45d8cacfc23.js"></script>
+
+**Duplicate message received error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/30971d3a9dc414caea8db1b0dd339f7d.js"></script>
+
+**Duplicate document received error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/c87f2fc1d4aa11f4c9edf69e7873ece5.js"></script>
+
