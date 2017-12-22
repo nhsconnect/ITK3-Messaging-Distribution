@@ -921,13 +921,13 @@ This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
 
-**Handling Specification Error**
+**Handling specification error**
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/ae61ef54e2827502cf382e3a6e19a986.js"></script>
 
-**Infrastructure Acknowledgement - Processing Error**
+**Infrastructure acknowledgement - processing error**
 
 This uses the MessageHeader and the OperationOutcome resources
 
@@ -950,3 +950,9 @@ This uses the MessageHeader and the OperationOutcome resources
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
+
+**Payload validation failure error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/1aed32d6c6446127883aa1e5a193ed26.js"></script>
