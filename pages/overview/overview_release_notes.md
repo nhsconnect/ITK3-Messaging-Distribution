@@ -39,7 +39,7 @@ The [ITK 3 Error Codes](explore_error_codes.html) has been improved by including
 
 The [Bundle Structure Diagrams](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
 
-The diagrams and examples have changed to reflect the changes to the profiles.
+The diagrams and examples have changed to reflect the changes to the profiles, value sets and code systems.
 
 The following examples have changed:
 
