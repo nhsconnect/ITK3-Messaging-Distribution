@@ -938,3 +938,15 @@ This uses the MessageHeader and the OperationOutcome resources
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/a50afeaaa7cfeb3e14bf91ae20821590.js"></script>
+
+**Unrecognised Sender - The Receiving system does not recognise the Sender but the message has been passed on for local (recipient) investigation / processing.**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/429ae1f41bafecf32f07d5140a639090.js"></script>
+
+**Non Approved file type received as an attachment Error**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
