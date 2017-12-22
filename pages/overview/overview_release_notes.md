@@ -62,7 +62,7 @@ The following examples have changed:
 - ITK-SendPayload-Valid-Example-2.xml
   - Removed the element: destination and added the element focus.
 
-The following are new examples for the Distribution Level Errors:
+The following new examples carry the [ITK 3 Error Codes](explore_error_codes.html), that were not illustrated in the previously released XML examples:
 
 - ITK-BusinessAck-Fail-PatNoClinSet-Example-1.xml
 - ITK-InfAck-AttachInvalid-Example-1.xml
