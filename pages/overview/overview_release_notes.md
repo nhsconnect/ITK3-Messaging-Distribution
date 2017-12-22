@@ -16,24 +16,24 @@ The following profiles have changed:
 
 - ITK-MessageHeader-2 - This was changed to ensure the ITK3 solution aligns to the ITK2.x solution.
   - Removed the following elements (and sub-elements): author, enterer, destination, responsible and reason.
- - Made the focus element 1..1 (mandatory).
- - The source element is constrained by the removal of all sub elements apart from the endpoint.
+  - Made the focus element 1..1 (mandatory).
+  - The source element is constrained by the removal of all sub elements apart from the endpoint.
 - Extension-ITK-MessageHandling-2
- - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory).
+  - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory).
 - CareConnect-ITK-Header-Organization-1
- - The name elemnent is not required, so the cardinality on the name element has been changed to 0..0.
+  - The name elemnent is not required, so the cardinality on the name element has been changed to 0..0.
 
 This value set has changed:
 
 - ITK-InfAcknowledgement-1
- - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
- - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+  - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
+  - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
  
 This code system has changed:
 
 - ITK-Acknowledgement-1
- - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
- - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+  - The following new Infrastructure error codes have been added: RC001, RC002, RC003, RC004, RC005, RC006 and RC999
+  - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
 
 The [ITK 3 Error Codes](explore_error_codes.html) has been improved by including the display values of the error codes.
 
@@ -43,9 +43,16 @@ The diagrams and examples have changed to reflect the changes to the profiles.
 
 The following examples have changed:
 
-- ITK-SendPayload-Invalid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".  The message header is corrected to reference the practitioner and organization.  The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
-- ITK-SendPayload-Valid-Example-2.xml - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1". The message header is corrected to reference the practitioner and organization.    The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
-- ITK-BusinessAck-Success-Example-2.xml - Removed the elements: destination and response, added the element focus.
+- ITK-SendPayload-Invalid-Example-2.xml
+  - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".
+  - The message header is corrected to reference the practitioner and organization.
+  - The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
+- ITK-SendPayload-Valid-Example-2.xml
+  - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".
+  - The message header is corrected to reference the practitioner and organization.
+  - The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
+- ITK-BusinessAck-Success-Example-2.xml
+  - Removed the elements: destination and response, added the element focus.
 - ITK-InfAck-Fail-Example-2.xml - Removed the elements: destination and response, added the element focus.
 - ITK-InfAck-Success-Example-2.xml- Removed the element: destination and added the element focus.
 - ITK-SendPayload-Invalid-Example-2.xml - Removed the element: destination and added the element focus.
