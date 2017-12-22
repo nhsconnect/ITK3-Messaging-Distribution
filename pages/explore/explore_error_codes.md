@@ -933,3 +933,8 @@ This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/313aeb38232f92aacdbabf235f24b0af.js"></script>
 
+**Unrecognised Recipient Person Error - The Recipient Person is not recognised but the Recipient Organisation is.**
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/a50afeaaa7cfeb3e14bf91ae20821590.js"></script>
