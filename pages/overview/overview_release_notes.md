@@ -15,7 +15,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 The following profiles have changed:
 
 - ITK-MessageHeader-2 - This was changed to ensure the ITK3 solution aligns to the ITK2.x solution.
- - Removed the following elements (and sub-elements): author, enterer, destination, responsible and reason.
+  - Removed the following elements (and sub-elements): author, enterer, destination, responsible and reason.
  - Made the focus element 1..1 (mandatory).
  - The source element is constrained by the removal of all sub elements apart from the endpoint.
 - Extension-ITK-MessageHandling-2
@@ -53,7 +53,20 @@ The following examples have changed:
 
 The following are new examples for the Distribution Level Errors:
 
-- Coming Soon.
+- ITK-BusinessAck-Fail-PatNoClinSet-Example-1.xml
+- ITK-InfAck-AttachInvalid-Example-1.xml
+- ITK-InfAck-DocContFail-Example-1.xml
+- ITK-InfAck-DuplicDoc-Example-1.xml
+- ITK-InfAck-DuplicMsg-Example-1.xml
+- ITK-InfAck-HandSpecError-Example-1.xml
+- ITK-InfAck-NonApprovFT-Example-1.xml
+- ITK-InfAck-ProcessError-Example-1.xml
+- ITK-InfAck-ServiceFail-Example-1.xml
+- ITK-InfAck-UnauthSender-Example-1.xml
+- ITK-InfAck-UnrecRcpOrg-Example-1.xml
+- ITK-InfAck-UnrecRcpPsn-Example-1.xml
+- ITK-InfAck-UnrecSender-Example-1.xml
+
 
 ## 2.1.0-alpha ##
 This is the second version published using Jekyll.
