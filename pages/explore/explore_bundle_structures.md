@@ -31,7 +31,7 @@ The ITK message bundle is the container for the ITK message header and any paylo
 
 ## ITK3 FHIR Document Structure Example ##
 
-The diagram below is an example of an ITK FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the is a bundle of type document.
+The diagram below is an example of an ITK FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the type of bundle is a document.
 
 <img src="images/explore/ITKDocExample.png" style="width:50%;max-width: 50%;">
 
