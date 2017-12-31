@@ -9,9 +9,9 @@ summary: An overview of this implementation guide is versioned.
 
 {% include custom/search.warnbanner.html %}
 
-## Alpha ##
+## Beta ##
 
-This implementation guide is in currently in an alpha state at the moment. This means that changes and releases are occurring regularly.
+This implementation guide is in currently in an beta state at the moment. Therefore, this is still under active development and subject to change.
 
 ## Semantic Versioning ##
 
