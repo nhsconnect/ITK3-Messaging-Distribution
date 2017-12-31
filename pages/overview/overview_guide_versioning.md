@@ -11,7 +11,7 @@ summary: An overview of this implementation guide is versioned.
 
 ## Beta ##
 
-This implementation guide is in currently in an beta state at the moment. Therefore, this is still under active development and subject to change.
+This implementation guide is currently in a beta state at the moment. Therefore, this is still under active development and subject to change.
 
 ## Semantic Versioning ##
 
