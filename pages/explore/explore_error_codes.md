@@ -941,111 +941,111 @@ These errors should be returned to the sender using the Business Acknowledgement
 </table>
 
 
-#Error Scenarios#
+# Error Scenarios #
 
-##Scenario - OK at the Infrastructure Level##
+## Scenario - OK at the Infrastructure Level ##
 
 This uses the MessageHeader resource to carry the code.
 
 <script src="https://gist.github.com/IOPS-DEV/b6678b59daaa95a18fd4f808b0e8f32d.js"></script>
 
-##Scenario - Error at the Infrastructure Level##
+## Scenario - Error at the Infrastructure Level ##
 
 This uses the MessageHeader and the OperationOutcome resources.
 
 <script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911.js"></script>
 
-##Scenario - Ok at the Business Level##
+## Scenario - Ok at the Business Level ##
 
 This uses the MessageHeader and the OperationOutcome resources.
 
 <script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
 
-##Scenario - Error at the Business Level due to Patient not Registered##
+## Scenario - Error at the Business Level due to Patient not Registered ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
 
-##Scenario - Handling Specification Error##
+## Scenario - Handling Specification Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/ae61ef54e2827502cf382e3a6e19a986.js"></script>
 
-##Scenario - Infrastructure Acknowledgement - Processing Error##
+## Scenario - Infrastructure Acknowledgement - Processing Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/313aeb38232f92aacdbabf235f24b0af.js"></script>
 
-##Scenario - Unrecognised Recipient Person Error - The Recipient Person is not Recognised but the Recipient Organisation is.##
+## Scenario - Unrecognised Recipient Person Error - The Recipient Person is not Recognised but the Recipient Organisation is. ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/a50afeaaa7cfeb3e14bf91ae20821590.js"></script>
 
-##Scenario - Unrecognised Sender - The Receiving System does not Recognise the Sender but the Message has been Passed on for Local (Recipient) Investigation / Processing.##
+## Scenario - Unrecognised Sender - The Receiving System does not Recognise the Sender but the Message has been Passed on for Local (Recipient) Investigation / Processing. ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/429ae1f41bafecf32f07d5140a639090.js"></script>
 
-##Scenario - Non Approved File Type Received as an Attachment Error##
+## Scenario - Non Approved File Type Received as an Attachment Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
 
-##Scenario - Payload Validation Failure Error##
+## Scenario - Payload Validation Failure Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1aed32d6c6446127883aa1e5a193ed26.js"></script>
 
-##Scenario - Attachment File Type Invalid##
+## Scenario - Attachment File Type Invalid ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/d0fd48f3c19e498218f06f025295b9fc.js"></script>
 
-##Scenario - Unrecognised Recipient Organisation Error##
+## Scenario - Unrecognised Recipient Organisation Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/5eef74d5e9207ffc206e1cbd66db137d.js"></script>
 
-##Scenario - Unauthorised Sender Error##
+## Scenario - Unauthorised Sender Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/43445fc1ed2e3761da20f45d8cacfc23.js"></script>
 
-##Scenario - Duplicate Message Received Error##
+## Scenario - Duplicate Message Received Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/30971d3a9dc414caea8db1b0dd339f7d.js"></script>
 
-##Scenario - Duplicate Document Received Error##
+## Scenario - Duplicate Document Received Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/c87f2fc1d4aa11f4c9edf69e7873ece5.js"></script>
 
-##Scenario - Service Failure Error##
+## Scenario - Service Failure Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/123c48d13168f0de90663ff01f8d224b.js"></script>
 
-##Scenario - Patient no Longer at this Clinical Setting Error##
+## Scenario - Patient no Longer at this Clinical Setting Error ##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/3cc67a3a8bc9b78222c3a36177a68b14.js"></script>
 
-##Scenario - Unreadable Message Error Scenario##
+## Scenario - Unreadable Message Error Scenario ##
 
 When a system receives a message which is totally unreadable due to it being corrupted or malformed, there is a default behaviour defined which systems should support. This behaviour for information unobtainable from the handling keys and header elements is listed below:
 
