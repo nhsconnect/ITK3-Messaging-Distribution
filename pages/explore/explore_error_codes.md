@@ -756,6 +756,52 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 </tr>
 </table> 			
 
+
+
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>	
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>	
+<td>fatal</td>
+<td>Fatal</td>
+<td>The issue caused the action to fail, and no further checking could be performed.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>structure</td>
+<td>Structural Issue</td>	
+<td>A structural issue in the content such as wrong namespace, or unable to parse the content completely, or invalid json syntax.</td>
+</tr>
+<tr>
+<td>issue.details.code</td>
+<td>ITK-Acknowledgement</td>
+<td>51013</td>
+<td>Unreadable message received</td>
+<td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system</td>
+</tr>
+</table> 
+
 ## ITK Business Acknowledgement Report Codes ##
 
 These errors should be returned to the sender using the Business Acknowledgement message.
@@ -895,106 +941,150 @@ These errors should be returned to the sender using the Business Acknowledgement
 </table>
 
 
-## Examples of Error Codes in Responses ##
+#Error Scenarios#
 
-**Ok at the infrastructure level**
+##Scenario - OK at the Infrastructure Level##
 
 This uses the MessageHeader resource to carry the code.
 
 <script src="https://gist.github.com/IOPS-DEV/b6678b59daaa95a18fd4f808b0e8f32d.js"></script>
 
-**Error at the infrastructure level**
+##Scenario - Error at the Infrastructure Level##
 
 This uses the MessageHeader and the OperationOutcome resources.
 
 <script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911.js"></script>
 
-**Ok at the business level**
+##Scenario - Ok at the Business Level##
 
 This uses the MessageHeader and the OperationOutcome resources.
 
 <script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
 
-**Error at the business level due to patient not registered**
+##Scenario - Error at the Business Level due to Patient not Registered##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
 
-**Handling specification error**
+##Scenario - Handling Specification Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/ae61ef54e2827502cf382e3a6e19a986.js"></script>
 
-**Infrastructure acknowledgement - processing error**
+##Scenario - Infrastructure Acknowledgement - Processing Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/313aeb38232f92aacdbabf235f24b0af.js"></script>
 
-**Unrecognised Recipient Person Error - The Recipient Person is not recognised but the Recipient Organisation is.**
+##Scenario - Unrecognised Recipient Person Error - The Recipient Person is not Recognised but the Recipient Organisation is.##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/a50afeaaa7cfeb3e14bf91ae20821590.js"></script>
 
-**Unrecognised Sender - The Receiving system does not recognise the Sender but the message has been passed on for local (recipient) investigation / processing.**
+##Scenario - Unrecognised Sender - The Receiving System does not Recognise the Sender but the Message has been Passed on for Local (Recipient) Investigation / Processing.##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/429ae1f41bafecf32f07d5140a639090.js"></script>
 
-**Non Approved file type received as an attachment Error**
+##Scenario - Non Approved File Type Received as an Attachment Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
 
-**Payload validation failure error**
+##Scenario - Payload Validation Failure Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1aed32d6c6446127883aa1e5a193ed26.js"></script>
 
-**Attachment file type invalid**
+##Scenario - Attachment File Type Invalid##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/d0fd48f3c19e498218f06f025295b9fc.js"></script>
 
-**Unrecognised recipient organisation error**
+##Scenario - Unrecognised Recipient Organisation Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/5eef74d5e9207ffc206e1cbd66db137d.js"></script>
 
-**Unauthorised sender error**
+##Scenario - Unauthorised Sender Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/43445fc1ed2e3761da20f45d8cacfc23.js"></script>
 
-**Duplicate message received error**
+##Scenario - Duplicate Message Received Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/30971d3a9dc414caea8db1b0dd339f7d.js"></script>
 
-**Duplicate document received error**
+##Scenario - Duplicate Document Received Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/c87f2fc1d4aa11f4c9edf69e7873ece5.js"></script>
 
-**Service failure error**
+##Scenario - Service Failure Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/123c48d13168f0de90663ff01f8d224b.js"></script>
 
-**Patient no longer at this clinical setting error**
+##Scenario - Patient no Longer at this Clinical Setting Error##
 
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/3cc67a3a8bc9b78222c3a36177a68b14.js"></script>
+
+##Scenario - Unreadable Message Error Scenario##
+
+When a system receives a message which is totally unreadable due to it being corrupted or malformed, there is a default behaviour defined which systems should support. This behaviour for information unobtainable from the handling keys and header elements is listed below:
+
+----------
+
+**Issue** - Unable to ascertain if an acknowledgement has been requested.
+
+**Default Behaviour** - An acknowledgement must always be returned to the sender.
+
+----------
+
+**Issue** - Unable to ascertain sender person or organisation.
+
+**Default Behaviour** - Return acknowledgement to MESH mailbox original message was sent from and original sending system will have to deal with acknowledgement the best it can. 
+
+----------
+
+**Issue** - Unable to ascertain whether original message was for action or only for information.
+
+**Default Behaviour** - Assume for action and return acknowledgement.
+
+----------
+
+**Issue** - Unable to ascertain priority of original message.
+
+**Default Behaviour** - Return acknowledgement as soon as possible once error is detected. 
+
+----------
+
+**Issue** - Unable to ascertain any other information
+
+**Default Behaviour** - Return acknowledgement as soon as possible once error is detected. 
+
+----------
+
+**Issue** - Unable to ascertain the identifier of the original message.
+
+**Default Behaviour** - return the fixed string of "UNREADABLE-IN-ORIGINAL-MESSAGE"
+
+Note: If only certain elements are missing or unreadable then the error codes associated with that key or element should be returned instead wherever possible.
+
+<script src="https://gist.github.com/IOPS-DEV/xxxxxxxxxxxxxxxxxxxx.js"></script>
