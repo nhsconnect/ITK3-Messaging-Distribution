@@ -1087,4 +1087,4 @@ When a system receives a message which is totally unreadable due to it being cor
 
 Note: If only certain elements are missing or unreadable then the error codes associated with that key or element should be returned instead wherever possible.
 
-<script src="https://gist.github.com/IOPS-DEV/xxxxxxxxxxxxxxxxxxxx.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/88e98b35e38e00d6f9f4f2ed0f898137.js"></script>
