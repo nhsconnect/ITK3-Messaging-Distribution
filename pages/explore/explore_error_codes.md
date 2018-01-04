@@ -1046,7 +1046,7 @@ This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/123c48d13168f0de90663ff01f8d224b.js"></script>
 
-## Infrastructure Acknowledgement: Fatal-Error - Unreadable Message Error ##
+## Infrastructure Acknowledgement: Fatal-Error - Unreadable Message Received ##
 
 When a system receives a message which is totally unreadable due to it being corrupted or malformed, there is a default behaviour defined which systems should support. This behaviour for information unobtainable from the handling keys and header elements is listed below:
 
