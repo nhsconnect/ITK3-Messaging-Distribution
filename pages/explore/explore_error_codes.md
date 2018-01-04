@@ -944,23 +944,7 @@ These errors should be returned to the sender using the Business Acknowledgement
 ## Error Scenario Examples ##
 
 
-## Business Acknowledgement: OK - Patient Known Here ##
 
-This uses the MessageHeader and the OperationOutcome resources.
-
-<script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
-
-## Business Acknowledgement: Fatal-Error - Patient not Known Here ##
-
-This uses the MessageHeader and the OperationOutcome resources
-
-<script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
-
-## Business Acknowledgement: Fatal-Error - Patient no Longer at this Clinical Setting Error ##
-
-This uses the MessageHeader and the OperationOutcome resources
-
-<script src="https://gist.github.com/IOPS-DEV/3cc67a3a8bc9b78222c3a36177a68b14.js"></script>
 
 ## Infrastructure Acknowledgement: OK ##
 
@@ -1003,12 +987,6 @@ This uses the MessageHeader and the OperationOutcome resources
 This uses the MessageHeader and the OperationOutcome resources
 
 <script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
-
-## Infrastructure Acknowledgement: Fatal-Error - Payload Validation Failure Error ##
-
-This uses the MessageHeader and the OperationOutcome resources
-
-<script src="https://gist.github.com/IOPS-DEV/1aed32d6c6446127883aa1e5a193ed26.js"></script>
 
 ## Infrastructure Acknowledgement: Fatal-Error - Attachment File Type Invalid ##
 
@@ -1089,3 +1067,24 @@ When a system receives a message which is totally unreadable due to it being cor
 Note: If only certain elements are missing or unreadable then the error codes associated with that key or element should be returned instead wherever possible.
 
 <script src="https://gist.github.com/IOPS-DEV/88e98b35e38e00d6f9f4f2ed0f898137.js"></script>
+
+
+----------
+
+## Business Acknowledgement: OK - Patient Known Here ##
+
+This uses the MessageHeader and the OperationOutcome resources.
+
+<script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
+
+## Business Acknowledgement: Fatal-Error - Patient not Known Here ##
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
+
+## Business Acknowledgement: Fatal-Error - Patient no Longer at this Clinical Setting Error ##
+
+This uses the MessageHeader and the OperationOutcome resources
+
+<script src="https://gist.github.com/IOPS-DEV/3cc67a3a8bc9b78222c3a36177a68b14.js"></script>
