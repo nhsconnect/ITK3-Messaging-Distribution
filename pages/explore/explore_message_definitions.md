@@ -44,7 +44,7 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Send Pa
 
 ---
 
-## ITK-InfAck-MessageDefinition-1 ##
+## ITK-InfAck-MessageDefinition-Instance-1 ##
 
 This is the MessageDefinition profile for the ITK3 Message Distribution Infrastructure Acknowledgement message which can be used to return positive and negative Infrastructure Acknowledgements to a sender of over MESH.
 
@@ -54,7 +54,7 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Infrastr
 
 ----------
 
-## ITK-BusAck-MessageDefinition-1 ##
+## ITK-BusAck-MessageDefinition-Instance-1 ##
 
 This is the MessageDefinition profile for the ITK3 Message Distribution Business Acknowledgement message which can be used to return positive and negative Business Acknowledgements to a sender of over MESH.
 
