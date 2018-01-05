@@ -10,10 +10,9 @@ summary: "ITK3 Messaging Distribution Message Definitions"
 {% include custom/search.warnbanner.html %}
 
 ## ITK3 Messaging Distribution Message Definitions Overview ##
-This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution message definitions. The message definitions are profiled using the FHIR MessageDefinition resource. These definitions specify which profiles are used in the bundle and  additional information such as: what responses are allowed to be returned to the sender. The payload specifications also need to be consulted for the payload message definitions.
+This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution MessageDefinition instances. The message definition instances are created to conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) profile. These MessageDefinitions specify which profiles, extensions,value sets, code systems and concept maps are used in the message bundle and additional information such as: what responses are allowed to be returned to the sender. The message definition instances main use is for highlighting changes between versions of a message but they may also be used as input into conformance and validation. 
 
-The ITK3 Messaging Distribution provides a consistent standardised approach to message headers, whilst also providing a message handling specification to control the use of infrastructure and business acknowledgement responses through the use of flags.
-
+The responses defined in the message definitions do not include MESH responses see notes below:
 
 **Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  The MESH acknowledgements and responses are not defined in this specification
 
@@ -21,6 +20,8 @@ The ITK3 Messaging Distribution provides a consistent standardised approach to m
 
 The ITK3 Messaging Distribution is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and supports multiple Message Definitions. 
 
+Further guidance on the use of MessageDefinitions will be provided at a late date.
+   
 ----------
 
 ## Message Handling Flags ##
@@ -31,13 +32,15 @@ These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/
 
 ---
 
-## ITK-SendPayload-MessageDefinition-1 ##
+## ITK-SendPayload-MessageDefinition-Instance-1 ##
 
-This is the MessageDefinition profile for the ITK3 Message Distribution Send Payload message which can be used to send any payload over MESH.
+This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any payload. The payload specification should be consulted for the payload message definition. 
 
-- *Sender:* Sending System
-- *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-SendPayload-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-SendPayload-MessageDefinition-1)
+- **Sender:**  Sending System
+- **Receiver:** Recipient System
+- **MessageDefinition:** ITK-SendPayload-MessageDefinition-Instance-1
+
+<script src="https://gist.github.com/IOPS-DEV/3fb9cde87dc0fc9da48100f9efafef07.js"></script>
 
 ---
 
@@ -45,9 +48,9 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Send Pay
 
 This is the MessageDefinition profile for the ITK3 Message Distribution Infrastructure Acknowledgement message which can be used to return positive and negative Infrastructure Acknowledgements to a sender of over MESH.
 
-- *Sender:* Sending System
-- *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-InfAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-InfAck-MessageDefinition-1)
+- **Sender:** Sending System
+- **Receiver:** Recipient System
+- **MessageDefinition:** ITK-InfAck-MessageDefinition-Instance-1
 
 ----------
 
@@ -55,9 +58,9 @@ This is the MessageDefinition profile for the ITK3 Message Distribution Infrastr
 
 This is the MessageDefinition profile for the ITK3 Message Distribution Business Acknowledgement message which can be used to return positive and negative Business Acknowledgements to a sender of over MESH.
 
-- *Sender:* Sending System
-- *Receiver:* Recipient System
-- *MessageDefinition:* [ITK-BusAck-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-BusAck-MessageDefinition-1)
+- **Sender:** Sending System
+- **Receiver:** Recipient System
+- **MessageDefinition:** ITK-BusAck-MessageDefinition-Instance-1
 
 ----------
 
