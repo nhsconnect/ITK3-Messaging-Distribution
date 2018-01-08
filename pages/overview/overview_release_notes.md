@@ -12,6 +12,10 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 ## 2.1.0-beta ##
 
+Interactions have been replaced by MessageDefinitions and some new handling keys (RecipientType and Priority).
+
+A new profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
+
 The following profiles have changed:
 
 - ITK-MessageHeader-2 - This was changed to ensure the ITK3 solution aligns to the ITK2.x solution.
@@ -21,7 +25,7 @@ The following profiles have changed:
 - Extension-ITK-MessageHandling-2
   - For the element extension:LocalExtension, changed the cardinality to 0..1 (optional), and made the value[x] sub-element 1..1 (mandatory).
 - CareConnect-ITK-Header-Organization-1
-  - The name elemnent is not required, so the cardinality on the name element has been changed to 0..0.
+  - The name element is not required, so the cardinality on the name element has been changed to 0..0.
 
 This value set has changed:
 
