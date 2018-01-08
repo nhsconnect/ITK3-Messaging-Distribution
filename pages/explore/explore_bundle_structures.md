@@ -109,7 +109,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 ## ITK Business Acknowledgement Bundle Diagram ##
 The diagram shows the referencing between the profiles in the bundle which make up the Business Acknowledgement Response message.
 
-<img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;"> 
+<img src="images/explore/busack_message.png" style="width: 75%;max-width: 75%;"> 
 
 ## ITK Business Acknowledgement Bundle Success Example ##
 
