@@ -64,6 +64,8 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Busines
 - **Receiver:** Recipient System
 - **MessageDefinition:** ITK-BusAck-MessageDefinition-Instance-1
 
+<script src="https://gist.github.com/IOPS-DEV/dabb8d801f2ef88b7bd6311fd26b1eb2.js"></script>
+
 ----------
 
 
