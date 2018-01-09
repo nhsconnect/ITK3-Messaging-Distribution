@@ -12,7 +12,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 ## 2.1.0-beta ##
 
-Interactions have been replaced by MessageDefinitions and some new handling keys (RecipientType and Priority).
+Interactions have been replaced by MessageDefinitions and some new handling keys (e.g. RecipientType and Priority).
 
 A new profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
 
