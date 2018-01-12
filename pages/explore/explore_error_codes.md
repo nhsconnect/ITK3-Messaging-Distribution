@@ -726,9 +726,9 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <tr>
 <td>response.code</td>	
 <td>ResponseType</td>	
-<td>fatal-error</td>
-<td>Fatal Error</td>
-<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+<td>transient-error</td>
+<td>Transient Error</td>
+<td>Some internal unexpected error occurred - wait and try again. <b>Note 1:</b>This is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required. <b>Note 2:</b> If a subsequent resubmission fails then, the receiving site should be contacted to resolve the issue as it may be due to a underlying problem such as a configuration issue.</td>
 </tr>	
 <tr>	
 <th colspan="5" align="left">OperationOutcome</th>
@@ -736,16 +736,16 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <tr>
 <td>issue.severity.code</td> 	
 <td>IssueSeverity</td>	
-<td>fatal</td>
-<td>Fatal</td>
-<td>The issue caused the action to fail, and no further checking could be performed.</td>
+<td>error</td>
+<td>Error</td>
+<td>The issue is sufficiently important to cause the action to fail.</td>
 </tr>
 <tr>	
 <td>issue.code</td>	
 <td>IssueType</td>	
-<td>processing</td>
-<td>Processing Failure</td>	
-<td>Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.</td>
+<td>transient</td>
+<td>Transient Issue</td>	
+<td>Transient processing issues. The system receiving the error may be able to resubmit the same content once an underlying issue is resolved.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>
