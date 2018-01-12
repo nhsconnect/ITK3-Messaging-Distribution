@@ -11,12 +11,11 @@ summary: "Overview of the Messaging Architecture section"
 
 ## Pre-Requisites for FHIR ITK3 Messaging Solutions ##
 
-## ITK Messaging Requirements ##
+## ITK3 Messaging Requirements ##
 
 - SHALL support HL7 FHIR STU3.
 - SHALL Implement ITK Sender and/or Receiver Responsibilities as per [ITK Sender and Receiver Requirements ](explore_snd&rec_req.html).
 - SHALL support the XML format for all NHS Digital document and message flows.
-
 
 ## FHIR Conformance ##
 
