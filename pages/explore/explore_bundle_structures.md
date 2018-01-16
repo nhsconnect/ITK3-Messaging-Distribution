@@ -35,16 +35,16 @@ The diagram below is an example of an ITK FHIR document payload that may be used
 
 <img src="images/explore/ITKDocExample.png" style="width:50%;max-width: 50%;">
 
-## Infrastructure Acknowledgement Structure Example ##
+<!--## Infrastructure Acknowledgement Structure Example ##
 
 The diagram below is an example of an Infrastructure Acknowledgement for a valid response. There is no actual payload as all the information is carried in the message header resource when there are no errors. When there are errors the structure is the same as the Business Acknowledgement. 
  
-<img src="images/explore/INFExample.png" style="width:50%;max-width: 50%;">
+<img src="images/explore/INFExample.png" style="width:50%;max-width: 50%;">-->
 
 
-## Business Acknowledgement Structure Example ##
+## Acknowledgement Structure Example ##
 
-The diagram below is an example of a Business Acknowledgement that may be used with the ITK message bundle. 
+The diagram below is an example of the structure used for acknowledgements that may be used with the ITK message bundle. 
 
 <img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
 
