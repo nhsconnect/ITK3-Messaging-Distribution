@@ -15,9 +15,6 @@ entries:
     - title: The Journey
       url: /overview_the_journey.html
       output: web
-    - # title: Providing a Messaging Solution
-      # url: /overview_messaging_provide.html
-      # output: web
     - title: Guide Versioning
       url: /overview_guide_versioning.html
       output: web
@@ -38,16 +35,12 @@ entries:
     - title: Bundle Structures
       url: /explore_bundle_structures.html
       output: web
-    - title: Message Definitions
-      url: /explore_message_definitions.html
-      output: web
     - title: Handling Specification
       url: /explore_hand_spec.html
       output: web
     - title: Sender & Receiver Requirements
       url: /explore_snd&rec_req.html
       output: web
-
     - title: Error Codes
       url: /explore_error_codes.html
       output: web
@@ -60,12 +53,28 @@ entries:
         - title: Overview
           url: /workflow_overview.html
           output: web
-     
+
+  - title: Message Definitions
+    url: /explore_message_definitions.html
+    output: web
+
+    folderitems:
+    - title: Overview
+      url: /explore_defs_overview.html
+      output: web
+    - title: Send Message Payload
+      url: /explore_send_mess_pay_def.html
+      output: web
+    - title: Infrastructure Acknowlegement
+      url: /explore_inf_ack_def.html
+      output: web      
+    - title: Business Acknowlegement
+      url: /explore_bus_ack_def.html
+      output: web          
 
  # - title: Case Studies
   #  output: web
   #  folderitems:
-
    # - title: Case Study Overview
      # url: /engage_case_studies.html
      # output: web
