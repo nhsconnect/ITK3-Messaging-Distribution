@@ -31,15 +31,15 @@ This value set has changed:
 
 - ITK-InfAcknowledgement-1
   - The following new Infrastructure error codes have been added: 51013, RC001, RC002, RC003, RC004, RC005, RC006 and RC999
-  - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+  - See the [ITK3 Error Codes](explore_error_codes.html) for further details about these error codes
  
 This code system has changed:
 
 - ITK-Acknowledgement-1
   - The following new Infrastructure error codes have been added: 51013, RC001, RC002, RC003, RC004, RC005, RC006 and RC999
-  - See the [ITK 3 Error Codes](explore_error_codes.html) for further details about these error codes
+  - See the [ITK3 Error Codes](explore_error_codes.html) for further details about these error codes
 
-The [ITK 3 Error Codes](explore_error_codes.html) has been improved by including the display values of the error codes, and the table of contents includes the error example scenarios.  There is a new error code to describe an unreadable message received.
+The [ITK3 Error Codes](explore_error_codes.html) has been improved by including the display values of the error codes, and the table of contents includes the error example scenarios.  There is a new error code to describe an unreadable message received.
 
 The [Bundle Structure Diagrams](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
 
@@ -66,7 +66,7 @@ The following examples have changed:
 - ITK-SendPayload-Valid-Example-2.xml
   - Removed the element: destination and added the element focus.
 
-The following new examples carry the [ITK 3 Error Codes](explore_error_codes.html), that were not illustrated in the previously released XML examples:
+The following new examples carry the [ITK3 Error Codes](explore_error_codes.html), that were not illustrated in the previously released XML examples:
 
 - ITK-BusinessAck-Fail-PatNoClinSet-Example-1.xml
 - ITK-InfAck-AttachInvalid-Example-1.xml
