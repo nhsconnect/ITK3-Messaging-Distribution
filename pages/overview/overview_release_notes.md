@@ -29,9 +29,12 @@ The following profiles have changed:
 
 This value set has changed:
 
-- ITK-InfAcknowledgement-1
+- ValueSet-ITK-InfAcknowledgement-1
   - The following new Infrastructure error codes have been added: 51013, RC001, RC002, RC003, RC004, RC005, RC006 and RC999
   - See the [ITK3 Error Codes](explore_error_codes.html) for further details about these error codes
+- ValueSet-CareSettingType-1
+  - The url for ValueSet-CareSettingType-1, has changed to https://fhir.nhs.uk/STU3/ValueSet/CareSettingType-1 so that it can be used across programs, also the internal version has changed to 1.0.0
+
  
 This code system has changed:
 
