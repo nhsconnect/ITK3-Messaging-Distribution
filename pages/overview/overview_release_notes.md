@@ -9,6 +9,19 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
+## 2.2.0-beta ##
+
+The changes were made in order to meet the requirements of the Change Control Note for the generic FHIR receiver capability.
+
+The following new profile has been added:
+
+-  ITK3-Payload-Bundle-1 - This is issued for all bundle types except document.
+ 
+This code system has changed:
+
+- ITK-MessageEvent-2
+  - The following new code have been added: ITK007C (where C=collection) to describe "ITK GP Connect Writeback".
+  - This has been upversioned from 2.0.0 to 2.1.0
 
 ## 2.1.0-beta ##
 
