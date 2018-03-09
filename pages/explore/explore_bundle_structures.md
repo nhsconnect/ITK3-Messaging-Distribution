@@ -53,14 +53,14 @@ The diagram below is an example of the structure used for acknowledgements that 
 
 The diagram below is an example of the structure used when a payload has a separate bundle and the appropriate bundle type (see list below) must be used:
 
-- **message
-- **transaction
-- **transaction-response
-- **batch
-- **batch-response
-- **history
-- **searchset
-- **collection
+- message
+- transaction
+- transaction-response
+- batch
+- batch-response
+- history
+- searchset
+- collection
 
 <img src="images/explore/ITKPayBundExample.png" style="width:50%;max-width: 50%;">
 
