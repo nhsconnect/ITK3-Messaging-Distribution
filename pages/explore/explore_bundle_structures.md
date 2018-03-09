@@ -49,6 +49,22 @@ The diagram below is an example of the structure used for acknowledgements that 
 <img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
 
 
+## ITK Payload Bundle Structure ##
+
+The diagram below is an example of the structure used when a payload has a separate bundle and the appropriate bundle type (see list below) must be used:
+
+- **message
+- **transaction
+- **transaction-response
+- **batch
+- **batch-response
+- **history
+- **searchset
+- **collection
+
+<img src="images/explore/ITKPayBundExample.png" style="width:50%;max-width: 50%;">
+
+
 ## ITK Send Payload Bundle ##
 
 This Bundle is a generic bundle for sending any payload.
