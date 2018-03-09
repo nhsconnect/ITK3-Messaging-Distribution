@@ -51,7 +51,7 @@ The diagram below is an example of the structure used for acknowledgements that 
 
 ## ITK Payload Bundle Structure ##
 
-The diagram below is an example of the structure used when a payload has a separate bundle and the appropriate bundle type (see list below) must be used:
+The diagram below is an example of the structure used when a payload has a separate bundle and the appropriate bundle type must be used (see list below):
 
 - message
 - transaction
