@@ -1,23 +1,23 @@
 ---
-title: ITK3 Error Codes
+title: ITK3 Response Codes
 keywords: explore Reference
 tags: [explore,fhir,error codes]
 sidebar: overview_sidebar
-permalink: explore_error_codes.html
-summary: "Error codes, their associated elements and value sets."
+permalink: explore_response_codes.html
+summary: "Response codes, their associated elements and value sets."
 ---
 
 {% include custom/search.warnbanner.html %}
 
 ## Overview ##
 
-Error information in the Acknowledgement Response messages is carried in the MessageHeader Resource and the OperationOutcome Resource. There are several elements and their value sets used to carry error information in these resources. The ITK Payload Specifications may define the error handling behaviour of the clinical application/system and communicates errors using the ITK Business Acknowledgements.
+Response information in the ITK Response message is carried in the MessageHeader Resource and the OperationOutcome Resource. There are several elements and their value sets used to carry error information in these resources. The ITK Payload Specifications may define the error handling behaviour of the clinical application/system and communicates errors using the ITK Response message.
 
 Care Professionals need to be informed that a Document has not reached, or is experiencing difficulty in reaching, its intended recipients. 
-This page describes how error information is carried. The example fragments are used to illustrate the elements and value sets used and are not complete messages. 
+This page describes how response information is carried. The example fragments are used to illustrate the elements and value sets used and are not complete messages. 
 
 
-## Elements And Value Sets Used To Carry Error Information ##
+## Elements And Value Sets Used To Carry Error and Response Information ##
 
 <table width="100%">
 <tr>
@@ -44,20 +44,20 @@ This page describes how error information is carried. The example fragments are 
 <td>OperationOutcome</td>
 <td>issue.details.code</td>
 <td>
-<a href="https://fhir.nhs.uk/ValueSet/itk-acknowledgement-1" target="_blank">itk-acknowledgement</a>
+<a href="https://fhir.nhs.uk/ValueSet/itk-response-codes-1" target="_blank">itk-response-codes</a>
 </td>
 </tr>
 </table>
 
-The MessageHeader carries a code to indicate success or failure. The ITK error codes must be mapped to the high-level element codes carried in the severity, code and details elements of the OperationOutcome. The mapping Table below shows how the three levels of codes should be utilised. 
+The MessageHeader carries a code to indicate success or failure. The ITK response codes must be mapped to the high-level element codes carried in the severity, code and details elements of the OperationOutcome. The mapping Table below shows how the three levels of codes should be utilised. 
 
-**Note**: When a bundle is incorrectly constructed or received so that the value of the infrastructure acknowledgement flag cannot be determined, receiving systems SHOULD default to always returning an acknowledgement wherever possible. 
+**Note**: When a bundle is incorrectly constructed or received so that the value of the acknowledgement flags cannot be determined, receiving systems SHOULD default to always returning a response wherever possible. 
 
-## Mapping FHIR Error Codes to ITK3 Error Codes ##
+## Mapping FHIR Error or Warning Codes to ITK3 Response Codes ##
 
-## Distribution Level Errors ##
+## Handling Specification Responses ##
 
-These errors should be returned to the sender using the Infrastructure Acknowledgement message.
+These Responses should be returned to the sender using the ITK Response message.
 
 **Minimum requirements that MUST be supported by receiving systems.**
 
@@ -99,7 +99,7 @@ These errors should be returned to the sender using the Infrastructure Acknowled
 <tr>
 <td>issue.details.code</td>	
 <td>ITK-Acknowledgement</td>
-<td>RC001</td>
+<td>10001</td>
 <td>Handling Specification Error</td>
 <td>A generic error code which gives a minimum level 
 of assurance that systems can share the minimum information 
@@ -137,7 +137,7 @@ relating to Handling Specification faults.</td>
 <td>IssueSeverity</td>
 <td>fatal</td>
 <td>Fatal</td>
-<td>	The issue caused the action to fail, and no further checking could be performed.</td>
+<td>The issue caused the action to fail, and no further checking could be performed.</td>
 </tr>
 <tr>
 <td>issue.code</td>	
@@ -152,50 +152,65 @@ relating to Handling Specification faults.</td>
 </tr>	
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC002</td>
-<td>Business Acknowledgement - Processing Error</td>
-<td>The handling specification for Business Acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
+<td>ITK-Response</td>
+<td>10002</td>
+<td>Infrastructure Acknowledgement Flag - Processing Error</td>
+<td>The handling specification flag for infrastructure level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC003</td>
-<td>Infrastructure Acknowledgement - Processing Error</td>
-<td>The handling specification for Infrastructure Acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
+<td>ITK-Response/td>
+<td>10003</td>
+<td>Business Acknowledgement Flag - Processing Error</td>
+<td>The handling specification flag for business level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC004</td>
-<td>Message Definition – Processing Error</td>
-<td>The handling specification for Message Definition is present but cannot be processed. For example may be unreadable or contain an incorrect value. This may also be returned when the message type or version is not supported by the receiving system.</td>
+<td>ITK-Response</td>
+<td>10004</td>
+<td>Message Definition Value – Processing Error</td>
+<td>The handling specification value for Message Definition is present but cannot be processed. For example may be unreadable or contain an incorrect value. The handling specification for Message Definition is present but cannot be processed. For example, may be unreadable or contain an incorrect value. This may also be returned when the message type is not supported (known) by the receiving system.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC005</td>
-<td>Priority - Processing Error</td>
-<td>The handling specification for Priority is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
+<td>ITK-Response</td>
+<td>10005</td>
+<td>Message Definition Version Value – Processing Error</td>
+<td>The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC006</td>
-<td>Sender Reference - Processing Error</td>
-<td>The handling specification for Sender Reference is present but cannot be processed. For example may be unreadable, contain an incorrect value or the use of Sender Reference is not supported by receiving system</td>
+<td>ITK-Response</td>
+<td>10006</td>
+<td>Priority Value - Processing Error</td>
+<td>The handling specification code for Priority is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Acknowledgement</td>
-<td>RC999</td>
+<td>ITK-Response</td>
+<td>10007</td>
+<td>Sender Reference Value - Processing Error</td>
+<td>The handling specification string for Sender Reference is present but cannot be processed. For example may be unreadable, contain an incorrect value or the use of Sender Reference is not supported by receiving system</td>
+</tr>
+<tr>
+<td>issue.details.code</td>	
+<td>ITK-Response</td>
+<td>10008</td>
 <td>Handling Specification Business Rule Error</td>
 <td>The Handling Specification usage does not match business rules for included payload (message definition). For example an acknowledgement flag defined as mandatory by the payload specification is missing.</td>
+</tr>
+<tr>
+<td>issue.details.code</td>	
+<td>ITK-Response</td>
+<td>10009</td>
+<td>Unreadable message received</td>
+<td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
 </tr>		
 </table>
 
-## Payload Validation Error Codes ##
-These error codes should be returned to the sender using the Infrastructure Acknowledgement message.
+## Bundle and Payload Validation Response Codes ##
+
+These response codes should be returned to the sender using the ITK Response message.
 
 **The system SHOULD support the extension values as below**
 
@@ -237,9 +252,9 @@ These error codes should be returned to the sender using the Infrastructure Ackn
 <tr>	
 <td>issue.details.code</td>
 <td>ITK-Acknowledgement</td>	
-<td>51001</td> 
+<td>20011</td> 
 <td>Success</td>
-<td>The Message has been processed successfully at the infrastructure level. Note: the message may still fail at the business level.</td>
+<td>The Message has been processed successfully. An response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgment request flag has been sent to “true”.</td>
 </tr>
 </table>
 

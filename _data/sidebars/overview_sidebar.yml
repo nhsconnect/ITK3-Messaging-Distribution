@@ -41,8 +41,8 @@ entries:
     - title: Sender & Receiver Requirements
       url: /explore_snd&rec_req.html
       output: web
-    - title: Error Codes
-      url: /explore_error_codes.html
+    - title: Response Codes
+      url: /explore_response_codes.html
       output: web
       subfolders:
       - title: Work Flow
