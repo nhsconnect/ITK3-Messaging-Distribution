@@ -28,13 +28,12 @@ There will be two types of response codes:
 The ITK3 Response Codes have three prefixes. The codes are returned in response to the acknowledgement flags. The validation of the incoming message may vary from system to system however the follows rules apply to the codes:
 
 **InfAckRequested=true**
-Codes returned :
 
-- Prefix 1 and 2 (10001 to 20013)
+- Prefix 1 and 2 (10001 to 20013) may be returned
 
 **BusAckRequested=true**
 
-- Prefix 3 (30001 to 30003)
+- Prefix 3 (30001 to 30003) may be returned
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -1107,10 +1106,21 @@ These errors should be returned to the sender using the Business Acknowledgement
 </tr>
 </table>
 
+## Response Patterns ##
+
+The following are the response patterned supported by ITK3. These are dependant on the domain specification and the  response types requested.
+
+## Type 1 – Full Acknowledgement ## 
+This type uses both flags set to true. This is the most rigorous acknowledgement framework and is mandated to be used for Transfer of Care messaging.
+
+There are 3 possible scenarios show in diagram below.
+
+<img src="images/explore/full_ack.png" style="width:auto;height: auto;"/>
+
+
+
 
 ## Error Scenario Examples ##
-
-
 
 
 ## Infrastructure Acknowledgement: OK ##
