@@ -66,7 +66,7 @@ This is a complex extension which consists of an Extension URL that carries the 
 
 <tr>
 <td rowspan="4">Priority</td>
-<td rowspan="4">Indicates the priority that processing of the payload should be given by the recipient.<br>These codes are taken from the value set: [ITK-Priority-1](https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1). <br>This value set is derived from the FHIR value set: [request-priority](http://hl7.org/fhir/ValueSet/request-priority).</td>
+<td rowspan="4">Indicates the priority that processing of the payload should be given by the recipient.<br>These codes are taken from the value set: <a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1">ITK-Priority-1</a><br>This value set is derived from the FHIR value set:<a href="http://hl7.org/fhir/ValueSet/request-priority">request-priority</a></td>
 <td>routine</td>
 <td>The request has normal priority</td>
 </tr>
