@@ -118,7 +118,7 @@ There will be two types of response codes:
 </tr>
 <tr>
 <td>20009</td>
-<td>Payload validation failure>/td>
+<td>Payload validation failure</td>
 <td>Payload content validation has failed.</td>
 </tr>
 <tr>
