@@ -37,7 +37,7 @@ The diagram below is an example of an ITK3 FHIR document payload that may be use
 
 The diagram below is an example of a ITK Response message structure.
  
-<img src="images/explore/INFExample.png" style="width:50%;max-width: 50%;">
+<img src="images/explore/BusExample.png" style="width:50%;max-width: 50%;">
 
 
 ## ITK3 Other Payload Bundle Structure ##
@@ -84,7 +84,7 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 ## ITK3 Response Bundle ##
 
-ITK3 Responses are used to convey information from the receiving system back to the sending system, the messages are clinically agnostic and relay information regarding errors in the received ITK3 Messaging Distribution Bundle, such as a failure in validation due to incorrect structure. This Response message also allows systems to report that a message was received without error. When a message is received without error at the infrastructure or Technical layer it may subsequently error later at the business layer.
+ITK3 Responses are used to convey information from the receiving system back to the sending system, the messages are clinically agnostic and relay information regarding errors in the received ITK3 Messaging Distribution Bundle, such as a failure in validation due to incorrect structure. This Response message also allows systems to report that a message was received without error. When a message is received without error at the infrastructure or technical layer it may subsequently error later at the business layer.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
