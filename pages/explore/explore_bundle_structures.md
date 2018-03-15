@@ -37,7 +37,7 @@ The diagram below is an example of an ITK3 FHIR document payload that may be use
 
 The diagram below is an example of a ITK Response message structure.
  
-<img src="images/explore/BusExample.png" style="width:50%;max-width: 50%;">
+<img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
 
 
 ## ITK3 Other Payload Bundle Structure ##
