@@ -65,12 +65,12 @@ entries:
     - title: Send Message Payload
       url: /explore_send_mess_pay_def.html
       output: web
-    - title: Infrastructure Acknowlegement
+    - title: ITK Response
       url: /explore_inf_ack_def.html
       output: web      
-    - title: Business Acknowlegement
-      url: /explore_bus_ack_def.html
-      output: web          
+    # - title: Business Acknowlegement
+      # url: /explore_bus_ack_def.html
+      # output: web          
 
  # - title: Case Studies
   #  output: web
