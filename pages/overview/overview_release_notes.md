@@ -14,7 +14,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 **Profiles**
 
 The profiles for the two acknowledgement messages has been replaced by a single response message.
-The profile for ITK Message Definition has been change to use a FHIR code system instead of an NHS Digital defined one.
+The profile for ITK Message Definition has been changed to use a FHIR code system instead of an NHS Digital defined one.
 
 **Specification Structure**
 

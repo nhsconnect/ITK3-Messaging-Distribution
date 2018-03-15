@@ -13,45 +13,36 @@ summary: "The structures of the bundles used in the messages"
 To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK Message Bundle and the ITK Message Header that combine to make up the ITK3 Messaging Distribution Bundle. 
 
 The ITK3 Messaging Distribution Bundle may be used to wrap any payload. This provides a lightweight structure to carry information relating to the end-to-end technical distribution of payloads.
-The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added to the ITK Message Header profile to allow a similar functionality to the previous versions of ITK. 
+The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added to the ITK3 Message Header profile to allow a similar functionality to the previous versions of ITK. 
 
-This specification also defines an Infrastructure Acknowledgement and a Business Acknowledgement which may be used with the ITK3 Messaging Distribution Bundle.
+This specification also defines a ITK3 Response message which may be used with the ITK3 Messaging Distribution Bundle.
 
 ## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 message header and any payload. The message header contains information that pertains to the payload content. The Payload can be anything.
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
 
-The ITK message bundle is the container for the ITK message header and any payload. The message header contains information that pertains to the payload content. The Payload can be anything.
+
+## ITK3 Typical Bundle Structures ##
 
 
-## Example Payload Structures ##
+## ITK3 FHIR Document Bundle Structure ##
 
-
-## ITK3 FHIR Document Structure Example ##
-
-The diagram below is an example of an ITK FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the type of bundle is a document.
+The diagram below is an example of an ITK3 FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the type of bundle is a document.
 
 <img src="images/explore/ITKDocExample.png" style="width:50%;max-width: 50%;">
 
-<!--## Infrastructure Acknowledgement Structure Example ##
+## ITK3 Response Bundle Structure ##
 
-The diagram below is an example of an Infrastructure Acknowledgement for a valid response. There is no actual payload as all the information is carried in the message header resource when there are no errors. When there are errors the structure is the same as the Business Acknowledgement. 
+The diagram below is an example of a ITK Response message structure.
  
-<img src="images/explore/INFExample.png" style="width:50%;max-width: 50%;">-->
+<img src="images/explore/INFExample.png" style="width:50%;max-width: 50%;">
 
 
-## Acknowledgement Structure Example ##
+## ITK3 Other Payload Bundle Structure ##
 
-The diagram below is an example of the structure used for acknowledgements that may be used with the ITK message bundle. 
-
-<img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
-
-
-## ITK Payload Bundle Structure ##
-
-The diagram below is an example of the structure used when a payload has a separate bundle and the appropriate bundle type must be used (see list below):
+The diagram below is an example of the structure used when a payload has an additional bundle and is one of the types listed below:
 
 - message
 - transaction
@@ -65,7 +56,7 @@ The diagram below is an example of the structure used when a payload has a separ
 <img src="images/explore/ITKPayBundExample.png" style="width:50%;max-width: 50%;">
 
 
-## ITK Send Payload Bundle ##
+## The ITK3 Messaging Distribution Bundle Resources ##
 
 This Bundle is a generic bundle for sending any payload.
 
@@ -75,22 +66,25 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
 - **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK Header Profile of the FHIR Practitioner resource.
 - **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK Header Profile of the FHIR Organization resource.
-- **Payload** - Any FHIR Resource.
+- **Payload - one of the following:**
+-- **One or more FHIR Resource.** 
+-- **The [ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1) containing a composition and one or more FHIR Resources.**
+-- **The [ITK-Payload-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Payload-Bundle-1) containing one or more FHIR Resources.**
  
  
-## ITK Send Payload Bundle Diagram ##
+## ITK3 Messaging Distribution Bundle Diagram ##
 
-The diagram shows the referencing between the profiles in the bundle which make up the Send Payload Message.
+The diagram shows the referencing between the profiles in the bundle which make up the a typical ITK3 Messaging Distribution Bundle.
 
 <img src="images/explore/send_payload_message.png" style="width: 75%;max-width: 75%;"> 
 
-## ITK Send Payload Example ##
+## ITK3 Messaging Distribution Bundle Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/6d9972c89354a0cdd07714464fdb5698.js"></script>
 
-## ITK Infrastructure Acknowledgement Bundle ##
+## ITK3 Response Bundle ##
 
-ITK Infrastructure Acknowledgements are used to convey information from the receiving system back to the sending system, the messages are clinically agnostic and relay information regarding errors in the Send Payload Bundle, such as a failure in schema validation. This Acknowledgement message also allows systems to acknowledge that a message was received without error. When a message is received without error at the infrastructure layer it may subsequently error later at the business layer.
+ITK3 Responses are used to convey information from the receiving system back to the sending system, the messages are clinically agnostic and relay information regarding errors in the received ITK3 Messaging Distribution Bundle, such as a failure in validation due to incorrect structure. This Response message also allows systems to report that a message was received without error. When a message is received without error at the infrastructure or Technical layer it may subsequently error later at the business layer.
 
 The Bundle consists of the following FHIR Resource Profiles.
 
@@ -101,35 +95,15 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[ITK-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
 
 
-## ITK Infrastructure Acknowledgement Bundle Diagram ##
-The diagram shows the referencing between the profiles in the bundle which make up the Infrastructure Acknowledgement Response message.
+## ITK3 Response Bundle Referencing Diagram ##
+The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Response message.
 
 <img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;"> 
 
-## ITK Infrastructure Acknowledgement Bundle Success Example ##
+## ITK3 Response Bundle Success Example ##
 
 <script src="https://gist.github.com/IOPS-DEV/7fce3d2e89fb18c91f0581819e1bbaa6.js"></script>
 
-## ITK Business Acknowledgement Bundle ##
-ITK Business Acknowledgements are used to convey information from the receiving System back to the sending system, this can include Patient Known or Patient Unknown information alongside information regarding accuracy or inaccuracy of a clinical payload.This response message also allows systems or individuals to acknowledge that a message was received without error
-
-The Bundle consists of the following FHIR Resource Profiles.
-
-- **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
-- **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK Header Profile of the FHIR Practitioner resource  
-- **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK Header Profile of the FHIR Organization resource.
-- **[ITK-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
-
-
-## ITK Business Acknowledgement Bundle Diagram ##
-The diagram shows the referencing between the profiles in the bundle which make up the Business Acknowledgement Response message.
-
-<img src="images/explore/busack_message.png" style="width: 75%;max-width: 75%;"> 
-
-## ITK Business Acknowledgement Bundle Success Example ##
-
-<script src="https://gist.github.com/IOPS-DEV/1072bb0a3297e59d12a6ea0070e70c6f.js"></script>
 
 ## Extensions Used ##
 
