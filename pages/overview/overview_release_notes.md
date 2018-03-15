@@ -9,9 +9,20 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
+## 2.3.0-beta ##
+
+**Profiles**
+
+The profiles for the two acknowledgement messages has been replaced by a single response message.
+The profile for ITK Message Definition has been change to use a FHIR code system instead of an NHS Digital defined one.
+
+**Specification Structure**
+
+The specification Structure has been changed due to the changes the response messages. 
+
 ## 2.2.0-beta ##
 
-The changes were made in order to meet the requirements of the Change Control Note for the generic FHIR receiver capability.
+**The changes were made in order to meet the requirements of the Change Control Note for the generic FHIR receiver capability.**
 
 The following new profile has been added:
 
