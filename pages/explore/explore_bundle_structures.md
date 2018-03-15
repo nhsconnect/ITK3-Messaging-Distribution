@@ -70,6 +70,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 -- **One or more FHIR Resource.** 
 
 -- **The [ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1) containing a composition and one or more FHIR Resources.**
+
 -- **The [ITK-Payload-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Payload-Bundle-1) containing one or more FHIR Resources.**
  
  
