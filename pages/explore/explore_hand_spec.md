@@ -32,24 +32,24 @@ This is a complex extension which consists of an Extension URL that carries the 
 
 <tr>
 <td rowspan="2">BusAckRequested</td>
-<td rowspan="2">Populated when sender requires a business acknowledgement to be returned</td>
+<td rowspan="2">Populated when sender requires a business level response to be returned</td>
 <td>true</td>
-<td>The business acknowledgement has been requested</td>
+<td>The business level response has been requested</td>
 </tr>
 <tr>
 <td>false</td>
-<td>The business acknowledgement has not been requested</td>
+<td>The business level response has not been requested</td>
 </tr>
 
 <tr>
 <td rowspan="2">InfAckRequested</td>
-<td rowspan="2">Populated when sender requires an infrastructure acknowledgement to be returned</td>
+<td rowspan="2">Populated when sender requires an infrastructure level response to be returned</td>
 <td>true</td>
-<td>The business acknowledgement has been requested</td>
+<td>The infrastructure response has been requested</td>
 </tr>
 <tr>
 <td>false</td>
-<td>The business acknowledgement has not been requested</td>
+<td>The infrastructure level response has not been requested</td>
 </tr>
 
 
