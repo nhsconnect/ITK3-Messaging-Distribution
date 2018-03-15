@@ -25,7 +25,7 @@ There will be two types of response codes:
 
 ## The ITK3 Response Codes ##
 
-<table width="100%">
+<table style="width:100%;max-width: 100%;">
 <tr>
 <th>Response Code</th>
 <th>Display Name</th>
@@ -159,7 +159,7 @@ There will be two types of response codes:
 
 ## Elements And Value Sets Used To Carry Error and Response Information ##
 
-<table width="100%">
+<table style="width:100%;max-width: 100%;">
 <tr>
 <th>Resource</th>
 <th>Element</th>

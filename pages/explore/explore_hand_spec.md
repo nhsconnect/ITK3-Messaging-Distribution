@@ -22,7 +22,7 @@ This is a complex extension which consists of an Extension URL that carries the 
 **Important Note 2: As this value set is extensible other keys and values may be used by local agreement.**
 
 
-<table width="100%">
+<table style="width:100%;max-width: 100%;">
 <tr>
 <th>Extension URL</th>
 <th>Usage</th>
