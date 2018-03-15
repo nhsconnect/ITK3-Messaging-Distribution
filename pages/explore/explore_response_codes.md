@@ -25,13 +25,24 @@ There will be two types of response codes:
 
 ## The ITK3 Response Codes ##
 
+The ITK3 Response Codes have three prefixes. The codes are returned in response to the acknowledgement flags. The validation of the incoming message may vary from system to system however the follows rules apply to the codes:
+
+**InfAckRequested=true**
+Codes returned :
+
+- Prefix 1 and 2 (10001 to 20013)
+
+**BusAckRequested=true**
+
+- Prefix 3 (30001 to 30003)
+
 <table style="width:100%;max-width: 100%;">
 <tr>
 <th>Response Code</th>
 <th>Display Name</th>
 <th>Description</th>
 </tr>
-<tr
+<tr>
 <td>10001</td>
 <td>Handling Specification Error</td>	
 <td>A generic error code which gives a minimum level of assurance that systems can share the minimum information relating to Handling Specification faults.</td>
