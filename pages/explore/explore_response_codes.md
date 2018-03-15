@@ -105,7 +105,6 @@ These Responses should be returned to the sender using the ITK Response message.
 of assurance that systems can share the minimum information 
 relating to Handling Specification faults.</td>
 </tr>		
-
 </table>
 
 
@@ -159,7 +158,7 @@ relating to Handling Specification faults.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response/td>
+<td>ITK-Response</td>
 <td>10003</td>
 <td>Business Acknowledgement Flag - Processing Error</td>
 <td>The handling specification flag for business level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
