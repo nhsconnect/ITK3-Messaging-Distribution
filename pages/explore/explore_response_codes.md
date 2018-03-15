@@ -48,7 +48,8 @@ There will be two types of response codes:
 </tr>
 <tr>
 <td>10004</td>
-<td>Message Definition Value – Processing Error	The handling specification for Message Definition is present but cannot be processed. For example, may be unreadable or contain an incorrect value. This may also be returned when the message type is not supported (known) by the receiving system.</td>
+<td>Message Definition Value – Processing Error</td>	
+<td>The handling specification for Message Definition is present but cannot be processed. For example, may be unreadable or contain an incorrect value. This may also be returned when the message type is not supported (known) by the receiving system.</td>
 </tr>
 <tr>
 <td>10005</td>
