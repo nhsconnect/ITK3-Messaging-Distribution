@@ -1110,12 +1110,12 @@ These errors should be returned to the sender using the Business Acknowledgement
 
 The following are the response patterned supported by ITK3. These are dependant on the domain specification and the  response types requested.
 
-## Type 1 – Full Acknowledgement ## 
-This type uses both flags set to true. This is the most rigorous acknowledgement framework and is mandated to be used for Transfer of Care messaging.
+# Type 1 – Full Acknowledgement # 
+This type uses both flags set to true. This is the most rigorous acknowledgement framework.
 
 There are 3 possible scenarios show in diagram below.
 
-<img src="images/explore/full_ack.png" style="width:auto;height: auto;"/>
+<img src="images/explore/full_ack.png" style="width: 75%;max-width: 75%;"> 
 
 
 
