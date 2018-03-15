@@ -53,7 +53,8 @@ There will be two types of response codes:
 </tr>
 <tr>
 <td>10005</td>
-<td>Message Definition Version Value – Processing Error	The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
+<td>Message Definition Version Value – Processing Error</td>	
+<td>The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
 </tr>
 <tr>
 <td>10006</td>
