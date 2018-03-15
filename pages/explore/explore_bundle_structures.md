@@ -70,6 +70,8 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 -- One or more FHIR Resource. 
 
+-- The **[ITK-Response-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Response-OperationOutcome-Bundle-1)**
+
 -- The **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** containing a composition and one or more FHIR Resources.
 
 -- The **[ITK-Payload-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Payload-Bundle-1)** containing one or more FHIR Resources.
@@ -95,7 +97,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 - **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
 - **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK Header Profile of the FHIR Practitioner resource  
 - **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK Header Profile of the FHIR Organization resource.
-- **[ITK-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
+- **[ITK-Response-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
 
 
 ## ITK3 Response Bundle Referencing Diagram ##
