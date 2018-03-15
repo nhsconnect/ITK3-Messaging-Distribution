@@ -11,15 +11,16 @@ summary: "Response codes, their associated elements and value sets."
 
 ## Overview ##
 
-Response information in the ITK Response message is carried in the MessageHeader Resource and the OperationOutcome Resource. There are several elements and their value sets used to carry error information in these resources. The ITK Payload Specifications may define the error handling behaviour of the clinical application/system and communicates errors using the ITK Response message. The are conceptionally two levels of validation, technical and business. One or both of these types of validation may result in a negative or positive response from the receiving system. Although there is no mandated sequence to validate or process received messages logically there is a certain order to do the validation. Care Professionals need to be informed that a Document has not reached its intended recipients. This page describes how response information is carried. 
-The example fragments are used to illustrate the elements and value sets used and are not complete messages. 
+Response information in the ITK Response message is carried in the MessageHeader Resource and the OperationOutcome Resource. There are several elements and their value sets used to carry error information in these resources. The ITK Payload Specifications may define the error handling behaviour of the clinical application/system and communicates responses using the ITK Response message. The are conceptionally two levels of validation, technical(infrastructure) and business. One or both of these types of validation may result in a negative or positive response from the receiving system. Although there is no mandated sequence to validate or process received messages logically there is a certain order to do the validation, for example the values of certain XML elements or attributes can only be validated aftyer in has be determined the the XML is well-formed. Care Professionals may also need to be informed that a Document has not reached its intended recipients. 
+
+This page describes how response information is carried within the ITK Response message structure. The example fragments are used to illustrate the elements and value sets used and are not complete messages. 
 
 ## Response Code Types ##  
  
 There will be two types of response codes:
 - Positive Response codes
 - Negative Response codes
-- 
+
 **Note:** All Negative response codes are deemed to be fatal and no further processing will be carried out on the message. There will be no further response message following the response message that contains the negative response code regardless of what acknowledgement flags are set. 
 
 ## The ITK3 Response Codes ##
@@ -70,7 +71,8 @@ There will be two types of response codes:
 </tr>
 <tr>
 <td>10009</td>
-<td>Unreadable message received	A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
+<td>Unreadable message received</td>	
+<td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
 </tr>
 <tr>
 <td>20001</td>
@@ -109,7 +111,8 @@ There will be two types of response codes:
 </tr>
 <tr>
 <td>20008</td>	
-<td>Duplicate Document received	Bundle with this document identifier has already been processed. A payload with this document identifier has already been received and processed by this recipient.</td>
+<td>Duplicate Document received</td>	
+<td>Bundle with this document identifier has already been processed. A payload with this document identifier has already been received and processed by this recipient.</td>
 </tr>
 <tr>
 <td>20009</td>
@@ -120,6 +123,8 @@ There will be two types of response codes:
 <td>20010</td>
 <td>Unrecognised Payload Recipient Organisation</td>	
 <td>The Recipient Organisation identified in the payload, is not supported by this End Point (Receiving System).</td>
+<tr>
+</tr>
 <td>20011</td>
 <td>Unrecognised Payload Recipient Person</td>	
 <td>The Recipient person identified in the payload, is not supported by this End Point (Receiving System).</td>
@@ -132,7 +137,7 @@ There will be two types of response codes:
 <tr>
 <td>20013</td>
 <td>Success</td>	
-<td>The Message has been processed successfully at the infrastructure level. A response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgment request flag has been sent to “true”.
+<td>The Message has been processed successfully at the infrastructure level. A response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgment request flag has been sent to “true”.</td>
 </tr>
 <tr>
 <td>30001</td>
