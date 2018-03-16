@@ -57,13 +57,13 @@ entries:
       output: web
       type: homepage
     - title: Response Flows 
-      url: /response_flows.html
+      url: /explore_response_flows.html
       output: web
     - title: Response Structure 
-      url: /response_structure.html
+      url: /explore_response_structure.html
       output: web  
     - title: Response Examples 
-      url: /response_examples.html
+      url: /explore_response_examples.html
       output: web  
 
 
