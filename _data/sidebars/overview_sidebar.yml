@@ -50,13 +50,13 @@ entries:
           url: /response_overview.html
           output: web
         - title: Response Flows 
-          url: /response_overview.html
+          url: /response_flows.html
           output: web
         - title: Response Structure 
-          url: /response_overview.html
+          url: /response_structure.html
           output: web  
         - title: Response Examples 
-          url: /response_overview.html
+          url: /response_examples.html
           output: web  
       subfolders:
       - title: Work Flow
