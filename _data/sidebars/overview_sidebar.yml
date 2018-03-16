@@ -42,22 +42,22 @@ entries:
       url: /explore_snd&rec_req.html
       output: web
       subfolders:
-      - title: Response Codes
-        url: /explore_response_codes.html
+    - title: Response Codes
+      url: /explore_response_codes.html
+      output: web
+      subfolderitems:
+      - title: Overview
+        url: /response_overview.html
         output: web
-        subfolderitems:
-        - title: Overview
-          url: /response_overview.html
-          output: web
-        - title: Response Flows 
-          url: /response_flows.html
-          output: web
-        - title: Response Structure 
-          url: /response_structure.html
-          output: web  
-        - title: Response Examples 
-          url: /response_examples.html
-          output: web  
+      - title: Response Flows 
+        url: /response_flows.html
+        output: web
+      - title: Response Structure 
+        url: /response_structure.html
+        output: web  
+      - title: Response Examples 
+        url: /response_examples.html
+        output: web  
       subfolders:
       - title: Work Flow
         url: /workflow.html
