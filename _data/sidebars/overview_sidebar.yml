@@ -41,14 +41,15 @@ entries:
     - title: Sender & Receiver Requirements
       url: /explore_snd&rec_req.html
       output: web
-      subfolders:
-      - title: Response Codes
-        url: /explore_response_codes.html
-        output: web
-        subfolderitems:
+    - title: Response Codes
+      url: /explore_response_codes.html
+      output: web
+        subfolder:
         - title: Overview
           url: /response_overview.html
           output: web
+        subfolderitems:  
+         
         - title: Response Flows 
           url: /response_flows.html
           output: web
