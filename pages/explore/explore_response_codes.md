@@ -1142,6 +1142,11 @@ This uses only the infrastructure acknowledgement flag set to true.
 
 <img src="images/explore/full_ack_4.png"/> 
 
+## Fire and Forget ##
+ 
+This type has both flags set to false and would normally never return any response, however in some error circumstances where the flags cannot be read a response as illustrated will be returned.  
+
+<img src="images/explore/full_ack_5.png"/> 
 
 ## Error Scenario Examples ##
 
