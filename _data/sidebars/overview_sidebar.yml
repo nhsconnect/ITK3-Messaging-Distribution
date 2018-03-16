@@ -41,6 +41,14 @@ entries:
     - title: Sender & Receiver Requirements
       url: /explore_snd&rec_req.html
       output: web
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /workflow_overview.html
+          output: web
   - title: Response Codes
     output: web
     folderitems:
@@ -57,15 +65,7 @@ entries:
     - title: Response Examples 
       url: /response_examples.html
       output: web  
-      subfolders:
-      - title: Work Flow
-        url: /workflow.html
-        output: web
-        subfolderitems:
 
-        - title: Overview
-          url: /workflow_overview.html
-          output: web
 
   - title: Message Definitions
     url: /explore_message_definitions.html
