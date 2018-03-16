@@ -1117,7 +1117,7 @@ There are 3 possible flows:
 
 ## Flow where issue is detected at infrastructure (technical) level ##
 
-<img src="images/explore/full_ack_1.png" style="width: 100%;max-width: 100%;"/> 
+<img src="images/explore/full_ack_1.png" style="width: 75%;max-width: 75%;"/> 
 
 
 Flow where issues are detected at business level
