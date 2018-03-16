@@ -1130,6 +1130,17 @@ There are 3 possible flows:
 
 <img src="images/explore/full_ack_3.png"/> 
 
+## Technical Acknowledgment Only ## 
+
+This uses only the infrastructure acknowledgement flag set to true.
+
+**Flow where issue is detected at infrastructure (technical) level**
+
+<img src="images/explore/full_ack_1.png"/>
+
+**Flow where no issues are detected** 
+
+<img src="images/explore/full_ack_4.png"/> 
 
 
 ## Error Scenario Examples ##
