@@ -1116,20 +1116,19 @@ This uses both acknowledgement flags set to true. This is the most rigorous resp
 
 There are 3 possible flows:
 
-** Flow where issue is detected at infrastructure (technical) level **
+**Flow where issue is detected at infrastructure (technical) level**
 
 <img src="images/explore/full_ack_1.png"/>
 
 
-** Flow where issues are detected at business level ##
+**Flow where issues are detected at business level**
 
 <img src="images/explore/full_ack_2.png"/>
 
 
-** Flow where no issues are detected ** 
+**Flow where no issues are detected** 
 
 <img src="images/explore/full_ack_3.png"/> 
-
 
 
 
