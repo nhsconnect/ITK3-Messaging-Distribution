@@ -56,8 +56,8 @@ entries:
       url: /explore_response_codes.html
       output: web
       type: homepage
-    - title: Response Flows 
-      url: /explore_response_flows.html
+    - title: Response Patterns 
+      url: /explore_response_patterns.html
       output: web
     - title: Response Structure 
       url: /explore_response_structure.html
