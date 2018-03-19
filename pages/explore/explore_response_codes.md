@@ -23,11 +23,11 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 
 **InfAckRequested=true**
 
-- Prefix 1 and 2 (10001 to 20013) may be returned
+- Prefix 1 and 2 (10001 to 20013) should be returned
 
 **BusAckRequested=true**
 
-- Prefix 3 (30001 to 30003) may be returned
+- Prefix 3 (30001 to 30003) must be returned
 
 <table style="width:100%;max-width: 100%;">
 <tr>
