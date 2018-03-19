@@ -21,27 +21,27 @@ summary: "Response code examples."
 
 ## Infrastructure Level Response 10003: Fatal-Error - Business Level Response Value Processing Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/66b215872b5c4b9f125904b86add2a13.js"></script>
 
 ## Infrastructure Level Response 10004: Fatal-Error - Message Definition Value Processing Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/65c1971379ca58788d57caecccb64ab4.js"></script>
 
 ## Infrastructure Level Response 10005: Fatal-Error - Message Definition Version Value – Processing Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/1af0659abda0358f2fc1da5e48c32aaa.js"></script>
 
 ## Infrastructure Level Response 10006: Fatal-Error - Priority Value - Processing Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/8d97f3f8f10863669f22b913b5427ad4.js"></script>
 
 ## Infrastructure Level Response 10007: Sender Reference Value - Processing Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/442295632e65283c9bc93277f724f4ba.js"></script>
 
 ## Infrastructure Level Response 10008: Handling Specification Business Rule Error ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/92be67019cff622998091ea3510e1987.js"></script>
 
 ## Infrastructure Level Response 10009: Fatal-Error - Unreadable Message Received ##
 
@@ -94,23 +94,23 @@ Note: If only certain elements are missing or unreadable then the error codes as
 
 ## Infrastructure Level Response 20002: Fatal-Error - Unrecognised Recipient Organisation ##
 
-<script src="https://gist.github.com/IOPS-DEV/a50afeaaa7cfeb3e14bf91ae20821590.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/be0aff85266ea704133490609f3d72c4.js"></script>
 
 ## Infrastructure Level Response 20003: Fatal-Error - Unrecognised Sender ##
 
-<script src="https://gist.github.com/IOPS-DEV/429ae1f41bafecf32f07d5140a639090.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/ff8cab7b593fba2f668724b5106bf984.js"></script>
 
 ## Infrastructure Level Response 20004: Fatal-Error - Non Approved File Type Received as an Attachment ##
 
-<script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/4a85440beba40460110e1ad6511e79ea.js"></script>
 
 ## Infrastructure Level Response 20005: Fatal-Error - Unsupported file type received as an attachment ##
 
-<script src="https://gist.github.com/IOPS-DEV/1e4e2a8bfb439756062248fb4ffb8743.js"></script>
+TO DO
 
 ## Infrastructure Level Response 20006: Fatal-Error - ITK header validation failure ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/c9d8f3c6604bd9fb930726a3678c8b15.js"></script>
 
 ## Infrastructure Level Response 20007: Fatal-Error - Duplicate Message Received ##
 
@@ -122,40 +122,34 @@ TO DO
 
 ## Infrastructure Level Response 20009: Fatal-Error - Payload Validation Failure ##
 
-<script src="https://gist.github.com/IOPS-DEV/ff82904e958c68c28db73139a47b6911.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/e383f75a43e258adfc2bd20b93ef4bc1.js"></script>
 
 ## Infrastructure Level Response 20010: Fatal-Error - Unrecognised Payload Recipient Organisation ##
 
-<script src="https://gist.github.com/IOPS-DEV/5eef74d5e9207ffc206e1cbd66db137d.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/035cd398b95719b3f133f5bd4bf7186e.js"></script>
 
 ## Infrastructure Level Response 20011: Fatal-Error - Unrecognised Payload Recipient Person ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/7773b458b80a1a9ff2c649e84ddd23fb.js"></script>
 
 ## Infrastructure Level Response 20012: Fatal-Error - Unauthorised Sender ##
 
-<script src="https://gist.github.com/IOPS-DEV/43445fc1ed2e3761da20f45d8cacfc23.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/8a0090e678251e23b5ecfb78d851149f.js"></script>
 
 ## Infrastructure Level Response 20013: OK ##
 
-<script src="https://gist.github.com/IOPS-DEV/b6678b59daaa95a18fd4f808b0e8f32d.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/56fdf8105c60efa5811342a924ffe0fc.js"></script>
 
 ----------
 
 ## Business Level Response 30001:  - Patient Known Here ##
 
-This uses the MessageHeader and the OperationOutcome resources.
-
-<script src="https://gist.github.com/IOPS-DEV/846a7953fe122b9f811e14f06a5752c1.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/402cb8cfa1c134efb7f8b2cbd24f83af.js"></script>
 
 ## Business Level Response 30002: Fatal-Error - Patient not Known Here ##
 
-This uses the MessageHeader and the OperationOutcome resources
-
-<script src="https://gist.github.com/IOPS-DEV/7591e3aa10e414b600ac2d786f6f33c2.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/bb187a8ff421bfb5b39a9d3abf1811fa.js"></script>
 
 ## Business Level Response 30003: Fatal-Error - Patient no Longer at this Clinical Setting Error ##
 
-This uses the MessageHeader and the OperationOutcome resources
-
-<script src="https://gist.github.com/IOPS-DEV/3cc67a3a8bc9b78222c3a36177a68b14.js"></script>
+ITK-BusResponse-Fail-PatNoClinSet-Example-1.xml
