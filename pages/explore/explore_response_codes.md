@@ -73,7 +73,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>10008</td>
 <td>Handling Specification Business Rule Error</td>
-<td>The Handling Specification usage does not match business rules for included payload (message definition). For example, an acknowledgement flag defined as mandatory by the payload specification is missing.</td>
+<td>The Handling Specification usage does not match business rules for included payload. For example, an acknowledgement flag defined as mandatory by the payload specification is missing.</td>
 </tr>
 <tr>
 <td>10009</td>
@@ -103,7 +103,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr> 
 <td>20005</td>
 <td>Unsupported file type received as an attachment</td> 	
-<td>The Receiving system has received an attached file which it does not supported.</td>
+<td>The Receiving system has received an attached file which it does not support.</td>
 </tr>
 <tr>
 <td>20006</td>
