@@ -52,7 +52,7 @@ The MessageHeader carries a code to indicate success or failure. The ITK respons
 
 ## Mapping FHIR Error or Warning Codes to ITK3 Response Codes ##
 
-## Handling Specification Responses ##
+## Infrastructure(Technical) Level Response Codes ##
 
 These Responses should be returned to the sender using the ITK3 Response message.
 
@@ -148,63 +148,61 @@ relating to Handling Specification faults.</td>
 </tr>	
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10002</td>
 <td>Infrastructure Acknowledgement Flag - Processing Error</td>
 <td>The handling specification flag for infrastructure level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10003</td>
 <td>Business Acknowledgement Flag - Processing Error</td>
 <td>The handling specification flag for business level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10004</td>
 <td>Message Definition Value – Processing Error</td>
 <td>The handling specification value for Message Definition is present but cannot be processed. For example may be unreadable or contain an incorrect value. The handling specification for Message Definition is present but cannot be processed. For example, may be unreadable or contain an incorrect value. This may also be returned when the message type is not supported (known) by the receiving system.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10005</td>
 <td>Message Definition Version Value – Processing Error</td>
 <td>The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10006</td>
 <td>Priority Value - Processing Error</td>
 <td>The handling specification code for Priority is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10007</td>
 <td>Sender Reference Value - Processing Error</td>
 <td>The handling specification string for Sender Reference is present but cannot be processed. For example may be unreadable, contain an incorrect value or the use of Sender Reference is not supported by receiving system</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10008</td>
 <td>Handling Specification Business Rule Error</td>
 <td>The Handling Specification usage does not match business rules for included payload. For example an acknowledgement flag defined as mandatory by the payload specification is missing.</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
-<td>ITK-Response</td>
+<td>ITK-Response-Codes</td>
 <td>10009</td>
 <td>Unreadable message received</td>
 <td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
 </tr>		
 </table>
-
-## Bundle and Payload Validation Response Codes ##
 
 These response codes should be returned to the sender using the ITK3 Response message.
 
