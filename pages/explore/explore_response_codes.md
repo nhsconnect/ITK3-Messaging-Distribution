@@ -4,16 +4,10 @@ keywords: explore Reference
 tags: [explore,fhir,error codes]
 sidebar: overview_sidebar
 permalink: explore_response_codes.html
-summary: "Response codes, their associated elements and value sets."
+summary: "Response codes for ITK3 messaging"
 ---
 
 {% include custom/search.warnbanner.html %}
-
-## Overview ##
-
-Response information in the ITK Response message is carried in the MessageHeader Resource and the OperationOutcome Resource. There are several elements and their value sets used to carry error information in these resources. The ITK Payload Specifications may define the error handling behaviour of the clinical application/system and communicates responses using the ITK Response message. The are conceptionally two levels of validation, technical(infrastructure) and business. One or both of these types of validation may result in a negative or positive response from the receiving system. Although there is no mandated sequence to validate or process received messages logically there is a certain order to do the validation, for example the values of certain XML elements or attributes can only be validated aftyer in has be determined the the XML is well-formed. Care Professionals may also need to be informed that a Document has not reached its intended recipients. 
-
-This page describes how response information is carried within the ITK Response message structure. The example fragments are used to illustrate the elements and value sets used and are not complete messages. 
 
 ## Response Code Types ##  
  
