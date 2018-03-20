@@ -106,7 +106,7 @@ Note: If only certain elements are missing or unreadable then the error codes as
 
 ## Infrastructure Level Response 20005: Fatal-Error - Unsupported file type received as an attachment ##
 
-TO DO
+<script src="https://gist.github.com/IOPS-DEV/a8333d0f1891db50b636a0eed744aedf.js"></script>
 
 ## Infrastructure Level Response 20006: Fatal-Error - ITK header validation failure ##
 
