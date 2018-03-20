@@ -152,4 +152,4 @@ TO DO
 
 ## Business Level Response 30003: Fatal-Error - Patient no Longer at this Clinical Setting Error ##
 
-ITK-BusResponse-Fail-PatNoClinSet-Example-1.xml
+<script src="https://gist.github.com/IOPS-DEV/cf7eed45cfcf6523b3c40d7cb21f1612.js"></script>
