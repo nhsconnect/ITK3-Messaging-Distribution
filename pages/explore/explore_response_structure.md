@@ -11,7 +11,7 @@ summary: "Response codes, their associated FHIR elements and value sets."
 
 ## Overview ##
 
-This sectioj details how the ITK3 response codes are carried in the FHIR MessageHeader and OperationOutcome resources.
+This section details how the ITK3 response codes are carried in the FHIR MessageHeader and OperationOutcome resources.
  
 
 ## Elements And Value Sets Used To Carry Error and Response Information ##
