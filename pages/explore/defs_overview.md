@@ -15,7 +15,7 @@ For ITK3 message flows, the use of message definitions to replace interactions h
 
 The FHIR resource MessageDefinition defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted. NHS Digital has for ITK3 messaging over MESH, profiled this resource. The profile contains a complex extension that contains a number of sub-extensions to allow all the version-able components (known as FHIR assets) within the message bundle to be stated along with the version of each asset. The version-able FHIR assets are typed using a [FHIR value set](http://hl7.org/fhir/ValueSet/all-types). The current asset types that are used in the message definition are:
 
-- Profiles
+- Profiles (StructureDefinitions)
 - Extensions
 - Value sets
 - Code systems
@@ -25,7 +25,7 @@ The FHIR resource MessageDefinition defines the characteristics of a message tha
 
 For each message or document type there will be a message definition instance provided. These instances will conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) profile. For each message or document these MessageDefinitions instances contain information about: 
 
-- The profiles used.
+- The profiles (StructureDefinitions) used.
 - The extensions used.
 - The value sets used.
 - The code systems used.
