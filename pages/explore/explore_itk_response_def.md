@@ -9,7 +9,7 @@ summary: "ITK Response Message Definition"
 
 ## ITK-Response-MessageDefinition-Instance-1 ##
 
-This is the MessageDefinition instance for the ITK Response message which can be used to return positive and negative acknowledgements to a infrastructure or business handling specification flag to a sender of over MESH.
+This is the MessageDefinition instance for the ITK Response message which can be used to return positive and negative responses to a sender who has has requested an infrastructure or business level response using the handling specification keys set to "true". See [Handling Specification](explore_hand_spec.html) for further information.
 
 - **Sender:** Sending System
 - **Receiver:** Recipient System
