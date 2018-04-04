@@ -35,12 +35,13 @@ There are 3 possible flows:
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
-<img src="images/explore/full_ack_1.png" style="width: 45%;max-width: 45%;"/>
-
 
 **Flow where issues are detected at business level**
 
-<img src="images/explore/full_ack_2.png"/>
+
+<a href="images/explore/Typical_sequence_3.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_3.png" style="width: 100%;max-width: 100%;"/>
 
 
 **Flow where no issues are detected** 
@@ -49,15 +50,16 @@ There are 3 possible flows:
 
 <img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
 
-<img src="images/explore/full_ack_1.png" style="width: 45%;max-width: 45%;"/>
-
 ## Technical Acknowledgement Only ## 
 
 This uses only the infrastructure acknowledgement flag set to true.
 
 **Flow where issue is detected at infrastructure (technical) level**
 
-<img src="images/explore/full_ack_1.png" style="width: 45%;max-width: 45%;"/>
+<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
+
 
 **Flow where no issues are detected** 
 
