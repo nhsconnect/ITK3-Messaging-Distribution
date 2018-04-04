@@ -49,22 +49,7 @@ entries:
         - title: Overview
           url: /workflow_overview.html
           output: web
-  - title: Response Codes
-    output: web
-    folderitems:
-    - title: Overview
-      url: /explore_response_codes.html
-      output: web
-      type: homepage
-    - title: Response Patterns 
-      url: /explore_response_patterns.html
-      output: web
-    - title: Response Structure 
-      url: /explore_response_structure.html
-      output: web  
-    - title: Response Examples 
-      url: /explore_response_examples.html
-      output: web  
+ 
 
 
   - title: Message Definitions
@@ -80,7 +65,25 @@ entries:
       output: web
     - title: ITK Response
       url: /explore_itk_response_def.html
-      output: web      
+      output: web 
+
+  - title: Response Codes
+    output: web
+    folderitems:
+    - title: Overview
+      url: /explore_response_codes.html
+      output: web
+      type: homepage
+    - title: Response Patterns 
+      url: /explore_response_patterns.html
+      output: web
+    - title: Response Structure 
+      url: /explore_response_structure.html
+      output: web  
+    - title: Response Examples 
+      url: /explore_response_examples.html
+      output: web 
+      
     # - title: Business Acknowlegement
       # url: /explore_bus_ack_def.html
       # output: web          
