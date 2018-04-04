@@ -71,8 +71,10 @@ This requires only the infrastructure acknowledgement flag in the handling speci
 
 ## Fire and Forget ##
  
-This type has both acknowledgement flags in the handling specification extension set to "false" or not present and would normally never return any response, however in some error circumstances where the flags cannot be read a response as illustrated will be returned.  
+This requires that both the acknowledgement flags in the handling specification extension are set to "false" or not present and would normally never return any response, however in some error circumstances where the flags cannot be read a response as illustrated will be returned.  
 
-<img src="images/explore/full_ack_5.png" style="width: 45%;max-width: 45%;"/>
+<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
