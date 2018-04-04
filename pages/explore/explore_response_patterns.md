@@ -15,13 +15,13 @@ The following are the response patterns supported by ITK3. These are dependant o
 
 ## Full Acknowledgement ## 
 
-This uses both acknowledgement flags set to true. This is the most rigorous response framework.
+This uses both acknowledgement flags in the handling specification extension set to "true". This is the most rigorous response framework.
 
 There are 3 possible flows:
 
 **Flow where issue is detected at infrastructure (technical) level**
 
-<img src="images/explore/full_ack_1.png"/>
+<img src="images/explore/full_ack_1.png" style="width: 75%;max-width: 75%;"/>
 
 
 **Flow where issues are detected at business level**
