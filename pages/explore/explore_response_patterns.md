@@ -19,9 +19,9 @@ This uses both acknowledgement flags in the handling specification extension set
 
 This diagram gives an overview of the typical interaction between a sender and receiver system.
 
-XXXX
+YYY
 
-<img src="images/explore/Typical_sequence.png" style="width: 45%;max-width: 45%;"/>
+<img src="images/explore/Typical_sequence.png" style="width: 80%;max-width: 80%;"/>
 
 There are 3 possible flows:
 
