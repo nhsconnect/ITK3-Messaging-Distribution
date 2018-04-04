@@ -11,17 +11,19 @@ summary: "Response Patterns used in ITK3."
 
 ## Overview ##
 
-The following are the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
+This diagram gives an overview of the typical interaction between a sender and receiver system using MESH.
+
+<img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
+
+click to open in new window <img src="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;"/>
+
+The following section detail the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
 
 ## Full Acknowledgement ## 
 
 This uses both acknowledgement flags in the handling specification extension set to "true". This is the most rigorous response framework.
 
 This diagram gives an overview of the typical interaction between a sender and receiver system.
-
-YYY
-
-<img src="images/explore/Typical_sequence.png" style="width: 80%;max-width: 80%;"/>
 
 There are 3 possible flows:
 
