@@ -20,9 +20,9 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 <img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
 
-The following sections details the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
+The following sections details the response patterns supported by ITK3. The pattern used is dependant on the specification for the payload and the response types requested.
 
-**Note: All diagrams show typical flows which may vary slightly due to such things as MESH configuration for the payload.**
+**Note: All diagrams show typical flows which may vary slightly due to such things as MESH configuration.**
 
 ## Full Acknowledgement ## 
 
@@ -30,14 +30,14 @@ This requires both acknowledgement flags in the handling specification extension
 
 There are 3 possible flows:
 
-**Flow where issue is detected at infrastructure (technical) level**
+**Flow where an issue is detected at infrastructure(technical) level**
 
 <a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
-**Flow where issues are detected at business level**
+**Flow where an issue is detected at business level**
 
 
 <a href="images/explore/Typical_sequence_3.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
@@ -45,7 +45,7 @@ There are 3 possible flows:
 <img src="images/explore/Typical_sequence_3.png" style="width: 100%;max-width: 100%;"/>
 
 
-**Flow where no issues are detected** 
+**Flow where no issue is detected** 
 
 <a href="images/explore/Typical_sequence_2.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
@@ -55,14 +55,14 @@ There are 3 possible flows:
 
 This requires only the infrastructure acknowledgement flag in the handling specification extension to be set to "true". The business acknowledgement flag in the handling specification extension may be set to "false" or not present.
 
-**Flow where issue is detected at infrastructure (technical) level**
+**Flow where an issue is detected at infrastructure (technical) level**
 
 <a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
-**Flow where no issues are detected** 
+**Flow where no issue is detected** 
 
 <a href="images/explore/Typical_sequence_4.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
@@ -71,7 +71,7 @@ This requires only the infrastructure acknowledgement flag in the handling speci
 
 ## Fire and Forget ##
  
-This requires that both the acknowledgement flags in the handling specification extension are set to "false" or not present and would normally never return any response, however in some error circumstances where the flags cannot be read a response as illustrated will be returned.  
+This requires that both the acknowledgement flags in the handling specification extension are set to "false" or not to be present. This would normally never return any response, however in some error circumstances where the acknowledgement flags cannot be read a response as illustrated will be returned.  
 
 <a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
