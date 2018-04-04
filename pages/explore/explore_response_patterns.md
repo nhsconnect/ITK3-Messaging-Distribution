@@ -22,6 +22,8 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 The following sections details the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
 
+**Note: All diagrams show typical flows which may vary slightly due to such things as MESH configuration for the payload.**
+
 ## Full Acknowledgement ## 
 
 This uses both acknowledgement flags in the handling specification extension set to "true". This is the most rigorous response framework.
