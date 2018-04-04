@@ -21,9 +21,9 @@ There are 3 possible flows:
 
 **Flow where issue is detected at infrastructure (technical) level**
 
-YYYY
+TTTT
 
-<img src="images/explore/full_ack_1.png" style="width: 60%;max-width: 60%;"/>
+<img src="images/explore/full_ack_1.png" style="width: 50%;max-width: 50%;"/>
 
 
 **Flow where issues are detected at business level**
