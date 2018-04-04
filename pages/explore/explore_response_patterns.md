@@ -11,7 +11,7 @@ summary: "Response Patterns used in ITK3."
 
 ## Overview ##
 
-This diagram gives an overview of the typical interaction between a sender and receiver system using MESH.
+This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 response message over MESH.
 
 <a href="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;">Click to open in new window</a>
 
