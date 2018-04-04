@@ -21,9 +21,9 @@ There are 3 possible flows:
 
 **Flow where issue is detected at infrastructure (technical) level**
 
-RRRR
+SS
 
-<img src="images/explore/full_ack_1.png" style="width: 40%;max-width: 40%;"/>
+<img src="images/explore/full_ack_1.png" style="width: 45%;max-width: 45%;"/>
 
 
 **Flow where issues are detected at business level**
