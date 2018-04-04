@@ -25,8 +25,6 @@ The following sections details the response patterns supported by ITK3. The patt
 
 This uses both acknowledgement flags in the handling specification extension set to "true". This is the most rigorous response framework.
 
-This diagram gives an overview of the typical interaction between a sender and receiver system.
-
 There are 3 possible flows:
 
 **Flow where issue is detected at infrastructure (technical) level**
