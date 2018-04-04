@@ -15,7 +15,7 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 <img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
 
-click to open in new window <img src="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;"/>
+<a href="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;">Click to open in new window</a>
 
 The following section detail the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
 
