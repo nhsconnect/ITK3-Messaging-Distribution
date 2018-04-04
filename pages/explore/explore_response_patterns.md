@@ -11,11 +11,15 @@ summary: "Response Patterns used in ITK3."
 
 ## Overview ##
 
-The following are the response patterns supported by ITK3. These are dependant on the domain specification and the  response types requested.
+The following are the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
 
 ## Full Acknowledgement ## 
 
 This uses both acknowledgement flags in the handling specification extension set to "true". This is the most rigorous response framework.
+
+This diagram gives an overview of the typical interaction between a sender and receiver system.
+
+<img src="images/explore/Typical_sequence.png" style="width: 45%;max-width: 45%;"/>
 
 There are 3 possible flows:
 
