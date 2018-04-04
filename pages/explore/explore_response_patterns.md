@@ -11,7 +11,7 @@ summary: "Response Patterns used in ITK3."
 
 ## Overview ##
 
-This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 response message over MESH. The actual flow between the systems will be dependant on factors such:
+This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 Response message over MESH. The actual flow between the systems will be dependant on factors such:
 
 - What responses have been requested (handling specification extension values sent)
 - If an issue is detected, the type of issue and when it is reported
@@ -28,8 +28,12 @@ This uses both acknowledgement flags in the handling specification extension set
 
 There are 3 possible flows:
 
+
 **Flow where issue is detected at infrastructure (technical) level**
 
+<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 <img src="images/explore/full_ack_1.png" style="width: 45%;max-width: 45%;"/>
 
