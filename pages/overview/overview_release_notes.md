@@ -18,7 +18,8 @@ The profile for ITK Message Definition has been changed to use a FHIR code syste
 
 **Specification Structure**
 
-The specification Structure has been changed due to the changes the response messages. 
+The specification Structure has been changed due to the changes the response messages.
+Updated diagrams to allow for new response structure. 
 
 **Error Codes**
 
