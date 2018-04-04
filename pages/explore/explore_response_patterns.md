@@ -13,11 +13,9 @@ summary: "Response Patterns used in ITK3."
 
 This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 response message over MESH.
 
-<a href="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;">Click to open in new window</a>
+<a href="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
-
-<a href="images/explore/Typical_sequence.png" target="_blank" style="width: 100%;max-width: 100%;">Click to open in new window</a>
 
 The following sections details the response patterns supported by ITK3. The pattern used is dependant on the domain specification and the response types requested.
 
