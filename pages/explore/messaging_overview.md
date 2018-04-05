@@ -14,7 +14,7 @@ This section details the "Messaging Architecture" used for ITK3 using FHIR messa
 - The different types of bundle structures which may be used
 - Identifying the FHIR resources which are profiled
 - Providing example bundle instances
-- Explaining the extensions to the header resource for ITK3 Handling Specifications 
+- Explaining the extensions to the header resource for ITK3 Handling Specifications
 
 ## Pre-Requisites for FHIR ITK3 Messaging Solutions ##
 
