@@ -9,7 +9,7 @@ summary: "Send Payload Message Definition"
 
 {% include custom/search.warnbanner.html %}
 
-## Send Message Definition Overview ##
+## Send Message Definition ##
 
 This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any payload. 
 
@@ -18,6 +18,8 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Send Pa
 - **MessageDefinition:** ITK-SendPayload-MessageDefinition-Instance-1
 
 **Note: This instance is generic instance provided for information and development purposes and is not used within the message header handling specification. The payload specification should be consulted for the payload message definition.**  
+
+## Send Message Definition Instance ##
 
 <script src="https://gist.github.com/IOPS-DEV/3fb9cde87dc0fc9da48100f9efafef07.js"></script>
 
