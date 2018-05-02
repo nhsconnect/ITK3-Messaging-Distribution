@@ -18,7 +18,7 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 <a href="images/explore/Typical_sequence.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence.svg" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
 
 The following sections details the response patterns supported by ITK3. The pattern used is dependant on the specification for the payload and the response types requested.
 
