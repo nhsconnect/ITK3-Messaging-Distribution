@@ -83,17 +83,17 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>20001</td>
 <td>Unrecognised Recipient Person</td>	
-<td>The person referred to as the recipient in the ITK Message header is not recognised.</td>
+<td>The person referred to as the recipient in the ITK3 Message Header is not recognised.</td>
 </tr>
 <tr>
 <td>20002</td>
 <td>Unrecognised Recipient Organisation</td>	
-<td>The organization referred to as the recipient in the ITK Message header is not recognised.</td>
+<td>The organization referred to as the recipient in the ITK3 Message Header is not recognised.</td>
 </tr>
 <tr>
 <td>20003</td>
 <td>Unrecognised Sender</td>
-<td>The organization or person referred to as the sender in the ITK Message header is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
+<td>The organization or person referred to as the sender in the ITK3 Message Header is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
 </tr>
 <tr>
 <td>20004</td>
@@ -107,13 +107,13 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 </tr>
 <tr>
 <td>20006</td>
-<td>ITK header validation failure</td>	
-<td>The ITK header resources or elements are not correct or understandable. For example, ITK Bundle or ITK Message Header.</td>
+<td>ITK3 Header validation failure</td>	
+<td>The ITK3 Header resources or elements are not correct or understandable. For example, ITK3 Bundle or ITK3 Message Header.</td>
 </tr>
 <tr>
 <td>20007</td>
 <td>Duplicate Message received</td>
-<td>Bundle with this message identifier has already been processed. A payload with this message.header identifier has already been received and processed by this recipient.</td>
+<td>Bundle with this message identifier has already been processed. A payload with this ITK3 Message Header identifier has already been received and processed by this recipient.</td>
 </tr>
 <tr>
 <td>20008</td>	
@@ -143,7 +143,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>20013</td>
 <td>Success</td>	
-<td>The Message has been processed successfully at the infrastructure level. A response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgment request flag has been sent to “true”.</td>
+<td>The Message has been processed successfully at the infrastructure level. A response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgement request flag has been sent to “true”.</td>
 </tr>
 <tr>
 <td>30001</td>

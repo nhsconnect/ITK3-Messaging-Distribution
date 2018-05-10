@@ -10,7 +10,7 @@ summary: "The structures of the bundles used in the messages"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK Message Bundle and the ITK Message Header that combine to make up the ITK3 Messaging Distribution Bundle. Two further ITK bundle profiles are provided which may be used as the second bundle for a payload. A bundle for use with document payloads and a bundle for all other payload types. These are detailed below.
+To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK3 Message Bundle and the ITK3 Message Header that combine to make up the ITK3 Messaging Distribution Bundle. Two further ITK3 bundle profiles are provided which may be used as the second bundle for a payload. A bundle for use with document payloads and a bundle for all other payload types. These are detailed below.
 
 The ITK3 Messaging Distribution Bundle may be used to wrap any payload. This provides a lightweight structure to carry information relating to the end-to-end technical distribution of payloads.
 The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added to the ITK3 Message Header profile to allow a similar functionality to the previous versions of ITK. 
@@ -35,7 +35,7 @@ The diagram below is an example of an ITK3 FHIR document payload that may be use
 
 ## ITK3 Response Bundle Structure ##
 
-The diagram below is an example of a ITK Response message structure.
+The diagram below is an example of a ITK3 Response message structure.
  
 <img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
 
@@ -64,8 +64,8 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
 - **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK Header Profile of the FHIR Practitioner resource.
-- **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK Header Profile of the FHIR Organization resource.
+- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK3 Header Profile of the FHIR Practitioner resource.
+- **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK3 Header Profile of the FHIR Organization resource.
 - Payload - one of the following:
 
 -- One or more FHIR Resource. 
@@ -95,8 +95,8 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
 - **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK Header Profile of the FHIR Practitioner resource  
-- **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK Header Profile of the FHIR Organization resource.
+- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK3 Header Profile of the FHIR Practitioner resource  
+- **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK3 Header Profile of the FHIR Organization resource.
 - **[ITK-Response-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
 
 
@@ -112,7 +112,7 @@ The diagram shows the referencing between the profiles in the bundle which make 
 
 ## Extensions Used ##
 
-- **[Extension-ITK-MessageHandling-2](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK message handling key.
+- **[Extension-ITK-MessageHandling-2](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK3 message handling key.
 
 
 

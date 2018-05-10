@@ -12,14 +12,14 @@ summary: "Resource referencing explained."
 ## Overview ##
 This section details the reference between resources.
 
-## ITK Send Payload Bundle Referencing Diagram ##
+## ITK3 Send Payload Bundle Referencing Diagram ##
 
 The diagram shows the referencing between the profiles in the bundle which make up the Send Payload Message.
 
 <img src="images/explore/send_payload_message.png" style="width: 75%;max-width: 75%;"> 
 
-## ITK Response Bundle Referencing Diagram ##
-The diagram shows the referencing between the profiles in the bundle which make up the ITK Response message.
+## ITK3 Response Bundle Referencing Diagram ##
+The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Response message.
 
 <img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;"> 
 
