@@ -18,9 +18,9 @@ This section details the "Messaging Architecture" used for ITK3 using FHIR messa
 
 ## Pre-Requisites for FHIR ITK3 Messaging Solutions ##
 
-There are some pre-requisites for the used of ITK3 which are detailed below.
+There are some pre-requisites for the use of the ITK3 Messaging Distribution specification which are detailed below.
 
-## ITK3 Messaging Requirements ##
+## ITK3 Messaging Distribution Requirements ##
 
 - SHALL support HL7 FHIR STU3.
 - SHALL Implement ITK Sender and/or Receiver Responsibilities as per [ITK Sender and Receiver Requirements ](explore_snd&rec_req.html).
