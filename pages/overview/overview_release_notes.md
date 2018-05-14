@@ -1,4 +1,4 @@
-﻿---
+---
 title: Release Notes
 keywords: development, versioning
 tags: [development]
@@ -14,7 +14,7 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 **Profiles**
 
 The profiles for the two acknowledgement messages has been replaced by a single response message.
-The profile for ITK Message Definition has been changed to use a FHIR code system instead of an NHS Digital defined one.
+The profile for ITK3 Message Definition has been changed to use a FHIR code system instead of an NHS Digital defined one.
 
 **Specification Structure**
 
@@ -36,14 +36,14 @@ The following new profile has been added:
 This code system has changed:
 
 - ITK-MessageEvent-2
-  - The following new code have been added: ITK007C (where C=collection) to describe "ITK GP Connect Writeback".
+  - The following new code have been added: ITK007C (where C=collection) to describe ITK3 GP Connect Writeback.
   - This has been upversioned from 2.0.0 to 2.1.0
 
 ## 2.1.0-beta ##
 
 Interactions have been replaced by MessageDefinitions and some new handling keys (e.g. RecipientType and Priority).
 
-A new profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
+A new profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK3 messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
 
 The following profiles have changed:
 
@@ -118,7 +118,7 @@ The following new examples carry the [ITK3 Response Codes](explore_response_code
 ## 2.1.0-alpha ##
 This is the second version published using Jekyll.
 
-The following profiles are tightly constrained ITK replacements of the corresponding Care Connect profiles:
+The following profiles are tightly constrained ITK3 replacements of the corresponding Care Connect profiles:
 
 - CareConnect-ITK-Header-Practitioner-1 replaces CareConnect-Practitioner-1
 - CareConnect-ITK-Header-PractitionerRole-1 replaces CareConnect-PractitionerRole-1
