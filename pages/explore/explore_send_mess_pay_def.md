@@ -11,13 +11,13 @@ summary: "Send Payload Message Definition"
 
 ## Send Message Definition ##
 
-This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any payload. 
+This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any payload, for example an eDischarge, Emergency Care eDischarge or any other relevant payload. 
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
 - **MessageDefinition:** ITK-SendPayload-MessageDefinition-Instance-1
 
-**Note: This instance is generic instance provided for information and development purposes and is not used within the message header handling specification. The payload specification should be consulted for the payload message definition.**  
+**Note: This is a generic instance provided for information and development purposes and is not used within the message header handling specification.**  
 
 ## Send Message Definition Instance ##
 
