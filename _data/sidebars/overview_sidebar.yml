@@ -63,7 +63,7 @@ entries:
     - title: Send Message Payload
       url: /explore_send_mess_pay_def.html
       output: web
-    - title: ITK Response
+    - title: ITK3 Response
       url: /explore_itk_response_def.html
       output: web 
 
