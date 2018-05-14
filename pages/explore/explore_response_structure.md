@@ -52,6 +52,8 @@ The MessageHeader carries a code to indicate success or failure. The ITK3 respon
 
 ## Mapping FHIR Error or Warning Codes to ITK3 Response Codes ##
 
+The following sections show how the ITK3 response codes are used with the FHIR required codes within the ITK3 MessageHeader and OperationOutcome.
+
 ## Infrastructure(Technical) Level Response Codes ##
 
 These Responses should be returned to the sender using the ITK3 Response message.
