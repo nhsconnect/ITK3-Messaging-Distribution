@@ -17,7 +17,7 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Send Pa
 - **Receiver:** Recipient System
 - **MessageDefinition:** ITK-SendPayload-MessageDefinition-Instance-1
 
-**Note: This is a generic instance provided for information and development purposes and is not used within the Message Header handling specification.**  
+**Note: This is a generic instance provided for information and development purposes and is not used within the MessageHeader handling specification.**  
 
 ## Send Message Definition Instance ##
 
