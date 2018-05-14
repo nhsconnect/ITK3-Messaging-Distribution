@@ -10,16 +10,16 @@ summary: "The structures of the bundles used in the messages"
 {% include custom/search.warnbanner.html %}
 
 ## Background ##
-To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK3 Message Bundle and the ITK3 Message Header that combine to make up the ITK3 Messaging Distribution Bundle. Two further ITK3 bundle profiles are provided which may be used as the second bundle for a payload. A bundle for use with document payloads and a bundle for all other payload types. These are detailed below.
+To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two profiles have been defined, the ITK3 Message Bundle and the ITK3 MessageHeader that combine to make up the ITK3 Messaging Distribution Bundle. Two further ITK3 bundle profiles are provided for possible use as the second bundle for a payload: a bundle for use with document payloads and a bundle for all other payload types. These are detailed below.
 
 The ITK3 Messaging Distribution Bundle may be used to wrap any payload. This provides a lightweight structure to carry information relating to the end-to-end technical distribution of payloads.
-The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added to the ITK3 Message Header profile to allow a similar functionality to the previous versions of ITK. 
+The ITK3 Messaging Distribution Bundle is an autonomous and transport agnostic design, whilst enabling audit, access control and authentication as required by both sender and receivers. Some extensions have been added to the ITK3 MessageHeader profile to allow a similar functionality to the previous versions of ITK. 
 
 This specification also defines a ITK3 Response message which may be used with the ITK3 Messaging Distribution Bundle.
 
 ## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 Message Header and any payload. The Message Header contains information that pertains to the payload content. The Payload can be anything.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 MessageHeader and any payload. The MessageHeader contains information that pertains to the payload content. The Payload can be anything.
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
 

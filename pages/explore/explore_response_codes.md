@@ -83,17 +83,17 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>20001</td>
 <td>Unrecognised Recipient Person</td>	
-<td>The person referred to as the recipient in the ITK3 Message Header is not recognised.</td>
+<td>The person referred to as the recipient in the ITK3 MessageHeader is not recognised.</td>
 </tr>
 <tr>
 <td>20002</td>
 <td>Unrecognised Recipient Organisation</td>	
-<td>The organization referred to as the recipient in the ITK3 Message Header is not recognised.</td>
+<td>The organization referred to as the recipient in the ITK3 MessageHeader is not recognised.</td>
 </tr>
 <tr>
 <td>20003</td>
 <td>Unrecognised Sender</td>
-<td>The organization or person referred to as the sender in the ITK3 Message Header is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
+<td>The organization or person referred to as the sender in the ITK3 MessageHeader is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
 </tr>
 <tr>
 <td>20004</td>
@@ -108,12 +108,12 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>20006</td>
 <td>ITK3 Header validation failure</td>	
-<td>The ITK3 Header resources or elements are not correct or understandable. For example, ITK3 Bundle or ITK3 Message Header.</td>
+<td>The ITK3 Header resources or elements are not correct or understandable. For example, ITK3 Bundle or ITK3 MessageHeader.</td>
 </tr>
 <tr>
 <td>20007</td>
 <td>Duplicate Message received</td>
-<td>Bundle with this message identifier has already been processed. A payload with this ITK3 Message Header identifier has already been received and processed by this recipient.</td>
+<td>Bundle with this message identifier has already been processed. A payload with this ITK3 MessageHeader identifier has already been received and processed by this recipient.</td>
 </tr>
 <tr>
 <td>20008</td>	
