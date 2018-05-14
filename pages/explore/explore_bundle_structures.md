@@ -19,7 +19,7 @@ This specification also defines a ITK3 Response message which may be used with t
 
 ## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 message header and any payload. The message header contains information that pertains to the payload content. The Payload can be anything.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 Message Header and any payload. The Message Header contains information that pertains to the payload content. The Payload can be anything.
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
 
