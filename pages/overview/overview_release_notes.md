@@ -81,11 +81,11 @@ The following examples have changed:
 
 - ITK-SendPayload-Invalid-Example-2.xml
   - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".
-  - The message header is corrected to reference the practitioner and organization.
+  - The Message Header is corrected to reference the practitioner and organization.
   - The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
 - ITK-SendPayload-Valid-Example-2.xml
   - Corrected the reference value="https://fhir.nhs.uk/STU3/MessageDefinition/ITK-EDIS-MessageDefinition-1".
-  - The message header is corrected to reference the practitioner and organization.
+  - The Message Header is corrected to reference the practitioner and organization.
   - The practitioner element has had the telecom element removed and the Organization element has had the following removed elements removed: type, name, telecom and address.
 - ITK-BusinessAck-Success-Example-2.xml
   - Removed the elements: destination and response, added the element focus.
