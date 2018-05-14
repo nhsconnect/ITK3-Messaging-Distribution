@@ -294,7 +294,7 @@ These response codes should be returned to the sender using the ITK3 Response me
 <td>ITK-Response-Codes</td>
 <td>200001</td>
 <td>Unrecognised Recipient Person</td>
-<td>The person referred to as the recipient in the ITK Message header is not recognised.</td>
+<td>The person referred to as the recipient in the ITK MessageHeader is not recognised.</td>
 </tr>
 </table>
 
@@ -338,7 +338,7 @@ These response codes should be returned to the sender using the ITK3 Response me
 <td>ITK-Response-Codes</td>		
 <td>20002</td>
 <td>Unrecognised Recipient Organisation</td>
-<td>The organization referred to as the recipient in the ITK Message header is not recognised.</td>
+<td>The organization referred to as the recipient in the ITK MessageHeader is not recognised.</td>
 </tr>
 </table>
 
@@ -382,7 +382,7 @@ These response codes should be returned to the sender using the ITK3 Response me
 <td>ITK-Response-Codes</td>		
 <td>20003</td>
 <td>Unrecognised Sender</td>
-<td>The organization or person referred to as the sender in the ITK Message header is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
+<td>The organization or person referred to as the sender in the ITK MessageHeader is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
 </tr>
 </table>
 
@@ -526,7 +526,7 @@ These response codes should be returned to the sender using the ITK3 Response me
 <td>ITK-Response-Codes</td>
 <td>20006</td> 
 <td>ITK header validation failure</td>
-<td>The ITK header resources or elements are not correct or understandable. For example, ITK Bundle or ITK Message Header.</td>
+<td>The ITK header resources or elements are not correct or understandable. For example, ITK Bundle or ITK MessageHeader.</td>
 </tr>
 </table>
 
