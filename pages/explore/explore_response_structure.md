@@ -1,4 +1,4 @@
-﻿---
+---
 title: ITK3 Response Codes
 keywords: explore Reference
 tags: [explore,fhir,error codes]
@@ -46,7 +46,7 @@ This section details how the ITK3 response codes are carried in the FHIR Message
 </tr>
 </table>
 
-The MessageHeader carries a code to indicate success or failure. The ITK response codes must be mapped to the high-level element codes carried in the severity, code and details elements of the OperationOutcome. The mapping Table below shows how the three levels of codes should be utilised. 
+The MessageHeader carries a code to indicate success or failure. The ITK3 response codes must be mapped to the high-level element codes carried in the severity, code and details elements of the OperationOutcome. The mapping Table below shows how the three levels of codes should be utilised. 
 
 **Note**: When a bundle is incorrectly constructed or received so that the value of the acknowledgement flags cannot be determined, receiving systems must default to always returning a response wherever possible. 
 
