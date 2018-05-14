@@ -42,7 +42,7 @@ The diagram below is an example of a ITK3 Response message structure.
 
 ## ITK3 Other Payload Bundle Structure ##
 
-The diagram below is an example of the structure used when a payload has an additional bundle and is one of the types listed below:
+The diagram below is an example of the structure used when the payload is an additional bundle, of one of the types listed below:
 
 - message
 - transaction

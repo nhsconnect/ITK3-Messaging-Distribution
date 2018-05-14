@@ -1,4 +1,4 @@
----
+﻿---
 title: ITK3 Response Codes
 keywords: explore Reference
 tags: [explore,fhir,error codes]
@@ -39,9 +39,9 @@ This section details how the ITK3 response codes are carried in the FHIR Message
 </tr>
 <tr>
 <td>OperationOutcome</td>
-<td>issue.details.code</td>
+<td>issue.details.coding.code</td>
 <td>
-<a href="https://fhir.nhs.uk/ValueSet/itk-response-codes-1" target="_blank">itk-response-codes</a>
+<a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-ResponseCodes-1" target="_blank">ITK-ResponseCodes</a>
 </td>
 </tr>
 </table>

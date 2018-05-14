@@ -43,10 +43,10 @@ The long-term goal would ideally be to use message definitions for ascertaining 
 
 ## How the Message Definition is Used ##
             
-There are two "patterns" for the use of the message definitions: 
+There are two "patterns" which utilise message definitions: 
 
-1. For ITK3 Documents which have two bundles the MessageDefinition carried in the handling specification is the MessageDefinition for the payload (second bundle) which is the FHIR document bundle. 
-2. For ITK3 messages which only have one bundle such as the acknowledgement message the MessageDefinition carried in the handling specification is the MessageDefinition  for that bundle.
+1. ITK3 messages which only have one bundle, such as the acknowledgement message: the MessageDefinition carried in the handling specification is the MessageDefinition for that bundle. 
+2. ITK3 Documents which have two bundles, for example a FHIR Message bundle carrying a FHIR document bundle as its payload: the MessageDefinition carried in the handling specification is the MessageDefinition for the FHIR document bundle.
 
 This diagram illustrates the two patterns.
 
