@@ -11,15 +11,15 @@ summary: "The ITK3 Handling Specification Usage."
 
 ## Overview ##
 
-There are a number of extensions added to the ITK3 MessageHeader profile which are referred to as the handling specifications. These extensions are used to control messaging behaviour such as when to send an acknowledgement. 
+A complex extension called the ITKMessageHandling Extension has been added to the ITK3 MessageHeader profile. This is referred to as the handling specification. This extension contains a number of extension elements which are used to control messaging behaviour, such as when to send an acknowledgement. These extension elements are known as handling keys.
 
-**Important Note 1: There is no default behaviour for any handling keys unless specified by the payload specification.  For example, the payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key.  The payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
+**Important Note 1: There is no default behaviour for any handling keys unless specified by the payload specification. For example, the payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
 
 ## ITKMessageHandling Extension ##
 
-This is a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value which is described in the table below. 
+This complex extension consists of extension elements each with their own extension URLs. Each extension element is a specific handling key with an associated allowable value which is described in the table below. 
 
-**Important Note 2: As this value set is extensible other keys and values may be used by local agreement.**
+**Important Note 2: As this complex extension can be further extended, other keys and values may be used by local agreement.**
 
 
 <table style="width:100%;max-width: 100%;">
