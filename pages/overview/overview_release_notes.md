@@ -23,7 +23,7 @@ Updated diagrams to allow for new response structure.
 
 **Error Codes**
 
-The error codes have been replaced with a revised set of response codes.
+The error codes have been replaced with a revised set of response codes. See the [ITK3 Response Codes](explore_response_codes.html) for further details.
 
 ## 2.2.0-beta ##
 
