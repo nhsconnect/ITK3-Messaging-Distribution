@@ -108,7 +108,7 @@ Note: If only certain elements are missing or unreadable then the error codes as
 
 <script src="https://gist.github.com/IOPS-DEV/a8333d0f1891db50b636a0eed744aedf.js"></script>
 
-## Infrastructure Level Response 20006: Fatal-Error - ITK header validation failure ##
+## Infrastructure Level Response 20006: Fatal-Error - ITK3 Header Validation Failure ##
 
 <script src="https://gist.github.com/IOPS-DEV/c9d8f3c6604bd9fb930726a3678c8b15.js"></script>
 
