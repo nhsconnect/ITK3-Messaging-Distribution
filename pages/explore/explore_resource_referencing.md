@@ -21,12 +21,4 @@ The diagram shows the referencing between the profiles in the bundle which make 
 ## ITK3 Response Bundle Referencing Diagram ##
 The diagram shows the referencing between the profiles in the bundle which make up the ITK3 Response message.
 
-<img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;"> 
-
-
-## Practitioner and Organization Referencing Diagram ##
-
-The diagram shows the referencing between organization, practitioner and practitionerRole which applies to all the message in the ITK3 Messaging Distribution specification.
-
-
-<img src="images/explore/org_pra_references.png" style="width: 75%;max-width: 75%;"> 
+<img src="images/explore/ack_message.png" style="width: 75%;max-width: 75%;">
