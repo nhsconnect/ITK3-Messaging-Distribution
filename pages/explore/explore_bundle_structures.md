@@ -78,7 +78,7 @@ The Bundle consists of the following FHIR Resource Profiles.
 -- The **[ITK-Payload-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Payload-Bundle-1)** containing one or more FHIR Resources.
  
  
-## ITK3 Messaging Distribution Bundle Diagram ##
+## ITK3 Messaging Distribution Bundle Referencing Diagram ##
 
 The diagram shows the referencing between the profiles in the bundle which make up the a typical ITK3 Messaging Distribution Bundle.
 
