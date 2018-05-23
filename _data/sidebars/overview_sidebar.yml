@@ -35,6 +35,14 @@ entries:
     - title: Bundle Structures
       url: /explore_bundle_structures.html
       output: web
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /workflow_overview.html
+          output: web
     - title: Handling Specification
       url: /explore_hand_spec.html
       output: web
