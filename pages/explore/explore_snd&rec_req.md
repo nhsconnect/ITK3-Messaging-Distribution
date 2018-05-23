@@ -11,7 +11,13 @@ summary: "Sender and Receiver requirements for ITK3 Messaging Solutions."
 
 ## Overview ##
 
-There are a number of requirements for senders and receivers of ITK3 messaging that **must** be met. The [ITK3 Sender and Receiver Requirements](http://xxxxx) gives general guidance on producing ITK3 FHIR documents as well as stating the conformance rules. 
+There are a number of requirements for senders and receivers of ITK3 messaging that **must** be met. 
+
+## ITK Document Sender and Receiver Requirements ##
+
+For ITK documents the following requirements apply:
+
+The [ITK3 Sender and Receiver Requirements](http://xxxxx) gives general guidance on producing ITK3 FHIR documents as well as stating the conformance rules. 
 
 
 

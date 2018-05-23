@@ -1,4 +1,4 @@
-﻿---
+---
 title: Handling Specification
 keywords: workflow
 tags: [development,fhir,profiles]
@@ -11,7 +11,8 @@ summary: "The ITK3 Handling Specification Usage."
 
 ## Overview ##
 
-A complex extension called the ITKMessageHandling Extension has been added to the ITK3 MessageHeader profile. This is referred to as the handling specification. This extension contains a number of extension elements which are used to control messaging behaviour, such as when to send an acknowledgement. These extension elements are known as handling keys.
+One of the important parts of the ITK3 messaging distribution is the message handling specification. The handling specification consists of a set of "keys" which allow the sender to send information in the ITK MessageHeader to the recipient, to indicate how the received message should be processed (handled). 
+The handling specification is implemented by adding a complex extension called the ITKMessageHandling Extension to the ITK3 MessageHeader profile. This extension contains a number of extension elements(keys) which are used to control messaging behaviour, such as when to send an acknowledgement.
 
 **Important Note 1: There is no default behaviour for any handling keys unless specified by the payload specification. For example, the payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
 
