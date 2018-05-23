@@ -8,4 +8,4 @@ summary: "Glossary of terms used by NHS Digital Specifications"
 toc: false
 ---
 
-Glossary of common terms and abbreviations used though-out this site is available from [here](https://developer.nhs.uk/library/glossary/).
+A Glossary of common terms and abbreviations used throughout the documentation can be found on the [Health Developer Network](https://developer.nhs.uk/library/glossary/).
