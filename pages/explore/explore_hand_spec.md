@@ -62,7 +62,7 @@ This complex extension consists of extension elements each with their own extens
 </tr>
 <tr>
 <td>FI</td>
-<td>For information - No Action is required by the recipient and they may process the payload as they see fit.</td>
+<td>For Information - No Action is required by the recipient and they may process the payload as they see fit.</td>
 </tr>
 
 <tr>
