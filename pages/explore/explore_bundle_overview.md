@@ -3,7 +3,7 @@ title: Overview
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_bundle_structures.html
+permalink: explore_bundle_overview.html
 summary: "Overview of ITK3 bundles"
 ---
 
