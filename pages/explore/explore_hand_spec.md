@@ -33,7 +33,7 @@ This complex extension consists of extension elements each with their own extens
 
 <tr>
 <td rowspan="2">BusAckRequested</td>
-<td rowspan="2">Populated when sender requires a business level response to be returned</td>
+<td rowspan="2">Populated when the sender requires a business level response to be returned</td>
 <td>true</td>
 <td>The business level response has been requested</td>
 </tr>
@@ -44,7 +44,7 @@ This complex extension consists of extension elements each with their own extens
 
 <tr>
 <td rowspan="2">InfAckRequested</td>
-<td rowspan="2">Populated when sender requires an infrastructure level response to be returned</td>
+<td rowspan="2">Populated when the sender requires an infrastructure level response to be returned</td>
 <td>true</td>
 <td>The infrastructure response has been requested</td>
 </tr>
