@@ -13,13 +13,13 @@ summary: "Overview of the Message Definitions section"
 
 For ITK3 message flows, the use of message definitions to replace interactions has been implemented. This section describes the use of message definitions and their proposed usage to help with versioning and managing changes for consumers.
 
-The FHIR resource MessageDefinition defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted. NHS Digital has for ITK3 messaging over MESH, has profiled this resource. The profile contains a complex extension that contains a number of sub-extensions to allow all the version-able components (known as FHIR assets) within the message bundle to be stated along with the version of each asset. The version-able FHIR assets are typed using a [FHIR value set](http://hl7.org/fhir/ValueSet/all-types). The current asset types that are used in the message definition are:
+The FHIR MessageDefinition resource defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted. NHS Digital has profiled this resource for ITK3 messaging over MESH. The profile contains a complex extension that contains sub-extensions to allow all the components (known as FHIR assets) within the message bundle to be defined along with the version of each asset. The FHIR assets are categorised using a [FHIR value set](http://hl7.org/fhir/ValueSet/all-types). The current asset types that are used in the message definition are:
 
 - Profiles (StructureDefinitions)
 - Extensions
-- Value sets
-- Code systems
-- Concept maps
+- ValueSets
+- CodeSystems
+- ConceptMaps
 
 ## How the Message Definition is Used ##
 
@@ -46,11 +46,11 @@ For each message or document type there will be a message definition instance pr
 
 - The profiles (StructureDefinitions) used.
 - The extensions used.
-- The value sets used.
-- The code systems used.
-- The concept maps used.
-- The version of above assets to highlight changes between versions of a message or document.
-- What responses are allowed to be returned to the sender for the message or document.
+- The ValueSets used.
+- The CodeSystems used.
+- The ConceptMaps used.
+- The version of the above assets to highlight changes between versions of a message or document.
+- The responses are allowed to be returned to the sender for the message or document.
 
 
 **Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  Any responses defined in the message definitions do not include MESH responses.
