@@ -32,23 +32,23 @@ entries:
       url: /explore.html
       output: web
       type: homepage
-    - title: ITK3 Bundles
-      url: /explore_bundles.html
-      output: web
-       subfolders:
-       - title: Overview
-         url: /explore_bundle_overview.html
-         output: web
-         subfolderitems:
-         - title: Bundle Types
-           url: //explore_bundle_type.html
-           output: web
-         - title: Bundle Referencing
-           url: //explore_bundle_refs.html
-           output: web
-         - title: Bundle Examples
-           url: //explore_bundle_examples.html
-           output: web
+      subfolders:
+      - title: ITK3 Bundles
+        url: /explore_bundles.html
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /explore_bundle_overview.html
+          output: web
+        - title: Bundle Types
+          url: //explore_bundle_type.html
+          output: web
+        - title: Bundle Referencing
+          url: //explore_bundle_refs.html
+          output: web
+        - title: Bundle Examples
+          url: //explore_bundle_examples.html
+          output: web
           
     - title: Handling Specification
       url: /explore_hand_spec.html
