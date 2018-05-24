@@ -34,7 +34,6 @@ entries:
       type: homepage
       subfolders:
       - title: ITK3 Bundles
-        url: /explore_bundles.html
         output: web
         subfolderitems:
         - title: Overview
