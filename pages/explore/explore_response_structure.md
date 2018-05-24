@@ -1,4 +1,4 @@
-﻿---
+---
 title: ITK3 Response Codes
 keywords: explore Reference
 tags: [explore,fhir,error codes]
@@ -56,7 +56,7 @@ The following sections show how the ITK3 response codes are used with the FHIR r
 
 ## Infrastructure(Technical) Level Response Codes ##
 
-These Responses should be returned to the sender using the ITK3 Response message.
+These responses will be returned using the ITK3 Response message if requested by sender using the appropriative handling key.
 
 **Minimum requirements that MUST be supported by receiving systems.**
 
@@ -206,7 +206,7 @@ relating to Handling Specification faults.</td>
 </tr>		
 </table>
 
-These response codes should be returned to the sender using the ITK3 Response message.
+These responses will be returned using the ITK3 Response message if requested by sender using the appropriative handling key.
 
 **The system SHOULD support the extension values as below**
 
@@ -813,7 +813,7 @@ These response codes should be returned to the sender using the ITK3 Response me
 
 ## ITK Business Level Response Codes ##
 
-These errors should be returned to the sender using ITK3 Response message.
+These responses will be returned using the ITK3 Response message if requested by sender using the appropriative handling key.
 
 **Minimum requirements that MUST be supported.**
 
