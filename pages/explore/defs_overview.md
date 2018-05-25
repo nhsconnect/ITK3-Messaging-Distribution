@@ -57,8 +57,13 @@ For each message or document type there will be a message definition instance pr
 
 ## Versioning of Message Definitions ##
 
-If any of the assets referred to in the message definition change and are up-versioned then the message definition will be up-versioned accordingly. The message definition will be a Major, Minor or Patch type of up-version dependant on how the change to the asset or assets has been defined (Major, Minor or Patch). 
-The long-term goal would ideally be to use message definitions for ascertaining which messages an endpoint or system supports but to do that correctly would require capability statements to be defined by all receiving systems and a system for managing the capability statements to be available. Therefore, for implementations using ITK3, the message definition information should be sent in the ITK3 MessageHeader handling specification extension. This allows a receiving system to determine whether it can process the received message based on the version of the message definition and the versions of bundled assets without having to parse the actual instance. The receiver then can decide whether to accept or reject the message and if rejecting return an appropriate response code. See the section on [response codes](explore_response_codes.html) for further details.
+The message definition version reflects changes to the FHIR assets used by the message. If any of the assets referred to in the message definition change and are up-versioned then the message definition will be up-versioned accordingly. The message definition will be a Major, Minor or Patch type of up-version dependant on how the change to the asset or assets has been defined (Major, Minor or Patch). 
+
+The long-term goal would ideally be to use message definitions for ascertaining which messages an endpoint or system supports but to do that correctly would require capability statements to be defined by all receiving systems and a system for managing the capability statements to be available. 
+
+Therefore, currently for implementations using ITK3, the message definition information should be sent in the ITK3 MessageHeader handling specification extension. This allows a receiving system to determine whether it can process the received message based on the version of the message definition and the versions of bundled assets without having to parse the actual instance. The receiver then can decide whether to accept or reject the message and if rejecting return an appropriate response code. 
+
+See the section on [response codes](explore_response_codes.html) for further details.
 
 
 
