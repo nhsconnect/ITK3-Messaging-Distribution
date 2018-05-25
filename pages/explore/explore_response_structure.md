@@ -382,7 +382,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ITK-Response-Codes</td>		
 <td>20003</td>
 <td>Unrecognised Sender</td>
-<td>The organization or person referred to as the sender in the ITK3 MessageHeader is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
+<td>The organization or person referred to as the sender in the ITK3 MessageHeader is not recognised. Note: This code should not be used where the domain makes use of the “GP look-up” functionality in MESH.</td>
 </tr>
 </table>
 
@@ -806,7 +806,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ITK-Response-Codes</td>		 
 <td>20012</td> 
 <td>Unauthorised Sender</td>
-<td>The Receiving system identified in the payload is configured to reject messages from unauthorised senders. This code should not be used where the domain makes use of the “GP look-up” functionally in MESH.</td>
+<td>The Receiving system identified in the payload is configured to reject messages from unauthorised senders. This code should not be used where the domain makes use of the “GP look-up” functionality in MESH.</td>
 </tr>
 </table>			
 
