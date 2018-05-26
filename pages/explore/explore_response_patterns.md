@@ -11,7 +11,7 @@ summary: "Response Patterns used in ITK3."
 
 ## Overview ##
 
-This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 Response message over MESH. The actual flow between the systems will be dependant on factors such:
+This diagram gives an overview of the typical interaction between a sender and receiver system using the ITK3 Response message over MESH. The actual flow between the systems will be dependent on factors such:
 
 - What responses have been requested (handling specification extension values sent)
 - If an issue is detected, the type of issue and when it is reported
@@ -20,7 +20,7 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 <img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
 
-The following sections details the response patterns supported by ITK3. The pattern used is dependant on the specification for the payload and the response types requested.
+The following sections details the response patterns supported by ITK3. The pattern used is dependent on the specification for the payload and the response types requested.
 
 **Note: All diagrams show typical flows which may vary slightly due to such things as MESH configuration.**
 

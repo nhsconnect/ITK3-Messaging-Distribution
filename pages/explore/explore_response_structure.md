@@ -518,7 +518,7 @@ These responses will be returned using the ITK3 Response message if requested by
 </ul>
 </td>
 <td></td>
-<td>Dependant of the type of content error. invalid is the high level code, lower level codes should be used to further identify the type of content validation error wherever possible. See <a href="http://hl7.org/fhir/codesystem-issue-type.html">IssueType</a> for further information.
+<td>Dependent of the type of content error. invalid is the high level code, lower level codes should be used to further identify the type of content validation error wherever possible. See <a href="http://hl7.org/fhir/codesystem-issue-type.html">IssueType</a> for further information.
 </td>
 </tr>
 <tr>
@@ -665,7 +665,7 @@ These responses will be returned using the ITK3 Response message if requested by
 </ul>
 </td>
 <td></td>
-<td>Dependant of the type of content error. invalid is the high level code, lower level codes should be used to further identify the type of content validation error wherever possible. See <a href="http://hl7.org/fhir/codesystem-issue-type.html">IssueType</a> for further information.
+<td>Dependent of the type of content error. invalid is the high level code, lower level codes should be used to further identify the type of content validation error wherever possible. See <a href="http://hl7.org/fhir/codesystem-issue-type.html">IssueType</a> for further information.
 </td>
 </tr>
 <tr>

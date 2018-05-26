@@ -57,7 +57,7 @@ For each message or document type there will be a message definition instance pr
 
 ## Versioning of Message Definitions ##
 
-The message definition version reflects changes to the FHIR assets used by the message. If any of the assets referred to in the message definition change and are up-versioned then the message definition will be up-versioned accordingly. The message definition will be a Major, Minor or Patch type of up-version dependant on how the change to the asset or assets has been defined (Major, Minor or Patch). 
+The message definition version reflects changes to the FHIR assets used by the message. If any of the assets referred to in the message definition change and are up-versioned then the message definition will be up-versioned accordingly. The message definition will be a Major, Minor or Patch type of up-version dependent on how the change to the asset or assets has been defined (Major, Minor or Patch). 
 
 The long-term goal would ideally be to use message definitions for ascertaining which messages an endpoint or system supports but to do that correctly would require capability statements to be defined by all receiving systems and a system for managing the capability statements to be available. 
 
