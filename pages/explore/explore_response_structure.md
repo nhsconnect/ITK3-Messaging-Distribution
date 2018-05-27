@@ -14,7 +14,7 @@ summary: "Response codes, their associated FHIR elements and value sets."
 This section details how the ITK3 response codes are carried in the FHIR MessageHeader and OperationOutcome resources.
  
 
-## Elements And Value Sets Used To Carry Error and Response Information ##
+## Elements and Value Sets Used to Carry Error and Response Information ##
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -25,36 +25,36 @@ This section details how the ITK3 response codes are carried in the FHIR Message
 <tr>
 <td>MessageHeader</td>
 <td>response.code</td>
-<td><a href="http://hl7.org/fhir/STU3/valueset-response-code.html" target="_blank">response-code</a></td>   
+<td><a href="http://hl7.org/fhir/STU3/valueset-response-code.html" target="_blank">ResponseType</a></td>   
 </tr>
 <tr>
 <td>OperationOutcome</td>
 <td>issue.severity.code</td>
-<td><a href="http://hl7.org/fhir/STU3/valueset-issue-severity.html" target="_blank">issue-severity</a></td>
+<td><a href="http://hl7.org/fhir/STU3/valueset-issue-severity.html" target="_blank">IssueSeverity</a></td>
 </tr>
 <tr>
 <td>OperationOutcome</td>
 <td>issue.code</td>
-<td><a href="http://hl7.org/fhir/STU3/valueset-issue-type.html" target="_blank">issue-type</a></td>
+<td><a href="http://hl7.org/fhir/STU3/valueset-issue-type.html" target="_blank">IssueType</a></td>
 </tr>
 <tr>
 <td>OperationOutcome</td>
 <td>issue.details.coding.code</td>
 <td>
-<a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-ResponseCodes-1" target="_blank">ITK-ResponseCodes</a>
+<a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-ResponseCodes-1" target="_blank">ITK Response Codes</a>
 </td>
 </tr>
 </table>
 
 The MessageHeader carries a code to indicate success or failure. The ITK3 response codes must be mapped to the high-level element codes carried in the severity, code and details elements of the OperationOutcome. The mapping Table below shows how the three levels of codes should be utilised. 
 
-**Note**: When a bundle is incorrectly constructed or received so that the value of the acknowledgement flags cannot be determined, receiving systems must default to always returning a response wherever possible. 
+**Note: When a bundle is incorrectly constructed or received so that the value of the acknowledgement flags cannot be determined, receiving systems must default to always return a response wherever possible.** 
 
 ## Mapping FHIR Error or Warning Codes to ITK3 Response Codes ##
 
 The following sections show how the ITK3 response codes are used with the FHIR required codes within the ITK3 MessageHeader and OperationOutcome.
 
-## Infrastructure(Technical) Level Response Codes ##
+## Infrastructure (Technical) Level Response Codes ##
 
 These responses will be returned using the ITK3 Response message if requested by sender using the appropriative handling key.
 
