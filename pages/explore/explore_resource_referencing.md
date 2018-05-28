@@ -10,7 +10,7 @@ summary: "Resource referencing explained."
 {% include custom/search.warnbanner.html %}
 
 ## Overview ##
-This section details the reference between resources.
+This section details the referencing between resources.
 
 ## ITK3 Send Payload Bundle Referencing Diagram ##
 
