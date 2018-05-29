@@ -14,7 +14,7 @@ This section details the "Messaging Architecture" used for ITK3 using FHIR messa
 - The different types of bundle structures which may be used
 - Identifying the FHIR resources which are Profiled
 - Providing example bundle instances
-- Explaining the extensions to the header resource for ITK3 Handling Specifications
+- Explaining the extensions to the header Resource for ITK3 Handling Specifications
 
 ## Pre-Requisites for FHIR ITK3 Messaging Solutions ##
 
@@ -28,5 +28,5 @@ There are some pre-requisites for the use of the ITK3 Messaging Distribution spe
 
 ## FHIR Conformance ##
 
-Systems SHOULD declare a Conformance using the FHIR resource Capability Statement identifying the list of message definitions supported.
+Systems SHOULD declare a Conformance using the FHIR Resource Capability Statement identifying the list of message definitions supported.
 
