@@ -10,7 +10,7 @@ summary: A brief introduction to getting started with the ITK3 Messaging Distrib
 
 {% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distribution components of FHIR messaging. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
-{% include warning.html content="The examples provided are for illustrative purposes only. They have had no clinical validation. Whilst every effort has been taken to ensure that the examples are consistent with the FHIR profiles and this specification, where there are conflicts the written message specification or FHIR profile shall be considered to take precedence." %}
+{% include warning.html content="The examples provided are for illustrative purposes only. They have had no clinical validation. Whilst every effort has been taken to ensure that the examples are consistent with the FHIR Profiles and this specification, where there are conflicts the written message specification or FHIR Profile shall be considered to take precedence." %}
 
 ## Introduction ##
 
@@ -18,7 +18,7 @@ summary: A brief introduction to getting started with the ITK3 Messaging Distrib
 
 The ITK3 Messages are created using the formally defined HL7® approach and methodology for the creation and transmission of FHIR® documents and messages. For further information see [FHIR messaging](https://www.hl7.org/fhir/messaging.html) and [FHIR Documents](http://hl7.org/fhir/documents.html).
    
-FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
+FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect Profiles created in collaboration with the INTEROPen community. 
 
 The INTEROPen vision is to create a library of nationally defined HL7® FHIR® resources and interaction patterns that implementers can adopt to simplify integration and interoperability within England's health and social care systems.
 

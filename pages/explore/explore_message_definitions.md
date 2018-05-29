@@ -10,7 +10,7 @@ summary: "ITK3 Messaging Distribution Message Definitions"
 {% include custom/search.warnbanner.html %}
 
 ## ITK3 Messaging Distribution Message Definitions Overview ##
-This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution MessageDefinition instances. The message definition instances are created to conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) profile. These MessageDefinitions specify which profiles, extensions,value sets, code systems and concept maps are used in the Message Bundle and additional information such as: what responses are allowed to be returned to the sender. The message definition instances main use is for highlighting changes between versions of a message but they may also be used as input into conformance and validation. 
+This section provides ITK3 implementers with the information required to utilise the ITK3 Messaging Distribution MessageDefinition instances. The message definition instances are created to conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) Profile. These MessageDefinitions specify which Profiles, extensions,value sets, code systems and concept maps are used in the Message Bundle and additional information such as: what responses are allowed to be returned to the sender. The message definition instances main use is for highlighting changes between versions of a message but they may also be used as input into conformance and validation. 
 
 The responses defined in the message definitions do not include MESH responses see notes below:
 

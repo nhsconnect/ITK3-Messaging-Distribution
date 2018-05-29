@@ -65,7 +65,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>The Scenario Builder is used to join together the resources needed to represent a specific clinical scenario. It can use Core Resource types, Profiles and Logical models as it does this. The intention is to help people understand how resources can tell a clinical story, and to validate that the Resource types available (including profiles) are sufficient.</P>
+    <p>The Scenario Builder is used to join together the resources needed to represent a specific clinical scenario. It can use Core Resource types, Profiles and Logical models as it does this. The intention is to help people understand how resources can tell a clinical story, and to validate that the Resource types available (including Profiles) are sufficient.</P>
     <P>Patient information is on the Data Server. Profiles on the Conformance server. ValueSets on the Terminology server.</p>
   </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
@@ -120,14 +120,14 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
     <li>Create and edit FHIR Profiles</li>
       <li>Create and edit FHIR extension definitions</li>
       <li>Create and edit FHIR conformance packages (Introduced v0.9.2.15)</li>
-      <li>Validate FHIR profiles</li>
-      <li>Fetch and publish profiles from/to a FHIR server</li>
-      <li>Fetch and publish profiles from/to a FHIR registry</li>
+      <li>Validate FHIR Profiles</li>
+      <li>Fetch and publish Profiles from/to a FHIR server</li>
+      <li>Fetch and publish Profiles from/to a FHIR registry</li>
       <li>Define formal constraints</li>
       <li>Define slices</li>
       <li>Define value set bindings</li>
       <li>Define mappings</li>
-      <li>Derived profiles (“profiles on profiles”)</li>
+      <li>Derived Profiles (“Profiles on Profiles”)</li>
     </ul>
   </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
@@ -184,17 +184,17 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>Simplifier.net is a FHIR registry, a website for managing, sharing and finding FHIR profiles and Implementation Guides.</p>
+    <p>Simplifier.net is a FHIR registry, a website for managing, sharing and finding FHIR Profiles and Implementation Guides.</p>
     <p>The Simplifier.net FHIR registry supports the following functions:</p>
     <ul>
-      <li>Uploading profiles</li>
-      <li>Downloading profiles</li>
-      <li>Finding profiles</li>
+      <li>Uploading Profiles</li>
+      <li>Downloading Profiles</li>
+      <li>Finding Profiles</li>
       <li>Viewing FHIR Conformance Resources</li>
       <li>Simplifier.net also offers functionality for management of FHIR Resources and collaboration within teams.</li>
     </ul>
     <p>Simplifier.net distinguishes between free (personal) plans and paid plans. Anyone can find and download Resources in this Registry, with or without an account. Creating Resources requires an account. Paid plans are targeted at professional users and organisations.</p>
-    <p>The registry contains both projects and resources, and a quick scan can reveal hundreds of profiles that have been defined although they do range quite significantly in quality.</p>
+    <p>The registry contains both projects and resources, and a quick scan can reveal hundreds of Profiles that have been defined although they do range quite significantly in quality.</p>
 </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
     <img style="max-width:100%;width:100%;box-shadow: 0 0.2em 0.4em rgba(0, 94, 184,0.3);margin:0;" src="images/support/simplifier.png" alt="Simplifier Screenshot">

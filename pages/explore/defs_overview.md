@@ -13,7 +13,7 @@ summary: "Overview of the Message Definitions section"
 
 For ITK3 message flows, the use of message definitions to replace interactions has been implemented. This section describes the use of message definitions and their proposed usage to help with versioning and managing changes for consumers.
 
-The FHIR MessageDefinition resource defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted. NHS Digital has profiled this resource for ITK3 messaging over MESH. The profile contains a complex extension that contains sub-extensions to allow all the components (known as FHIR assets) within the Message Bundle to be defined along with the version of each asset. The FHIR assets are categorised using a [FHIR value set](http://hl7.org/fhir/ValueSet/all-types). The current asset types that are used in the message definition are:
+The FHIR MessageDefinition resource defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted. NHS Digital has Profiled this resource for ITK3 messaging over MESH. The Profile contains a complex extension that contains sub-extensions to allow all the components (known as FHIR assets) within the Message Bundle to be defined along with the version of each asset. The FHIR assets are categorised using a [FHIR value set](http://hl7.org/fhir/ValueSet/all-types). The current asset types that are used in the message definition are:
 
 - Profiles (StructureDefinitions)
 - Extensions
@@ -42,9 +42,9 @@ This diagram illustrates the two patterns.
 
 ## Message Definition Instances ##
 
-For each message or document type there will be a message definition instance provided. These instances will conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) profile. For each message or document these MessageDefinitions instances contain information about: 
+For each message or document type there will be a message definition instance provided. These instances will conform to the [ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1) Profile. For each message or document these MessageDefinitions instances contain information about: 
 
-- The profiles (StructureDefinitions) used.
+- The Profiles (StructureDefinitions) used.
 - The extensions used.
 - The ValueSets used.
 - The CodeSystems used.

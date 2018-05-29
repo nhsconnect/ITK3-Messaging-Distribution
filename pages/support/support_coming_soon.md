@@ -8,7 +8,7 @@ permalink: support_coming_soon.html
 summary: "Call to action for support building the implementation guide"
 ---
 
-This page has been intentional created to show the growth of the implementation guide to support the end to end adoption of Care Connect profiles.
+This page has been intentional created to show the growth of the implementation guide to support the end to end adoption of Care Connect Profiles.
 
 {% include custom/contribute.html content="If you want to get involved in any part of this then please get in touch with careconnect@interopen.org "%}
 

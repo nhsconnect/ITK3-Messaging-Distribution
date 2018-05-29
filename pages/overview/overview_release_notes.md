@@ -13,8 +13,8 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 **Profiles**
 
-The profiles for the two acknowledgement messages has been replaced by a single response message.
-The profile for ITK3 Message Definition has been changed to use a FHIR code system instead of an NHS Digital defined one.
+The Profiles for the two acknowledgement messages has been replaced by a single response message.
+The Profile for ITK3 Message Definition has been changed to use a FHIR code system instead of an NHS Digital defined one.
 
 **Specification Structure**
 
@@ -29,7 +29,7 @@ The error codes have been replaced with a revised set of response codes. See the
 
 **The changes were made in order to meet the requirements of the Change Control Note for the generic FHIR receiver capability.**
 
-The following new profile has been added:
+The following new Profile has been added:
 
 -  ITK3-Payload-Bundle-1 - This is issued for all bundle types except document.
  
@@ -43,9 +43,9 @@ This code system has changed:
 
 Interactions have been replaced by MessageDefinitions and some new handling keys (e.g. RecipientType and Priority).
 
-A new profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK3 messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
+A new Profile has been created called ITK-MessageDefinition-1 – which defines the characteristics of ITK3 messages that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s) are permitted.  This Profile and its associated message definition instances can be found in the Message Definitions page, which also replaces the Interactions page. 
 
-The following profiles have changed:
+The following Profiles have changed:
 
 - ITK-MessageHeader-2 - This was changed to ensure the ITK3 solution aligns to the ITK2.x solution.
   - Removed the following elements (and sub-elements): author, enterer, destination, responsible and reason.
@@ -75,7 +75,7 @@ The [ITK3 Response Codes](explore_response_codes.html) has been improved by incl
 
 The [Bundle Structure Diagrams](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
 
-The diagrams and examples have changed to reflect the changes to the profiles, value sets and code systems.
+The diagrams and examples have changed to reflect the changes to the Profiles, value sets and code systems.
 
 The following examples have changed:
 
@@ -118,16 +118,16 @@ The following new examples carry the [ITK3 Response Codes](explore_response_code
 ## 2.1.0-alpha ##
 This is the second version published using Jekyll.
 
-The following profiles are tightly constrained ITK3 replacements of the corresponding Care Connect profiles:
+The following Profiles are tightly constrained ITK3 replacements of the corresponding Care Connect Profiles:
 
 - CareConnect-ITK-Header-Practitioner-1 replaces CareConnect-Practitioner-1
 - CareConnect-ITK-Header-PractitionerRole-1 replaces CareConnect-PractitionerRole-1
 - CareConnect-ITK-Header-Organization-1 replaces CareConnect-Organization-1
 
-The following profiles have changed for this release:
+The following Profiles have changed for this release:
 
 - ITK-MessageHeader-2: the slicing on the event data element has been removed, and now this is bound to the ITK-MessageEvent-2 value set.
-- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by its own extension URL element, containing the appropriate allowable value.
+- Extension-ITK-MessageHandling-2: this has been restructured because the handling keys have been reviewed and updated following a decision to move to MESH, where redundant keys have been removed and additional keys added, see the [Handling Specification Section](explore_hand_spec.html) for further details.  In the previous version of this Profile this was structured as Key data element containing a valueCodeableConcept and a value.  In this version, each handling key is represented by its own extension URL element, containing the appropriate allowable value.
 
 This value set has changed:
 
@@ -135,7 +135,7 @@ This value set has changed:
 
 This value set has been removed:
 
-- ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
+- ITK-HandlingKey-1 - this is no longer needed, as the Handling Key information is modelled as a complex extension which consists of an Extension URL that carries the Handling Key and an associated allowable value in the Extension-ITK-MessageHandling-2 Profile.  See the [Handling Specification Section](explore_hand_spec.html) for further details".
 
 This code system has changed:
 
@@ -143,7 +143,7 @@ This code system has changed:
 
 This code system has been removed:
 
-- ITK-HandlingKey-1: this is no longer needed due to the way that the handling key information is modelled in the Extension-ITK-MessageHandling-2 profile
+- ITK-HandlingKey-1: this is no longer needed due to the way that the handling key information is modelled in the Extension-ITK-MessageHandling-2 Profile
 
 The XML Examples have been updated to reflect the changes outlined above.
 

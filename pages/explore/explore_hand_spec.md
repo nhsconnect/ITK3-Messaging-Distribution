@@ -1,7 +1,7 @@
 ---
 title: Handling Specification
 keywords: workflow
-tags: [development,fhir,profiles]
+tags: [development,fhir,Profiles]
 sidebar: foundation_sidebar
 permalink: explore_hand_spec.html
 summary: "The ITK3 Handling Specification Usage."
@@ -12,7 +12,7 @@ summary: "The ITK3 Handling Specification Usage."
 ## Overview ##
 
 One of the important parts of the ITK3 messaging distribution is the message handling specification. The handling specification consists of a set of "keys" which allow the sender to send information in the ITK3 MessageHeader to the recipient, to indicate how the received message should be processed (handled). 
-The handling specification is implemented by adding a complex extension called the ITKMessageHandling Extension to the ITK3 MessageHeader profile. This extension contains a number of extension elements(keys) which are used to control messaging behaviour, such as when to send an acknowledgement.
+The handling specification is implemented by adding a complex extension called the ITKMessageHandling Extension to the ITK3 MessageHeader Profile. This extension contains a number of extension elements(keys) which are used to control messaging behaviour, such as when to send an acknowledgement.
 
 **Important Note 1: There is no default behaviour for any handling keys unless specified by the Payload specification. For example, the Payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The Payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
 
@@ -88,7 +88,7 @@ This complex extension consists of extension elements each with their own extens
 <td>MessageDefinition</td>
 <td>A reference to the MessageDefinition for the Payload</td>
 <td></td>
-<td>This MessageDefinition will detail the information to allow correct processing of the Payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
+<td>This MessageDefinition will detail the information to allow correct processing of the Payload. Such as Profiles used, message event type, Profiles used, responses allowed/ required etc...</td>
 </tr>
 
 <tr>

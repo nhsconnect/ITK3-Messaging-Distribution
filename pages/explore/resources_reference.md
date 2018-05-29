@@ -1,7 +1,7 @@
 ---
 title: Care Connect | Reference
 keywords: development Reference
-tags: [development,fhir,profiles]
+tags: [development,fhir,Profiles]
 sidebar: overview_sidebar
 permalink: explore_reference.html
 summary: "Developer Cheat Sheet shortcuts for the <br/>technical build of ITK3 Messaging Distribution."

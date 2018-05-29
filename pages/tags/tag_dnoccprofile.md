@@ -1,8 +1,8 @@
 ---
 title: "No CareConnect Profile"
-tagName: noccprofile
+tagName: noccProfile
 search: exclude
-permalink: tag_noccprofile.html
+permalink: tag_noccProfile.html
 sidebar: overview_sidebar
 folder: tags
 ---

@@ -9,7 +9,7 @@ summary: The journey outlines the approach to developing FHIR ITK3 Messaging Sol
 
 {% include important.html content="All phases outlined below are indicative and subject to on-going review." %}
 
-The Journey shows the approach to the development of FHIR ITK3 Messaging Solutions using NHS Digital message profiles from initial engagement all the way to live deployment.
+The Journey shows the approach to the development of FHIR ITK3 Messaging Solutions using NHS Digital message Profiles from initial engagement all the way to live deployment.
 
 The diagram below shows the stages in the message development process and the possible products associated with each stage.
 

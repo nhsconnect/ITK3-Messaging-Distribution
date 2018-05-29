@@ -4,7 +4,7 @@ keywords: development, versioning
 tags: [fhir]
 sidebar: overview_sidebar
 permalink: explore_messaging_versioning.html
-summary: An overview of how messages and profiles are versioned.
+summary: An overview of how messages and Profiles are versioned.
 ---
 
 {% include custom/search.warnbanner.html %}

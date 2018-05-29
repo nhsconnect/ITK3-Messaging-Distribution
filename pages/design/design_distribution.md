@@ -11,7 +11,7 @@ summary: "The Access page shows developers and users of the API how to access an
 
 # What is API Access? #
 
-API access is the process of ensuring that calls to APIs with authenticated logins are able to access the APIs. API products are also a good way to control access to a specific bundle of resources/profiles or aspects of information.
+API access is the process of ensuring that calls to APIs with authenticated logins are able to access the APIs. API products are also a good way to control access to a specific bundle of resources/Profiles or aspects of information.
 
 This implementation guide identifies the need to manage any exposed APIs. When access control and monitoring is combined while creating an API, this can empower API implementing organisations to improve, control, limit and deny access to APIs and therefore the underlying data in a consistent mechanism. When APIs are the central mechanism for authorization and access control to your APIs. 
 

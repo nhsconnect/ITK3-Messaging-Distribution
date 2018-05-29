@@ -1,7 +1,7 @@
 ---
 title: Work flow
 keywords: workflow
-tags: [development,fhir,profiles]
+tags: [development,fhir,Profiles]
 sidebar: overview_sidebar
 permalink: workflow_overview.html
 summary: "Overview of work flow."
