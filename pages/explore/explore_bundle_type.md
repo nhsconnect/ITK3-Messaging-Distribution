@@ -29,7 +29,7 @@ The diagram below is an example of an ITK3 FHIR document Payload that may be use
 
 ## ITK3 Response Bundle Structure ##
 
-The diagram below is an example of a ITK3 Response message structure.
+The diagram below is an example of an ITK3 Response message structure.
  
 <img src="images/explore/BUSExample.png" style="width:50%;max-width: 50%;">
 
