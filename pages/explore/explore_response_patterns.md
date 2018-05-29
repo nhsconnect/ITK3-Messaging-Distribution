@@ -20,7 +20,7 @@ This diagram gives an overview of the typical interaction between a sender and r
 
 <img src="images/explore/Typical_sequence.png" style="width: 100%;max-width: 100%;"/>
 
-The following sections detail the response patterns supported by ITK3. The pattern used is dependent on the specification for the payload and the response types requested.
+The following sections detail the response patterns supported by ITK3. The pattern used is dependent on the specification for the Payload and the response types requested.
 
 **Note: All diagrams show typical flows which may vary slightly due to configurations like MESH for example.**
 

@@ -14,7 +14,7 @@ summary: "The ITK3 Handling Specification Usage."
 One of the important parts of the ITK3 messaging distribution is the message handling specification. The handling specification consists of a set of "keys" which allow the sender to send information in the ITK MessageHeader to the recipient, to indicate how the received message should be processed (handled). 
 The handling specification is implemented by adding a complex extension called the ITKMessageHandling Extension to the ITK3 MessageHeader profile. This extension contains a number of extension elements(keys) which are used to control messaging behaviour, such as when to send an acknowledgement.
 
-**Important Note 1: There is no default behaviour for any handling keys unless specified by the payload specification. For example, the payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
+**Important Note 1: There is no default behaviour for any handling keys unless specified by the Payload specification. For example, the Payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The Payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**
 
 ## ITKMessageHandling Extension ##
 
@@ -58,16 +58,16 @@ This complex extension consists of extension elements each with their own extens
 <td rowspan="2">RecipientType</td>
 <td rowspan="2">Indicates the type of recipient</td>
 <td>FA</td>
-<td>For Action - the recipient has been sent the payload for action. The action required by the recipient will be either explicit in the payload or there will be a business rule defined.</td>  
+<td>For Action - the recipient has been sent the Payload for action. The action required by the recipient will be either explicit in the Payload or there will be a business rule defined.</td>  
 </tr>
 <tr>
 <td>FI</td>
-<td>For Information - No Action is required by the recipient and they may process the payload as they see fit.</td>
+<td>For Information - No Action is required by the recipient and they may process the Payload as they see fit.</td>
 </tr>
 
 <tr>
 <td rowspan="4">Priority</td>
-<td rowspan="4">Indicates the priority that processing of the payload should be given by the recipient.<br>These codes are taken from the value set: <a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1">ITK-Priority-1</a><br>This value set is derived from the FHIR value set:<a href="http://hl7.org/fhir/ValueSet/request-priority">request-priority</a></td>
+<td rowspan="4">Indicates the priority that processing of the Payload should be given by the recipient.<br>These codes are taken from the value set: <a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1">ITK-Priority-1</a><br>This value set is derived from the FHIR value set:<a href="http://hl7.org/fhir/ValueSet/request-priority">request-priority</a></td>
 <td>routine</td>
 <td>The request has normal priority</td>
 </tr>
@@ -86,9 +86,9 @@ This complex extension consists of extension elements each with their own extens
 
 <tr>
 <td>MessageDefinition</td>
-<td>A reference to the MessageDefinition for the payload</td>
+<td>A reference to the MessageDefinition for the Payload</td>
 <td></td>
-<td>This MessageDefinition will detail the information to allow correct processing of the payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
+<td>This MessageDefinition will detail the information to allow correct processing of the Payload. Such as profiles used, message event type, profiles used, responses allowed/ required etc...</td>
 </tr>
 
 <tr>

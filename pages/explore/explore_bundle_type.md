@@ -11,7 +11,7 @@ summary: "The types of bundles used in ITK3"
 
 ## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 MessageHeader and any payload. The MessageHeader contains information that pertains to the payload content. The Payload can be anything.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 MessageHeader and any Payload. The MessageHeader contains information that pertains to the Payload content. The Payload can be anything.
 The diagrams showing the ITK Message Bundle below are simplified and do not show all the resources which could be contained therein. 
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
@@ -23,7 +23,7 @@ This section illustrates typical bundle structures used with ITK3.
 
 ## ITK3 FHIR Document Bundle Structure ##
 
-The diagram below is an example of an ITK3 FHIR document payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the type of bundle is a document.
+The diagram below is an example of an ITK3 FHIR document Payload that may be used with the ITK3 Messaging Distribution Bundle. When sending FHIR Documents the type of bundle is a document.
 
 <img src="images/explore/ITKDocExample.png" style="width:50%;max-width: 50%;">
 
@@ -36,7 +36,7 @@ The diagram below is an example of a ITK3 Response message structure.
 
 ## ITK3 Other Payload Bundle Structure ##
 
-The diagram below is an example of the structure used when the payload is an additional bundle, of one of the types listed below:
+The diagram below is an example of the structure used when the Payload is an additional bundle, of one of the types listed below:
 
 - message
 - transaction
@@ -52,7 +52,7 @@ The diagram below is an example of the structure used when the payload is an add
 
 ## The ITK3 Messaging Distribution Bundle Resources ##
 
-This Bundle is a generic bundle for sending any payload.
+This Bundle is a generic bundle for sending any Payload.
 
 The Bundle consists of the following FHIR Resource Profiles.
 

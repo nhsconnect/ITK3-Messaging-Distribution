@@ -33,7 +33,7 @@ The message definition has two functions.
 There are two "patterns" which utilise message definitions: 
 
 1. For ITK3 messages which only have one Bundle, such as the Response message, the MessageDefinition carried in the handling specification is the MessageDefinition for that bundle. 
-2. For ITK3 Payloads which have two Bundles, the MessageDefinition carried in the handling specification is the MessageDefinition for the payload (second Bundle).
+2. For ITK3 Payloads which have two Bundles, the MessageDefinition carried in the handling specification is the MessageDefinition for the Payload (second Bundle).
 
 This diagram illustrates the two patterns.
 

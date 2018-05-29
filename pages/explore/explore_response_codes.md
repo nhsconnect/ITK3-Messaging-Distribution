@@ -82,7 +82,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>10008</td>
 <td>Negative</td>
 <td>Handling Specification Business Rule Error</td>
-<td>The Handling Specification usage does not match business rules for included payload. For example, an acknowledgement flag defined as mandatory by the payload specification is missing.</td>
+<td>The Handling Specification usage does not match business rules for included Payload. For example, an acknowledgement flag defined as mandatory by the Payload specification is missing.</td>
 </tr>
 <tr>
 <td>10009</td>
@@ -130,13 +130,13 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>20007</td>
 <td>Negative</td>
 <td>Duplicate Message received</td>
-<td>Bundle with this message identifier has already been processed. A payload with this ITK3 MessageHeader identifier has already been received and processed by this recipient.</td>
+<td>Bundle with this message identifier has already been processed. A Payload with this ITK3 MessageHeader identifier has already been received and processed by this recipient.</td>
 </tr>
 <tr>
 <td>20008</td>
 <td>Negative</td>	
 <td>Duplicate Document received</td>	
-<td>Bundle with this document identifier has already been processed. A payload with this document identifier has already been received and processed by this recipient.</td>
+<td>Bundle with this document identifier has already been processed. A Payload with this document identifier has already been received and processed by this recipient.</td>
 </tr>
 <tr>
 <td>20009</td>
@@ -148,19 +148,19 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>20010</td>
 <td>Negative</td>
 <td>Unrecognised Payload Recipient Organisation</td>	
-<td>The Recipient Organisation identified in the payload, is not supported by this End Point (Receiving System).</td>
+<td>The Recipient Organisation identified in the Payload, is not supported by this End Point (Receiving System).</td>
 <tr>
 </tr>
 <td>20011</td>
 <td>Negative</td>
 <td>Unrecognised Payload Recipient Person</td>	
-<td>The Recipient person identified in the payload, is not supported by this End Point (Receiving System).</td>
+<td>The Recipient person identified in the Payload, is not supported by this End Point (Receiving System).</td>
 </tr>
 <tr>
 <td>20012</td>
 <td>Negative</td>
 <td>Unauthorised Sender</td>	
-<td>The Receiving system identified in the payload is configured to reject messages from unauthorised senders. This code should not be used where the domain makes use of the “GP look-up” functionality in MESH.</td>
+<td>The Receiving system identified in the Payload is configured to reject messages from unauthorised senders. This code should not be used where the domain makes use of the “GP look-up” functionality in MESH.</td>
 </tr>
 <tr>
 <td>20013</td>

@@ -17,7 +17,7 @@ This implementation guide identifies the need to manage any exposed APIs. When a
 
 API access control measures need to be defined alongside API creation and need to look for:
 - enforcement of authorisation
-- security of payload and access
+- security of Payload and access
 - matching security with scope of use
 - access and approval for particular resources
 

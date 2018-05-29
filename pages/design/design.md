@@ -11,7 +11,7 @@ summary: Describes the steps required to design & build an ITK3 Messaging Soluti
 
 ## Background ##
 
-The Design & Build section contains information which may be useful in the design phase of ITK3 Messaging Solutions. The payload specification must be consulted for specific domain or payload information.
+The Design & Build section contains information which may be useful in the design phase of ITK3 Messaging Solutions. The Payload specification must be consulted for specific domain or Payload information.
 
 
 

@@ -28,13 +28,13 @@ Further guidance on the use of MessageDefinitions will be provided at a late dat
 
 Acknowledgement responses can be requested using the message handling flags:
 
-These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the payload message definitions. 
+These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the Payload message definitions. 
 
 ---
 
 ## ITK-SendPayload-MessageDefinition-Instance-1 ##
 
-This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any payload. The payload specification should be consulted for the payload message definition. 
+This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any Payload. The Payload specification should be consulted for the Payload message definition. 
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
