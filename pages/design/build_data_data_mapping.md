@@ -78,7 +78,7 @@ The table below illustrates V2 MSH mapping to FHIR MessageHeader resource.-->
 <tr>
 <td>data</td>
 <td></td>		
-<td>References to the ‘root’ resource of the message.</td>
+<td>References to the ‘root’ Resource of the message.</td>
 </tr>
 
 </table>-->
