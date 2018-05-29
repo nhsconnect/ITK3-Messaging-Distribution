@@ -79,13 +79,13 @@ The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Message-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Message-Bundle-1)** - A NHS Digital Profile of the FHIR Bundle resource.
 - **[ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2)** - A NHS Digital Profile of the FHIR MessageHeader resource.	
-- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK3 Header Profile of the FHIR Practitioner resource  
+- **[CareConnect-ITK-Header-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Practitioner-1)** - An ITK3 Header Profile of the FHIR Practitioner Resource  
 - **[CareConnect-ITK-Header-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Header-Organization-1)** - An ITK3 Header Profile of the FHIR Organization resource.
 - **[ITK-Response-OperationOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Ack-OperationOutcome-1)** - A NHS Digital Profile of the OperationOutcome resource
 
 ## Extensions Used ##
 
-- **[Extension-ITK-MessageHandling-2](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2)** - An NHS Digital complex extension to the MessageHeader resource to support the ITK3 message handling key.
+- **[Extension-ITK-MessageHandling-2](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-ITK-MessageHandling-2)** - An NHS Digital complex extension to the MessageHeader Resource to support the ITK3 message handling key.
 
 
 
