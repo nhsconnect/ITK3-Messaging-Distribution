@@ -11,7 +11,7 @@ summary: "The types of bundles used in ITK3"
 
 ## The ITK3 Messaging Distribution Bundle ##
 
-The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 message bundle is the container for the ITK3 MessageHeader and any Payload. The MessageHeader contains information that pertains to the Payload content. The Payload can be anything.
+The diagram below shows a schematic of the basic ITK3 Messaging Distribution Bundle structure. The ITK3 Message Bundle is the container for the ITK3 MessageHeader and any Payload. The MessageHeader contains information that pertains to the Payload content. The Payload can be anything.
 The diagrams showing the ITK3 Message Bundle below are simplified and do not show all the resources which could be contained therein. 
 
 <img src="images/explore/ITKBundle.png" style="width:50%;max-width: 50%;">
