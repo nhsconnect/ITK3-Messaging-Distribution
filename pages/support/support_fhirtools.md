@@ -26,7 +26,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>The CodeSystem defines the set of possible values for a resource element. The actual 'binding' between CodeSystem and element is done by the ValueSet. This component allows you to build (and edit) a CodeSystem, and optionally builds the ValueSet as well. Once created, the created extensions are stored on the conformance server.</p>
+    <p>The CodeSystem defines the set of possible values for a Resource element. The actual 'binding' between CodeSystem and element is done by the ValueSet. This component allows you to build (and edit) a CodeSystem, and optionally builds the ValueSet as well. Once created, the created extensions are stored on the conformance server.</p>
   </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
     <img  src="images/support/clinfhircodesystemeditor.png" alt="ClinFHIR CodeSystem Editor Screenshot"  style="width:100%; max-width:100%;box-shadow: 0 0.2em 0.4em rgba(0, 94, 184,0.3);margin:0;">
@@ -43,7 +43,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>The Logical modeller allows the creation of a model that represents a particular interoperability requirement in a format that is easy to use. It uses FHIR data types, and can be based on an existing resource type or completely 'ad hoc'. It is intended to act as a 'bridge' between Modeller and User, and can act as the basis for the generation of the profiling components required by FHIR.</p>
+    <p>The Logical modeller allows the creation of a model that represents a particular interoperability requirement in a format that is easy to use. It uses FHIR data types, and can be based on an existing Resource type or completely 'ad hoc'. It is intended to act as a 'bridge' between Modeller and User, and can act as the basis for the generation of the profiling components required by FHIR.</p>
   </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
     <img src="images/support/clinfhirlogicalmodeller.png" alt="ClinFHIR Logical Modeller Screenshot" style="width:100%; max-width:100%;box-shadow: 0 0.2em 0.4em rgba(0, 94, 184,0.3);margin:0;">
@@ -65,7 +65,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>The Scenario Builder is used to join together the resources needed to represent a specific clinical scenario. It can use Core Resource types, Profiles and Logical models as it does this. The intention is to help people understand how resources can tell a clinical story, and to validate that the resource types available (including profiles) are sufficient.</P>
+    <p>The Scenario Builder is used to join together the resources needed to represent a specific clinical scenario. It can use Core Resource types, Profiles and Logical models as it does this. The intention is to help people understand how resources can tell a clinical story, and to validate that the Resource types available (including profiles) are sufficient.</P>
     <P>Patient information is on the Data Server. Profiles on the Conformance server. ValueSets on the Terminology server.</p>
   </div>
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
@@ -94,8 +94,8 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
     <li>Narrative generation</li>
     <li>FHIR Path analysis</li>
     <li>Connect to a server (including Smart on FHIR login)</li>
-    <li>Fetch resource from server (driven by conformance statement)</li>
-    <li>Post/put a resource to the server</li>
+    <li>Fetch Resource from server (driven by conformance statement)</li>
+    <li>Post/put a Resource to the server</li>
   </ul>
   <p>The roadmap for the product is documented as:</p>
   <ul>
@@ -114,7 +114,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
-    <p>Forge is a desktop application used for FHIR profiling. It has been created by Furore (free to download with paid plans offering SLA level support) and is fully integrated with Simplifier.net. It is promoted as the official profile editor for HL7 FHIR.</p>
+    <p>Forge is a desktop application used for FHIR profiling. It has been created by Furore (free to download with paid plans offering SLA level support) and is fully integrated with Simplifier.net. It is promoted as the official Profile editor for HL7 FHIR.</p>
     <p>Forge supports the following features:</p>
     <ul>
     <li>Create and edit FHIR Profiles</li>

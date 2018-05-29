@@ -23,7 +23,7 @@ Endeavour Health is a charity set up to promote the adoption of healthcare IT an
 An important influence on the Care Connect FHIR project is GP Connect. Technical information relating to GP Connect is being transferred from the [NHS Developer website](http://developer.nhs.uk/library/interoperability/gp-connect/) to [GitHub](https://nhsconnect.github.io/gpconnect/index.html). Further to this, non-technical overview can be found at the [NHS Digital Website](https://digital.nhs.uk/article/282/GP-Systems-of-Choice).  The GP Connect implementation guide is found on the [NHS Developer website](http://data.developer.nhs.uk/fhir/candidaterelease-170816-getrecord/Chapter.1.About/index.html) rather than the GitHub library. At the time of writing a reference server is currently under development.
 <br><br>
 ## NHS England and Code4Health
-Code4Health is an NHS initiative established for individuals and organisations providing a platform to bring together ideas, change working practice and build solutions to improve healthcare. Code4Health supports a rich asset and resource catalogue, a multitude of contributors and a sandpit environment for communities.
+Code4Health is an NHS initiative established for individuals and organisations providing a platform to bring together ideas, change working practice and build solutions to improve healthcare. Code4Health supports a rich asset and Resource catalogue, a multitude of contributors and a sandpit environment for communities.
 
 Code4Health focuses on supporting the clinician in the use of technology facilitating shared learning for the ‘frontline’ of healthcare.
 
