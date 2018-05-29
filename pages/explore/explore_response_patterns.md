@@ -32,7 +32,7 @@ There are 3 possible flows:
 
 **Flow where an issue is detected at infrastructure (technical) level**
 
-<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
@@ -40,14 +40,14 @@ There are 3 possible flows:
 **Flow where an issue is detected at business level**
 
 
-<a href="images/explore/Typical_sequence_3.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_3.png" style="width: 100%;max-width: 100%;"/>
 
 
 **Flow where no issue is detected** 
 
-<a href="images/explore/Typical_sequence_2.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
 
@@ -57,14 +57,14 @@ This only requires the infrastructure acknowledgement flag in the handling speci
 
 **Flow where an issue is detected at infrastructure (technical) level**
 
-<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
 **Flow where no issue is detected** 
 
-<a href="images/explore/Typical_sequence_4.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_4.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_4.png" style="width: 100%;max-width: 100%;"/>
 
@@ -73,8 +73,8 @@ This only requires the infrastructure acknowledgement flag in the handling speci
  
 This requires that both the acknowledgement flags in the handling specification extension are set to "false" or are not present. This would normally never return any response, however in some error circumstances where the acknowledgement flags cannot be read a response will be returned as illustrated.  
 
-<a href="images/explore/Typical_sequence_1.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence_1.pdf" style="width: 100%;max-width: 100%;"/>
 
 
