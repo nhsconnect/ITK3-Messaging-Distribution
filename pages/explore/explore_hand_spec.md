@@ -11,7 +11,7 @@ summary: "The ITK3 Handling Specification Usage."
 
 ## Overview ##
 
-One of the important parts of the ITK3 messaging distribution is the message handling specification. The handling specification consists of a set of "keys" which allow the sender to send information in the ITK MessageHeader to the recipient, to indicate how the received message should be processed (handled). 
+One of the important parts of the ITK3 messaging distribution is the message handling specification. The handling specification consists of a set of "keys" which allow the sender to send information in the ITK3 MessageHeader to the recipient, to indicate how the received message should be processed (handled). 
 The handling specification is implemented by adding a complex extension called the ITKMessageHandling Extension to the ITK3 MessageHeader profile. This extension contains a number of extension elements(keys) which are used to control messaging behaviour, such as when to send an acknowledgement.
 
 **Important Note 1: There is no default behaviour for any handling keys unless specified by the Payload specification. For example, the Payload specification may mandate that a particular handling key always be populated or define some default behaviour for a particular key. The Payload specification must always be consulted when implementing handling key behaviour on a sending or receiving system.**

@@ -41,7 +41,7 @@ This section details how the ITK3 response codes are carried in the FHIR Message
 <td>OperationOutcome</td>
 <td>issue.details.coding.code</td>
 <td>
-<a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-ResponseCodes-1" target="_blank">ITK Response Codes</a>
+<a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-ResponseCodes-1" target="_blank">ITK3 Response Codes</a>
 </td>
 </tr>
 </table>
@@ -525,8 +525,8 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>issue.details.code</td>
 <td>ITK-Response-Codes</td>
 <td>20006</td> 
-<td>ITK header validation failure</td>
-<td>The ITK header resources or elements are not correct or understandable. For example, the ITK3 Bundle or ITK3 MessageHeader.</td>
+<td>ITK3 header validation failure</td>
+<td>The ITK3 header resources or elements are not correct or understandable. For example, the ITK3 Bundle or ITK3 MessageHeader.</td>
 </tr>
 </table>
 
@@ -811,7 +811,7 @@ These responses will be returned using the ITK3 Response message if requested by
 </table>			
 
 
-## ITK Business Level Response Codes ##
+## ITK3 Business Level Response Codes ##
 
 These responses will be returned using the ITK3 Response message if requested by sender using the appropriative handling key.
 
