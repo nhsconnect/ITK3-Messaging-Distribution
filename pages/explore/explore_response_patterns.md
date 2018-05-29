@@ -75,6 +75,6 @@ This requires that both the acknowledgement flags in the handling specification 
 
 <a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence_1.pdf" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
