@@ -12,7 +12,7 @@ Within the UK, there are many system suppliers, trusts and other projects adopti
 HL7
 <br><br>
 ## [HL7](http://www.hl7.org/fhir/)
-HL7 is the first place that most people will land when looking for information about FHIR is the HL7 website. The site itself contains the de facto standard for FHIR resources and one of the most important places on the web for FHIR content.
+HL7 is the first place that most people will land when looking for information about FHIR is the HL7 website. The site itself contains the de facto standard for FHIR Resources and one of the most important places on the web for FHIR content.
 <br><br>
 ## [Endeavour Health](http://www.endeavourhealth.org/)
 Endeavour Health is a charity set up to promote the adoption of healthcare IT and encourage innovation with the field. While they have a number of projects, one of which is FHIR interoperability. This lead to their involvement with INTEROPen and the creation of a few tools to support adoption of FHIR.

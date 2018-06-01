@@ -11,14 +11,14 @@ summary: "Mapping of system data to ITK3 Message and Document resources"
 
 ## What is ITK3 Messaging Solution Data Mapping? ##
 
-Any ITK3 Messaging Solution will require some mapping to the FHIR resources included in the message Bundle. This section only concerns mapping to the Bundle and message Bundle Profiles, the Payload specification will need to be consulted for Payload mapping information.
+Any ITK3 Messaging Solution will require some mapping to the FHIR Resources included in the message Bundle. This section only concerns mapping to the Bundle and message Bundle Profiles, the Payload specification will need to be consulted for Payload mapping information.
 The sender of the ITK3 Messaging Distribution will need to either create Bundle and MessageHeader data items or source them from its own data store. When it sources from its own data store then a mapping will need to be done. Some data items such as UUIDs for identifiers for example will always need to be created by a sending system. 
 
 <!--## Existing Systems ##
 
 Pre-existing systems which for example are HL7 V2 based will find lots of guidance on mapping V2 to FHIR Bundles. 
 
-The table below illustrates V2 MSH mapping to FHIR MessageHeader resource.-->
+The table below illustrates V2 MSH mapping to FHIR MessageHeader Resource.-->
 <!--<table>
 
 <tr>

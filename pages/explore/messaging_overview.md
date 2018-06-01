@@ -12,7 +12,7 @@ summary: "Overview of the Messaging Architecture section"
 This section details the "Messaging Architecture" used for ITK3 using FHIR messaging and documents such as: 
 
 - The different types of bundle structures which may be used
-- Identifying the FHIR resources which are Profiled
+- Identifying the FHIR Resources which are Profiled
 - Providing example bundle instances
 - Explaining the extensions to the header Resource for ITK3 Handling Specifications
 
