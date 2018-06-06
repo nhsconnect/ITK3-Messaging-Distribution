@@ -64,12 +64,12 @@ entries:
   - title: Sender & Receiver Requirements
     url: /explore_snd&rec_req.html
     output: web
-    foldersitems:
+    folders:
     - title: ITK3 Documents
-      url: /explore_docs_overview.html
+      url: /explore_docs_overiew.html
       output: web
       type: homepage
-      subfolder:
+      folderItems:
       - title: Work Flow
         url: /workflow.html
         output: web
