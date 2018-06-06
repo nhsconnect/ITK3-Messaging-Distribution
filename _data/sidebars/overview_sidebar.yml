@@ -65,7 +65,7 @@ entries:
     output: web,pdf
     folderitems:
     - title: Overview
-      url: /explore.html
+      url: /explore_s_and_r.html
       output: web
       type: homepage
       subfolders:
