@@ -64,25 +64,16 @@ entries:
   - title: Sender & Receiver Requirements
     url: /explore_snd&rec_req.html
     output: web
-    type: homepage
     foldersitems:
     - title: ITK3 Documents
-      url: /explore_defs_overview.html
+      url: /explore_docs_overview.html
       output: web
       type: homepage
-      subfolderitems:
+      subfolder:
       - title: Work Flow
         url: /workflow.html
         output: web
-    folderitems:    
-    - title: ITK3 Messages
-      url: /explore_send_mess_pay_def.html
-      output: web
-      type: homepage      
-      subfolderitems:
-      - title: Work Flow
-        url: /workflow.html
-        output: web
+
 
   - title: Message Definitions
     url: /explore_message_definitions.html
