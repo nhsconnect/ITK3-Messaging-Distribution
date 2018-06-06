@@ -52,7 +52,6 @@ entries:
     - title: Handling Specification
       url: /explore_hand_spec.html
       output: web
-      type: homepage
       subfolders:
       - title: Work Flow
         url: /workflow.html
