@@ -61,7 +61,7 @@ entries:
            url: /workflow_overview.html
            output: web
            
-    - title: Sender & Receiver Requirements
+  - title: Sender & Receiver Requirements
     output: web,pdf
     folderitems:
     - title: Overview
