@@ -70,10 +70,19 @@ entries:
     - title: ITK3 Documents
       url: /explore_defs_overview.html
       output: web
+      type: homepage
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
     - title: ITK3 Messages
       url: /explore_send_mess_pay_def.html
-      output: web        
- 
+      output: web
+      type: homepage      
+      subfolders:
+      - title: Work Flow
+        url: /workflow.html
+        output: web
 
   - title: Message Definitions
     url: /explore_message_definitions.html
