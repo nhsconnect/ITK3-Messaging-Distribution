@@ -69,39 +69,22 @@ entries:
       output: web
       type: homepage
       subfolders:
-      - title: ITK3 Bundles
+      - title: FHIR Documents
         output: web
         subfolderitems:
         - title: Overview
-          url: /explore_bundle_overview.html
+          url: /explore_FD_overview.html
           output: web
-        - title: Bundle Types
+        - title: AA
           url: /explore_bundle_type.html
           output: web
-        - title: Bundle Referencing
+        - title: BB
           url: /explore_bundle_refs.html
           output: web
-        - title: Bundle Examples
+        - title: CC
           url: /explore_bundle_examples.html
           output: web         
 
-  - title: Sender & Receiver Requirements
-    output: web
-    foldersitems:
-    - title: ITK3 Documents
-      url: /explore_docs_overiew.html
-      output: web
-      type: homepage
-      subfolders:
-      - title: Overview
-        url: /workflow.html
-        output: web
-        subfolderitems:
-        - title: AAA
-          url: /explore_AA.html
-        - title: BBB
-          url: /explore_BB.html
-          output: web
 
   - title: Message Definitions
     url: /explore_message_definitions.html
