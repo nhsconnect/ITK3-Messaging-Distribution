@@ -24,7 +24,7 @@ Each requirement will be display in a table as below:
 <th>Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#33b2ff"><b>FHIR-XX-n</b></td>
+<td bgcolor="#0068cc"><b>FHIR-XX-n</b></td>
 <td>A description of the requirement</td>
 <td>Yes or No</td>
 <td>Yes or No</td>
