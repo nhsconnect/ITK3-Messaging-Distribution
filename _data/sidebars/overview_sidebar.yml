@@ -60,6 +60,30 @@ entries:
          - title: Overview
            url: /workflow_overview.html
            output: web
+           
+    - title: Sender & Receiver Requirements
+    output: web,pdf
+    folderitems:
+    - title: Overview
+      url: /explore.html
+      output: web
+      type: homepage
+      subfolders:
+      - title: ITK3 Bundles
+        output: web
+        subfolderitems:
+        - title: Overview
+          url: /explore_bundle_overview.html
+          output: web
+        - title: Bundle Types
+          url: /explore_bundle_type.html
+          output: web
+        - title: Bundle Referencing
+          url: /explore_bundle_refs.html
+          output: web
+        - title: Bundle Examples
+          url: /explore_bundle_examples.html
+          output: web         
 
   - title: Sender & Receiver Requirements
     output: web
