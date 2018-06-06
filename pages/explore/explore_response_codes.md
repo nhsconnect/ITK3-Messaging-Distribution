@@ -91,6 +91,12 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
 </tr>
 <tr>
+<td>10010</td>
+<td>Negative</td>
+<td>Recipient Type - Processing Error</td>	
+<td>The handling specification for Recipient Type is present but cannot be processed. For example, may be unreadable or contain an incorrect value.</td>
+</tr>
+<tr>
 <td>20001</td>
 <td>Negative</td>
 <td>Unrecognised Recipient Person</td>	

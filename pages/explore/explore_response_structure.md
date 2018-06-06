@@ -203,6 +203,13 @@ relating to Handling Specification faults.</td>
 <td>10009</td>
 <td>Unreadable message received</td>
 <td>A message has been received that is either corrupted or malformed and cannot be read by the receiving system.</td>
+</tr>
+<tr>
+<td>issue.details.code</td>	
+<td>ITK-Response-Codes</td>
+<td>10010</td>
+<td>Recipient Type - Processing Error</td>
+<td>The handling specification for Recipient Type is present but cannot be processed. For example, may be unreadable or contain an incorrect value.</td>
 </tr>		
 </table>
 

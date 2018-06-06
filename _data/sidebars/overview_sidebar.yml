@@ -48,23 +48,31 @@ entries:
         - title: Bundle Examples
           url: /explore_bundle_examples.html
           output: web
-          
-    - title: Handling Specification
-      url: /explore_hand_spec.html
+     
+  - title: Handling Specification
+    url: /explore_hand_spec.html
+    output: web
+    subfolders:
+    - title: Work Flow
+      url: /workflow.html
       output: web
-    - title: Sender & Receiver Requirements
-      url: /explore_snd&rec_req.html
-      output: web
-      subfolders:
-      - title: Work Flow
-        url: /workflow.html
-        output: web
-        subfolderitems:
+      subfolderitems:
         - title: Overview
           url: /workflow_overview.html
           output: web
- 
 
+  - title: Sender & Receiver Requirements
+    url: /explore_snd&rec_req.html
+    output: web
+
+    folderitems:
+    - title: ITK3 Documents
+      url: /explore_defs_overview.html
+      output: web
+    - title: ITK3 Messages
+      url: /explore_send_mess_pay_def.html
+      output: web        
+ 
 
   - title: Message Definitions
     url: /explore_message_definitions.html
