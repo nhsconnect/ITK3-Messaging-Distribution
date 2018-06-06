@@ -16,7 +16,7 @@ There are a number of requirements for senders and receivers of ITK3 FHIR docume
 ## Format of Requirement ##
 Each requirement will be display in a table as below:
 
-<table style="width:100%">
+<table style="width:100%;max-width: 100%;">
 <tr>
 <th>ID</th>
 <th>Description</th>
@@ -24,7 +24,7 @@ Each requirement will be display in a table as below:
 <th>Receiver</th>
 </tr>
 <tr>
-<td><b>FHIR-XX-n</b></td>
+<td bgcolor="#33b2ff"><b>FHIR-XX-n</b></td>
 <td>A description of the requirement</td>
 <td>Yes or No</td>
 <td>Yes or No</td>
