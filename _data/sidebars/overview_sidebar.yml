@@ -72,12 +72,12 @@ entries:
       - title: Overview
         url: /workflow.html
         output: web
-        subfolders:
+        subfolderitems:
         - title: AAA
           url: /explore_AA.html
-      - title: BBB
-         url: /explore_BB.html
-         output: web
+        - title: BBB
+          url: /explore_BB.html
+          output: web
 
   - title: Message Definitions
     url: /explore_message_definitions.html
