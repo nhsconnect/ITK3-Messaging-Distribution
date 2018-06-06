@@ -84,7 +84,6 @@ entries:
         - title: CC
           url: /explore_bundle_examples.html
           output: web
-      subfolders:
       - title: FHIR Messages
         output: web
         subfolderitems:
