@@ -69,37 +69,28 @@ entries:
       output: web
       type: homepage
       subfolders:
-      - title: FHIR Documents
+      - title: ITK3 FHIR Documents
         output: web
         subfolderitems:
         - title: Overview
           url: /explore_FD_overview.html
           output: web
         - title: AA
-          url: /explore_bundle_type.html
+          url: /explore_AA.html
           output: web
         - title: BB
-          url: /explore_bundle_refs.html
+          url: /explore_BB.html
           output: web
         - title: CC
-          url: /explore_bundle_examples.html
+          url: /explore_CC.html
           output: web
-      - title: FHIR Messages
+      - title: ITK3 FHIR Messages
         output: web
         subfolderitems:
         - title: Overview
-          url: /explore_FD_overview.html
+          url: /explore_FM_overview.html
           output: web
-        - title: AA
-          url: /explore_bundle_type.html
-          output: web
-        - title: BB
-          url: /explore_bundle_refs.html
-          output: web
-        - title: CC
-          url: /explore_bundle_examples.html
-          output: web             
-
+          
 
   - title: Message Definitions
     url: /explore_message_definitions.html
