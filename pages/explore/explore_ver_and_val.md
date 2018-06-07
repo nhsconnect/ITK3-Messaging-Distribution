@@ -46,7 +46,7 @@ summary: "Requirements for verification and validation"
 </tr>
 <tr>
 <td>1.</td>
-<td colspan="3">If this validation fails, the system MUST- log the fault in the application or system logs as appropriate</td>
+<td colspan="3">If this validation fails, the system <b>MUST</b> - log the fault in the application or system logs as appropriate</td>
 </tr>
 </table> 
 
