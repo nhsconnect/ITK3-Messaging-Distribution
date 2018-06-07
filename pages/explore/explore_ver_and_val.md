@@ -33,10 +33,10 @@ summary: "Requirements for verification and validation"
 
 <table style="width:100%;max-width: 100%;">
 <tr>
-<th>ID</th>
-<th>Description</th>
-<th>Sender</th>
-<th>Receiver</th>
+<th width="10%">ID</th>
+<th width="70%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-V&V-02</b></td>
