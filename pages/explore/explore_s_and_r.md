@@ -23,11 +23,12 @@ All documents have the same structure: A Bundle of Resources of type "document" 
 
 There are two key identifiers on the document:
 
-- The document identifier (mandatory). This is found in Bundle.id and is unique for this instance of the document, and is never re-used
-- The Composition identifier (mandatory). This is found in Composition.identifier, and is the same for all documents that are derived from this Composition
+- The document identifier (mandatory). This is found in Bundle.id and is unique for this instance of the document, and is never re-used.
+- The Composition identifier (mandatory). This is found in Composition.identifier, and is the same for all documents that are derived from this Composition.
+
 The document has several dates in it:
 
-- The document date (mandatory). This is found in Bundle.meta.lastUpdated and identifies when the document bundle was assembled from the underlying Resources
+- The document date (mandatory). This is found in Bundle.meta.lastUpdated and identifies when the document bundle was assembled from the underlying Resources.
 - The Composition date (mandatory). This is found in Composition.date, which is when the author wrote the document logically
 Once assembled into a bundle, the document is immutable - its content can never be changed, and the document id can never be reused. Any additional documents derived from the same Composition SHALL have a different document id.
 
