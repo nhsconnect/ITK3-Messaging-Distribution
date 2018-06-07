@@ -11,7 +11,7 @@ summary: "Sender and Receiver requirements for ITK3 FHIR documents."
 
 ## Overview ##
 
-There are a number of requirements for senders and receivers of ITK3 FHIR documents that **MUST** be met. These sections detail the requirements for ITK3 only where the second Bundle (payload) is of type "Document". For other Bundle (payload) types see the ITK3 FHIR Message sections. 
+There are a number of requirements for senders and receivers of ITK3 FHIR documents that **MUST** be met. These sections detail the requirements for ITK3 only where the second Bundle (payload) is of type "Document". For other Bundle (payload) types see the other payloads. 
 
 ## Format of Requirement ##
 Each requirement will be display in a table as below:

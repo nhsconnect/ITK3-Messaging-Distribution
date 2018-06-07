@@ -69,7 +69,7 @@ entries:
       output: web
       type: homepage
       subfolders:
-      - title: ITK3 FHIR Documents
+      - title: Document Payloads
         output: web
         subfolderitems:
         - title: Overview
@@ -84,7 +84,7 @@ entries:
         - title: CC
           url: /explore_CC.html
           output: web
-      - title: ITK3 FHIR Messages
+      - title: Other Payloads
         output: web
         subfolderitems:
         - title: Overview

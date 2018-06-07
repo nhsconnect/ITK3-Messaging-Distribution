@@ -11,12 +11,27 @@ summary: "CC."
 
 ## Overview ##
 
-These sections describes requirements for ITK3 FHIR documents and ITK3 FHIR messages.
+These sections describes requirements for ITK3 FHIR payloads
 
 For the purpose of this specification: 
 
-- A ITK3 FHIR Document is defined as XXX
-- Any other ITK3 FHIR payload is deemed to a FHIR message and is defined as YYY   
+- A ITK3 FHIR Document payload is defined as below:
+
+FHIR Resources can be used to build documents that represent a Composition: a set of coherent information that is a statement of healthcare information, particularly including clinical observations and services. A document is an immutable set of Resources with a fixed presentation that is authored and/or attested by humans, organizations and devices.
+
+All documents have the same structure: A Bundle of Resources of type "document" that has a Composition Resource as the first Resource in the bundle, followed by a series of other Resources, referenced from the Composition Resource that provide supporting evidence for the document. The Bundle gathers all the content of the document into a single XML document which may be managed as required. The Resources include both human readable and computer processable portions.
+
+There are two key identifiers on the document:
+
+- The document identifier (mandatory). This is found in Bundle.id and is unique for this instance of the document, and is never re-used
+- The Composition identifier (mandatory). This is found in Composition.identifier, and is the same for all documents that are derived from this Composition
+The document has several dates in it:
+
+- The document date (mandatory). This is found in Bundle.meta.lastUpdated and identifies when the document bundle was assembled from the underlying Resources
+- The Composition date (mandatory). This is found in Composition.date, which is when the author wrote the document logically
+Once assembled into a bundle, the document is immutable - its content can never be changed, and the document id can never be reused. Any additional documents derived from the same Composition SHALL have a different document id.
+
+ 
   
 
 
