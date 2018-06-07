@@ -75,8 +75,8 @@ entries:
         - title: Overview
           url: /explore_FD_overview.html
           output: web
-        - title: AA
-          url: /explore_AA.html
+        - title: Verification and Validation
+          url: /explore_ver_and_val.html
           output: web
         - title: BB
           url: /explore_BB.html
