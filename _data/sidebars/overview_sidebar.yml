@@ -76,7 +76,7 @@ entries:
           url: /explore_FD_overview.html
           output: web
         - title: Conformance & Accreditation
-          url: /explore_ver_and_val.html
+          url: /explore_con_and_acc.html
           output: web
         - title: General Requirements
           url: /explore_CC.html

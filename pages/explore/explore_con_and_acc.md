@@ -1,10 +1,10 @@
 ---
-title: Verification and Validation
+title: Conformance and Accreditation
 keywords: explore Reference
 tags: [explore,fhir]
 sidebar: overview_sidebar
-permalink: explore_ver_and_val.html
-summary: "Requirements for verification and validation"
+permalink: explore_con_and_acc.html
+summary: "Conformance and accreditation requirements"
 ---
 
 {% include custom/search.warnbanner.html %}
@@ -13,10 +13,10 @@ summary: "Requirements for verification and validation"
 
 <table style="width:100%;max-width: 100%;">
 <tr>
-<th>ID</th>
-<th>Description</th>
-<th>Sender</th>
-<th>Receiver</th>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-V&V-01</b></td>
@@ -33,8 +33,8 @@ summary: "Requirements for verification and validation"
 
 <table style="width:100%;max-width: 100%;">
 <tr>
-<th width="10%">ID</th>
-<th width="70%">Description</th>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
 <th width="10%">Sender</th>
 <th width="10%">Receiver</th>
 </tr>
