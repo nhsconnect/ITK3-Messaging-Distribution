@@ -75,15 +75,23 @@ entries:
         - title: Overview
           url: /explore_FD_overview.html
           output: web
-        - title: Verification and Validation
+        - title: Conformance & Accreditation
           url: /explore_ver_and_val.html
           output: web
-          subsubfolderitems:
-          - title: Use Of Coded Clinical Content
-            url: /explore_BB.html
-            output: web
-        - title: CC
+        - title: General Requirements
           url: /explore_CC.html
+          output: web
+        - title: Handling Attachments
+          url: /explore_CC.html
+          output: web
+        - title: Receiver Requirements
+          url: /explore_CC.html
+          output: web
+        - title: Sender Requirements
+          url: /explore_BB.html
+          output: web
+        - title: Versioning and Compatibility
+          url: /explore_BB.html
           output: web
       - title: Other Payloads
         output: web
