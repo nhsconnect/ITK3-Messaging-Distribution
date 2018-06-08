@@ -78,9 +78,10 @@ entries:
         - title: Verification and Validation
           url: /explore_ver_and_val.html
           output: web
-        - title: xx
-          url: /explore_BB.html
-          output: web
+          subsubfolderitems:
+            - title: Use Of Coded Clinical Content
+              url: /explore_BB.html
+              output: web
         - title: CC
           url: /explore_CC.html
           output: web
