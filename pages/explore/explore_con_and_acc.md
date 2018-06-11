@@ -61,7 +61,7 @@ Coded entries are the mechanism used to exchange structured clinical information
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-CC-01</b></td>
-<td>If a local system is not able to construct a coded entry to represent coded clinical information in a document, then the Message Specification will define the processing rules.</td>
+<td>If a local system is not able to construct a coded entry to represent coded clinical information in a document, then the Payload Implementation Guidance will define the processing rules.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
@@ -76,7 +76,7 @@ Coded entries are the mechanism used to exchange structured clinical information
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-CC-02</b></td>
-<td>Coded clinical content within documents <b>MUST</b> validate against the Message Specification and specified profiles.</td>
+<td>Coded clinical content within documents <b>MUST</b> validate against the Payload Implementation Guidance and specified profiles.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
@@ -106,7 +106,7 @@ Coded entries are the mechanism used to exchange structured clinical information
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-CC-04</b></td>
-<td>References to coded entries within a document MUST be to resources within the same document.</td>
+<td>References to coded entries within a document <b>MUST</b> be to resources within the same document.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>

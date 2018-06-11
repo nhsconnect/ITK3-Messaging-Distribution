@@ -85,13 +85,13 @@ entries:
           url: /explore_hand_attach.html
           output: web
         - title: Receiver Requirements
-          url: /explore_CC.html
+          url: /explore_rec_req.html
           output: web
         - title: Sender Requirements
-          url: /explore_BB.html
+          url: /explore_sender_reqs.html
           output: web
         - title: Versioning and Compatibility
-          url: /explore_BB.html
+          url: /explore_version_Compat.html
           output: web
       - title: Other Payloads
         output: web
