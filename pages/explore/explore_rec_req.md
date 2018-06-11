@@ -54,15 +54,21 @@ Receiving systems must apply basic header validation to check that the system is
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-RR-01</b></td>
-<td>A description of the requirement</td>
+<td bgcolor="#dfefff"><b>FHIR-RR-02</b></td>
+<td>Upon receipt of a FHIR document for a patient whose is not found in the receiving system, the system <b>MUST</b> send a response back to the sender with an appropriate response code.</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
+</tr>
+<tr>
+<td>NB</td>
+<td colspan="3">The sending of responses is controlled using the appropriate flag in the ITK3 MessageHeader- ITKMessageHandling extension on the incoming FHIR document bundle.</td>
 </tr>
 </table> 
 
 
 ## Coded Clinical Content ##
+
+These are common, agreed structures for clinical data representation, and are the cornerstone of clinical data interoperability.
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -72,8 +78,8 @@ Receiving systems must apply basic header validation to check that the system is
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-RR-01</b></td>
-<td>A description of the requirement</td>
+<td bgcolor="#dfefff"><b>FHIR-RR-03</b></td>
+<td>A system <b>SHOULD</b> process coded entries as defined in the Message Specification.</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
@@ -90,8 +96,8 @@ Receiving systems must apply basic header validation to check that the system is
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-RR-01</b></td>
-<td>A description of the requirement</td>
+<td bgcolor="#dfefff"><b>FHIR-RR-04</b></td>
+<td>If the patient has been moved from this care setting (e.g. they have been 'deducted' or a GP2GP record transfer has recently taken place), the system <b>SHOULD</b> following clinical review of the document, notify the new care setting.</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
@@ -99,6 +105,8 @@ Receiving systems must apply basic header validation to check that the system is
 
 
 ## Duplicate Documents ##
+
+The receiving system must be able to check for duplicates.
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -108,10 +116,27 @@ Receiving systems must apply basic header validation to check that the system is
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-RR-01</b></td>
-<td>A description of the requirement</td>
+<td bgcolor="#dfefff"><b>FHIR-RR-05</b></td>
+<td>The system <b>SHOULD</b> perform 'duplicate document' checks on all received messages</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
+</tr>
+<tr>
+<td>1</td>
+<td colspan="3">If the document ID is a duplicate the system <b>MUST</b:<br/>
+<ul>
+<li>NOT forward the document to the host clinical application</li>
+<li>Log the fault in the system or application logs.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>2</td>
+<td colspan="3">If a duplicate is found, the system <b>MUST</b> return a response with an appropriate code indicating 'Duplicate Document ID received'.</td>
+</tr>
+<tr>
+<td>3</td>
+<td colspan="3">The system <b>MUST</b> flag the item in the audit log indicating that it is a duplicate.</td>
 </tr>
 </table> 
 
