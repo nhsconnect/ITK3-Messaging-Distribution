@@ -492,7 +492,7 @@ MessageHeader – Priority = Routine/Urgent/asap/stat
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-05</b></td>
 <td>FHIR Mandate – To indicate the Message Definition the originating system MUST set <b>MUST</b> set:<br/>
-MessageHeader – MessageDefinition = <a URI></td>
+MessageHeader – MessageDefinition = &lt;a URI&gt;</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
@@ -515,7 +515,7 @@ MessageHeader – Local Extension = <is of any type>. (Default = String, Value= 
 <td bgcolor="#dfefff">N</td>
 </tr>
 <tr>
-<td>NB</td>
+<td><b>NB</b></td>
 <td colspan="3">The default value of None means local extensions are not being used.</td>
 </tr>
 </table> 
