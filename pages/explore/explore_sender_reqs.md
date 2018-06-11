@@ -455,7 +455,7 @@ MessageHeader - RecipientType = "FI" (For Information).
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-03</b></td>
 <td>FHIR Mandate – To indicate the Sender Reference the originating system <b>MUST</b> set:<br/>
-MessageHeader – SenderReference= = <up to any 255 character string> 
+MessageHeader – SenderReference = <up to any 255 character string> 
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
@@ -469,6 +469,7 @@ MessageHeader – SenderReference= = <up to any 255 character string>
 <th width="10%">Sender</th>
 <th width="10%">Receiver</th>
 </tr>
+
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-04</b></td>
 <td>FHIR Mandate – To indicate the priority the originating system <b>MUST</b> set:<br/>
@@ -477,6 +478,7 @@ MessageHeader – Priority = Routine/Urgent/asap/stat
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
+
 </table> 
 
 <table style="width:100%;max-width: 100%;">
@@ -486,14 +488,15 @@ MessageHeader – Priority = Routine/Urgent/asap/stat
 <th width="10%">Sender</th>
 <th width="10%">Receiver</th>
 </tr>
+
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-05</b></td>
 <td>FHIR Mandate – To indicate the Message Definition the originating system MUST set <b>MUST</b> set:<br/>
-MessageHeader – MessageDefinition = <a URI>
-</td>
+MessageHeader – MessageDefinition = &lt;a URI&gt;</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
+
 </table> 
 
 <table style="width:100%;max-width: 100%;">
@@ -506,7 +509,7 @@ MessageHeader – MessageDefinition = <a URI>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-06</b></td>
 <td>NHS Digital have provided a Local Extension key, that can be populated and defined to suit local requirements : -, the originating system <b>MUST</b> set: <br/> 
-MessageHeader – Local Extension = <is of any type>. (Default = String, Value= None)
+MessageHeader – Local Extension = is of any type. (Default = String, Value= None)
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
