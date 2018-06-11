@@ -455,7 +455,7 @@ MessageHeader - RecipientType = "FI" (For Information).
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-03</b></td>
 <td>FHIR Mandate – To indicate the Sender Reference the originating system <b>MUST</b> set:<br/>
-MessageHeader – SenderReference = <up to any 255 character string> 
+MessageHeader – SenderReference = &lt;up to any 255 character string&gt; 
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
@@ -509,7 +509,7 @@ MessageHeader – MessageDefinition = &lt;a URI&gt;</td>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-06</b></td>
 <td>NHS Digital have provided a Local Extension key, that can be populated and defined to suit local requirements : -, the originating system <b>MUST</b> set: <br/> 
-MessageHeader – Local Extension = <is of any type>. (Default = String, Value= None)
+MessageHeader – Local Extension = &lt;is of any type&gt;. (Default = String, Value= None)
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
