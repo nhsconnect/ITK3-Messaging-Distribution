@@ -265,8 +265,8 @@ If the system is not connected to PDS at all then sufficient identifying attribu
 <td bgcolor="#dfefff">N</td>
 </tr>
 <tr>
-<td colspan="3">1</td>
-<td>When a system ONLY sends a local patient identifier it <b>MUST</b> as a minimum also include: 
+<td>1</td>
+<td colspan="3">When a system ONLY sends a local patient identifier it <b>MUST</b> as a minimum also include: 
 <ul>
 <li>First Given Name</li>
 <li>Surname</li>
