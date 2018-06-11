@@ -296,7 +296,6 @@ Below are examples of the type of information covered by this requirement.
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
-<td>
 <tr>
 <td></td>
 <td>
