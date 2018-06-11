@@ -82,7 +82,7 @@ entries:
           url: /explore_gen_reqs.html
           output: web
         - title: Handling Attachments
-          url: /explore_CC.html
+          url: /explore_hand_attach.html
           output: web
         - title: Receiver Requirements
           url: /explore_CC.html
