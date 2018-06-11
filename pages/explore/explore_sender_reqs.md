@@ -492,7 +492,7 @@ MessageHeader – Priority = Routine/Urgent/asap/stat
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-05</b></td>
 <td>FHIR Mandate – To indicate the Message Definition the originating system MUST set <b>MUST</b> set:<br/>
-MessageHeader – MessageDefinition = &lt;a URI&gt;</td>
+MessageHeader – MessageDefinition = <a URI></td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
@@ -509,7 +509,7 @@ MessageHeader – MessageDefinition = &lt;a URI&gt;</td>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-06</b></td>
 <td>NHS Digital have provided a Local Extension key, that can be populated and defined to suit local requirements : -, the originating system <b>MUST</b> set: <br/> 
-MessageHeader – Local Extension = is of any type. (Default = String, Value= None)
+MessageHeader – Local Extension = <is of any type>. (Default = String, Value= None)
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
