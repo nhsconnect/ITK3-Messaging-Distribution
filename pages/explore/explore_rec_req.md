@@ -24,7 +24,7 @@ Receiving systems must apply basic header validation to check that the system is
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-RR-01</b></td>
-<td>The system <b>MUST</b> validate "recipient" information contained in the Document "header" information to check that the identified recipient organisation, or person is supported by the system.</td>
+<td>The system <b>MUST</b> validate 'recipient' information contained in the Document 'header' information to check that the identified recipient organisation, or person is supported by the system.</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
