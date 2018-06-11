@@ -363,6 +363,8 @@ Where a Sending System has the functionality to support coded clinical entries f
 </tr>
 </table> 
 
+## 3.5	Multiple Recipients ##
+
 <table style="width:100%;max-width: 100%;">
 <tr>
 <th width="20%">ID</th>
@@ -371,9 +373,146 @@ Where a Sending System has the functionality to support coded clinical entries f
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-DEM-01</b></td>
-<td>.</td>
+<td bgcolor="#dfefff"><b>FHIR-MR-01</b></td>
+<td>The contents of a document <b>MUST</b> be the same for every recipient.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
-</table>     
+<tr>
+<td>1</td>
+<td colspan="3">Having the same document for every recipient <b>MUST</b> be achieved by addressing an identical clinical payload (document) to each of the recipients.</td>
+</tr>
+<tr>
+<td>2</td>
+<td colspan="3">The payload <b>MUST</b> be syntactically and semantically identical regardless of the number of receivers.</td>
+</tr>
+</table>    
+
+## UUIDs and Version numbers ## 
+
+In generating documents, the sender must meet the following requirement.
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-VER-01</b></td>
+<td>Systems creating new Documents MUST generate a unique document identifier.</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table>  
+
+## FHIR- General Sender Requirements ##
+
+This section defines the general sender requirements, including the FHIR mandated elements that need to be populated.
+ 
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-01</b></td>
+<td>FHIR Mandate - Where it is indicated that a document recipient <u>is required to act</u> on the contents of a FHIR document, the originating system <b>MUST</b> set:<br/>
+MessageHeader–RecipientType = "FA"(For Action).
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table>  
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-02</b></td>
+<td>FHIR Mandate - Where it is indicated that a document recipient <u>is not required to act</u> on the contents of a FHIR document, the originating system <b>MUST</b> set:<br/>
+MessageHeader - RecipientType = "FI" (For Information).
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table> 
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-03</b></td>
+<td>FHIR Mandate – To indicate the Sender Reference the originating system <b>MUST</b> set:<br/>
+MessageHeader – SenderReference= = <up to any 255 character string> 
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table>
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-04</b></td>
+<td>FHIR Mandate – To indicate the priority the originating system <b>MUST</b> set:<br/>
+MessageHeader – Priority = Routine/Urgent/asap/stat
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table> 
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-05</b></td>
+<td>FHIR Mandate – To indicate the Message Definition the originating system MUST set <b>MUST</b> set:<br/>
+MessageHeader – MessageDefinition = <a URI>
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table> 
+
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-SR-06</b></td>
+<td>NHS Digital have provided a Local Extension key, that can be populated and defined to suit local requirements : -, the originating system <b>MUST</b> set: <br/> 
+MessageHeader – Local Extension = <is of any type>. (Default = String, Value= None)
+</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+<tr>
+<td>NB</td>
+<td colspan="3">The default value of None means local extensions are not being used.</td>
+</tr>
+</table> 
