@@ -292,7 +292,7 @@ If the system is not connected to PDS at all then sufficient identifying attribu
 <td bgcolor="#dfefff"><b>FHIR-TXT-01</b></td>
 <td>To avoid unnecessary and potentially disruptive duplication when a FHIR document is rendered, certain information <b>SHOULD NOT</b> be included in the text section of a FHIR document but <b>SHOULD</b> be carried in the FHIR resource specified within the document profile. 
 <br/>
-Below are examples of the type of information covered by this requirement.
+Below are examples of the type of information covered by this requirement.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
