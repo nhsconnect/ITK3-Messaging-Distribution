@@ -31,6 +31,6 @@ summary: "Embedded binary objects (files) can be included in a Document.  When p
 </tr>
 </table> 
 
-
+As FHIR and representations of clinical concepts mature, suppliers will need to consider how to manage backward compatibility of the data stored in/on the patient record.
 
 
