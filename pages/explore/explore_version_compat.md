@@ -22,73 +22,17 @@ This will be "up versioned" when there is a change of functionally which is deem
 &lt;meta&gt; <br/>
 &lt;profile value="https://fhir.nhs.uk/StructureDefinition/xxxxxxxxxxxxxxxx-1" /&gt; <br/>
 &lt;/meta>
-The structure definition also has a version element internally, which can also be up versioned to indicate a minor change. This is not reflected in the XML instance. 
+The structure definition also has a version element internally, which can also be up versioned to indicate a minor change. This is not reflected in the XML instance.
 
+For further details of versioning of FHIR structure definitions see the [NHS Digital FHIR Policy](https://nhsconnect.github.io/fhir-policy/) 
 
-<table style="width:100%;max-width: 100%;">
-<tr>
-<th width="20%">ID</th>
-<th width="60%">Description</th>
-<th width="10%">Sender</th>
-<th width="10%">Receiver</th>
-</tr>
-<tr>
-<td bgcolor="#dfefff"><b>FHIR-XX-n</b></td>
-<td>A description of the requirement</td>
-<td bgcolor="#dfefff">Yes or No</td>
-<td bgcolor="#dfefff">Yes or No</td>
-</tr>
-</table> 
+## Backward and Forward Compatibility ##
 
-## Document Display ##
+All FHIR profiles are derived from FHIR resources defined in a FHIR standard therefore the type of information that can be exchanged and its structure is defined within the standard. FHIR does provide schema for these resources but they are very generic and have very little use for conformance purposes. The FHIR standard will involve and mature over time and forward and backward compatibility cannot be guaranteed. Implementers <b>SHOULD</b> be aware of this but forward and backward compatibility will need to be managed on a project-by-project basis at the business level.   
 
-<table style="width:100%;max-width: 100%;">
-<tr>
-<th width="20%">ID</th>
-<th width="60%">Description</th>
-<th width="10%">Sender</th>
-<th width="10%">Receiver</th>
-</tr>
-<tr>
-<td bgcolor="#dfefff"><b>FHIR-XX-n</b></td>
-<td>A description of the requirement</td>
-<td bgcolor="#dfefff">Yes or No</td>
-<td bgcolor="#dfefff">Yes or No</td>
-</tr>
-</table> 
+## Compatibility ##
 
-## Composition.type and Document Ontology ## 
+The FHIR standard is still evolving and is not at the Normative stage and therefore it should be noted that forward compatibility cannot be guaranteed.
 
-<table style="width:100%;max-width: 100%;">
-<tr>
-<th width="20%">ID</th>
-<th width="60%">Description</th>
-<th width="10%">Sender</th>
-<th width="10%">Receiver</th>
-</tr>
-<tr>
-<td bgcolor="#dfefff"><b>FHIR-XX-n</b></td>
-<td>A description of the requirement</td>
-<td bgcolor="#dfefff">Yes or No</td>
-<td bgcolor="#dfefff">Yes or No</td>
-</tr>
-</table> 
-
-## General Processing Requirements ##
-
-<table style="width:100%;max-width: 100%;">
-<tr>
-<th width="20%">ID</th>
-<th width="60%">Description</th>
-<th width="10%">Sender</th>
-<th width="10%">Receiver</th>
-</tr>
-<tr>
-<td bgcolor="#dfefff"><b>FHIR-XX-n</b></td>
-<td>A description of the requirement</td>
-<td bgcolor="#dfefff">Yes or No</td>
-<td bgcolor="#dfefff">Yes or No</td>
-</tr>
-</table> 
 
 
