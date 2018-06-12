@@ -91,7 +91,7 @@ entries:
           url: /explore_sender_reqs.html
           output: web
         - title: Versioning and Compatibility
-          url: /explore_version_Compat.html
+          url: /explore_version_compat.html
           output: web
       - title: Other Payloads
         output: web
