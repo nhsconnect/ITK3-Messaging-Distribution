@@ -84,7 +84,7 @@ entries:
         - title: Handling Attachments
           url: /explore_hand_attach.html
           output: web
-        - title: Meassage Responses
+        - title: Message Responses
           url: /explore_mess_responses.html
           output: web
         - title: Receiver Requirements
