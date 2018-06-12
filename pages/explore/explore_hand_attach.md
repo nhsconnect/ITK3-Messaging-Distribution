@@ -26,6 +26,7 @@ summary: "Embedded binary objects (files) can be included in a Document.  When p
 <td>1</td>
 <td colspan="3">The system <b>SHOULD</b> inform the user that there are attachments and display them on demand.</td>
 </tr>
+<tr>
 <td>2</td>
 <td colspan="3">When present the system <b>MUST</b> be able to detect them, and should inform the user of their presence.</td>
 </tr>
