@@ -22,7 +22,7 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-DOC-01</b></td>
-<td>Documents that are sent or received MUST be logged.</td>
+<td>Documents that are sent or received <b>MUST</b> be logged.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
@@ -65,6 +65,7 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 <li>Patient NHS Number</li> 
 <li>User identifier and current role identifier</li> 
 <li>Clinical data/document identifier</li>
+</ul>
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
@@ -105,7 +106,28 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 </tr>
 </table> 
 
+<table style="width:100%;max-width: 100%;">
+<tr>
+<th width="20%">ID</th>
+<th width="60%">Description</th>
+<th width="10%">Sender</th>
+<th width="10%">Receiver</th>
+</tr>
+<tr>
+<td bgcolor="#dfefff"><b>FHIR-DOC-06</b></td>
+<td>A Sending system <b>MUST</b> support the use of the SNOMED CT subset 43971000000130 during the creation of a FHIR Document, which has a NHS Digital profile that specifies SNOMED CT for the “CareSettingType” extension.</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">N</td>
+</tr>
+</table> 
+
 ## General Processing Requirements ##
+
+The system will need to provide several different views of a document depending on the access rights of individual users and what data they wish to view. 
+The simplest distinction is to
+1. provide an administrative view of the document which does not display any clinical content (except for document type) and 
+2. clinical view which displays all clinical data which may comprise structured coded data and text data.
+
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -115,10 +137,10 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 <th width="10%">Receiver</th>
 </tr>
 <tr>
-<td bgcolor="#dfefff"><b>FHIR-XX-n</b></td>
-<td>A description of the requirement</td>
-<td bgcolor="#dfefff">Yes or No</td>
-<td bgcolor="#dfefff">Yes or No</td>
+<td bgcolor="#dfefff"><b>FHIR-DOC-09</b></td>
+<td><b>Clinical Data</b> - The system <b>MUST</b> regard all the contents of the Composition.section.text element and the documentReference Binary.content as being the clinical data.</td>
+<td bgcolor="#dfefff">Y</td>
+<td bgcolor="#dfefff">Y</td>
 </tr>
 </table> 
 
