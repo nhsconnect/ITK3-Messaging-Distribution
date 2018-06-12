@@ -77,7 +77,7 @@ The minimum requirement for communicating Handling Specification processing matt
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>RC-HS-01</b></td>
-<td>Implementations <b>MUST</b> be able to handle the Response Codes defined as <b>MUST</b> [here](explore_response_structure.html) </td>
+<td>Implementations <b>MUST</b> be able to handle the Response Codes defined as <b>MUST</b> <a href="explore_response_structure.html">here</a></td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
@@ -98,7 +98,7 @@ The following requirements aim to enhance reporting and pinpoint areas of Handli
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>RC-HS-02</b></td>
-<td>Implementations <b>SHOULD</b> be able to handle the Response Codes defined as <b>SHOULD</b> [here](explore_response_structure.html) </td>
+<td>Implementations <b>SHOULD</b> be able to handle the Response Codes defined as <b>SHOULD</b> <a href="explore_response_structure.html">here</a></td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
