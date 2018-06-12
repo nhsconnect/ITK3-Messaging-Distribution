@@ -9,7 +9,7 @@ summary: "Overview of sender and receiver requirements for ITK3 payloads."
 
 {% include custom/search.warnbanner.html %}
 
-These sections describe requirements for ITK3 FHIR payloads
+These sections describe the sender and receiver requirements for ITK3 FHIR payloads
 
 For the purpose of this specification: 
 
