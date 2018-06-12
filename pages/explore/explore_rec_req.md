@@ -123,7 +123,7 @@ The receiving system must be able to check for duplicates.
 </tr>
 <tr>
 <td>1</td>
-<td colspan="3">If the document ID is a duplicate the system <b>MUST</b:<br/>
+<td colspan="3">If the document ID is a duplicate the system <b>MUST</b>:<br/>
 <ul>
 <li>NOT forward the document to the host clinical application</li>
 <li>Log the fault in the system or application logs.</li>
