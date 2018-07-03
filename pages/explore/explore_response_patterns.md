@@ -111,12 +111,12 @@ This requires both acknowledgement flags in the handling specification extension
 <td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
-<td><img src="images/explore/arrow1.png" style="width: 20%;max-width: 20%;"/></td>
+<td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 20%;"/></td>
 <td>Infrastructure Level Response</td>
 <td>1..1</td>
 </tr>
 <tr>
-<td><img src="images/explore/arrow1.png" style="width: 50%;max-width: 50%;"/></td>
+<td><img src="images/explore/arrow1.png" style="width: 55%;max-width: 50%;"/></td>
 <td>Business Level Response</td>
 <td>1..1</td>
 </tr>
