@@ -108,7 +108,7 @@ This requires both acknowledgement flags in the handling specification extension
 <tr>
 <td>1..1</td>
 <td>Send Payload</td>
-<td></td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
 <td></td>
