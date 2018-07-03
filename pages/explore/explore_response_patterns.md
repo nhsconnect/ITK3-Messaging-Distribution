@@ -63,6 +63,7 @@ There are 3 possible flows:
 <td>Infrastructure Level Response</td>
 <td></td>
 </tr>
+</tbody>
 </table>		
 
 
