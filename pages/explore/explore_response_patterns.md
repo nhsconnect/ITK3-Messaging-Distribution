@@ -56,10 +56,10 @@ There are 3 possible flows:
 <tr>
 <td>1..1</td>
 <td>Send any payload</td>
-<td></td>
+<td>-----></td>
 </tr>
 <tr>
-<td></td>
+<td><-----</td>
 <td>Infrastructure Level Response</td>
 <td>1..1</td>
 </tr>
