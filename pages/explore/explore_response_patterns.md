@@ -59,9 +59,9 @@ There are 3 possible flows:
 <td></td>
 </tr>
 <tr>
-<td>1..1</td>
-<td>Infrastructure Level Response</td>
 <td></td>
+<td>Infrastructure Level Response</td>
+<td>1..1</td>
 </tr>
 </tbody>
 </table>		
