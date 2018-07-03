@@ -32,13 +32,13 @@ The following sections detail the response patterns supported by ITK3. The patte
 For each pattern the mandated flows are documented in the table below the diagram.
 
 
-## Full Acknowledgement ## 
+# Full Acknowledgement # 
 
 This requires both acknowledgement flags in the handling specification extension to be set to "true". This is the most rigorous response framework supported by ITK3.
 
-There are 3 possible flows:
+**There are 3 possible flows:**
 
-**Flow where an issue is detected at infrastructure (technical) level**
+## 1 - Flow where an issue is detected at infrastructure (technical) level ##
 
 <a href="images/explore/Typical_sequence_without_mesh_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
@@ -78,13 +78,13 @@ There are 3 possible flows:
 
 
 
-**Flow where an issue is detected at infrastructure (technical) level with MESH responses**
+## 1 - Flow where an issue is detected at infrastructure (technical) level with MESH responses ##
 
 <a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
-**Flow where an issue is detected at business level**
+## 2 - Flow where an issue is detected at business level ##
 
 
 <a href="images/explore/Typical_sequence_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
