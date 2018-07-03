@@ -56,7 +56,7 @@ This requires both acknowledgement flags in the handling specification extension
 <tr>
 <td><b>START</b></td>
 <td></td>
-<td></td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
 <td>1..1</td>
@@ -64,7 +64,7 @@ This requires both acknowledgement flags in the handling specification extension
 <td></td>
 </tr>
 <tr>
-<td></td>
+<td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 50%;"/></td>
 <td>Infrastructure Level Response</td>
 <td>1..1</td>
 </tr>
@@ -84,7 +84,7 @@ This requires both acknowledgement flags in the handling specification extension
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
-**Flow where an issue is detected at business level**
+**Flow where an issue is detected at business level without MESH responses**
 
 
 <a href="images/explore/Typical_sequence_without_mesh_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
@@ -133,7 +133,7 @@ This requires both acknowledgement flags in the handling specification extension
 </tbody>
 </table>	
 
-**Flow where an issue is detected at business level without MESH responses**
+**Flow where an issue is detected at business level with MESH responses**
 
 
 <a href="images/explore/Typical_sequence_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
@@ -141,7 +141,56 @@ This requires both acknowledgement flags in the handling specification extension
 <img src="images/explore/Typical_sequence_3.png" style="width: 100%;max-width: 100%;"/>
 
 
-**Flow where no issue is detected** 
+**Flow where no issue is detected without MESH responses** 
+
+<a href="images/explore/Typical_sequence_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
+
+
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="15%">Sender</th>
+			<th width="35%">Flow</th>
+			<th width="5%">Receiver</th>
+		</tr>
+	</thead>
+	<tbody>
+<tr>
+<td><b>START</b></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1..1</td>
+<td>Send Payload</td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
+</tr>
+<tr>
+<td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 50%;"/></td>
+<td>Infrastructure Level Response</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 50%;"/></td>
+<td>Business Level Response</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td>1..1</td>
+<td>Infrastructure Level Response</td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><b>END</b></td>
+</tr>
+</tbody>
+</table>
+
+**Flow where no issue is detected with MESH responses** 	
 
 <a href="images/explore/Typical_sequence_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
