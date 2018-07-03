@@ -40,10 +40,38 @@ There are 3 possible flows:
 
 **Flow where an issue is detected at infrastructure (technical) level**
 
+<a href="images/explore/Typical_sequence_without_mesh_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_without_mesh1.png" style="width: 100%;max-width: 100%;"/>
+
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="15%">Sender</th>
+			<th width="35%">Payload</th>
+			<th width="5%">Receiver</th>
+		</tr>
+	</thead>
+	<tbody>
+<tr>
+<td>1..1</td>
+<td>Send any payload</td>
+<td></td>
+</tr>
+<tr>
+<td>1..1</td>
+<td>Infrastructure Level Response</td>
+<td></td>
+</tr>
+</table>		
+
+
+
+**Flow where an issue is detected at infrastructure (technical) level with MESH responses**
+
 <a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
-
 
 **Flow where an issue is detected at business level**
 
