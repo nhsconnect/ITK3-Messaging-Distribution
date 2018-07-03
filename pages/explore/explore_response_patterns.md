@@ -29,7 +29,7 @@ This diagram gives an overview of the all possible interactions between a sender
 
 The following sections detail the response patterns supported by ITK3. The pattern used is dependent on the specification for the Payload and the response types requested.
 
-For each pattern the actual flows are documented in the table below the diagram.
+For each pattern the mandated flows are documented in the table below the diagram.
 
 
 ## Full Acknowledgement ## 
@@ -42,7 +42,7 @@ There are 3 possible flows:
 
 <a href="images/explore/Typical_sequence_without_mesh_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence_without_mesh1.png" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence_without_mesh_1.png" style="width: 100%;max-width: 100%;"/>
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
