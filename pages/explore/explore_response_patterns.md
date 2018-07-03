@@ -143,9 +143,9 @@ This requires both acknowledgement flags in the handling specification extension
 
 **Flow where no issue is detected without MESH responses** 
 
-<a href="images/explore/Typical_sequence_2_without_mesh.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_without_mesh_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence_2_without_mesh.png" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence_without_mesh_2.png" style="width: 100%;max-width: 100%;"/>
 
 
 <table style="width:100%;max-width: 100%;">
