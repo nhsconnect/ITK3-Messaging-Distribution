@@ -34,7 +34,7 @@ For each pattern the mandated flows are documented in the table below the diagra
 
 ## Full Acknowledgement ## 
 
-This requires both acknowledgement flags in the handling specification extension to be set to "true". This is the most rigorous response framework supported by ITK3.
+This requires both acknowledgement flags in the handling specification extension to be set to "true". This is the most rigorous response framework supported by ITK3. The sender will receive up to two responses and will response to the business level response when two responses are received.
 
 **There are 3 possible flows:**
 
@@ -143,9 +143,9 @@ This requires both acknowledgement flags in the handling specification extension
 
 **Flow where no issue is detected without MESH responses** 
 
-<a href="images/explore/Typical_sequence_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_2_without_mesh.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
-<img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
+<img src="images/explore/Typical_sequence_2_without_mesh.png" style="width: 100%;max-width: 100%;"/>
 
 
 <table style="width:100%;max-width: 100%;">
@@ -192,7 +192,7 @@ This requires both acknowledgement flags in the handling specification extension
 
 **Flow where no issue is detected with MESH responses** 	
 
-<a href="images/explore/Typical_sequence_2.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+<a href="images/explore/Typical_sequence_2.pdf" taret="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
 
@@ -208,7 +208,7 @@ This only requires the infrastructure acknowledgement flag in the handling speci
 
 
 **Flow where no issue is detected** 
-
+0
 <a href="images/explore/Typical_sequence_4.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_4.png" style="width: 100%;max-width: 100%;"/>
