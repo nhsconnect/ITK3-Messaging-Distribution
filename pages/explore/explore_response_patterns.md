@@ -202,13 +202,19 @@ This only requires the infrastructure acknowledgement flag in the handling speci
 
 **Flow where an issue is detected at infrastructure (technical) level**
 
+<a href="images/explore/Typical_sequence_without_mesh_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
+
+<img src="images/explore/Typical_sequence_wothout_mesh_1.png" style="width: 100%;max-width: 100%;"/>
+
+**Flow where an issue is detected at infrastructure (technical) level with MESH responses**
+
 <a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
 
 
 **Flow where no issue is detected** 
-0
+
 <a href="images/explore/Typical_sequence_4.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_4.png" style="width: 100%;max-width: 100%;"/>
