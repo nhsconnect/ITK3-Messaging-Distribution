@@ -106,24 +106,24 @@ This requires both acknowledgement flags in the handling specification extension
 <td></td>
 </tr>
 <tr>
-<td>1..1 <img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
+<td>1..1</td>
 <td>Send Payload</td>
-<td></td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
-<td></td>
+<td><img src="images/explore/arrow1.png" style="width: 50%;max-width: 50%;"/></td>
 <td>Infrastructure Level Response</td>
-<td>1..1 <img src="images/explore/arrow1.png" style="width: 50%;max-width: 50%;"/></td>
+<td>1..1</td>
 </tr>
 <tr>
-<td></td>
+<td><img src="images/explore/arrow1.png" style="width: 50%;max-width: 50%;"/></td>
 <td>Business Level Response</td>
-<td>1..1 <img src="images/explore/arrow1.png" style="width: 50%;max-width: 50%;"/></td>
+<td>1..1</td>
 </tr>
 <tr>
-<td>1..1 <img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
+<td>1..1</td>
 <td>Infrastructure Level Response</td>
-<td></td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
 <td></td>
