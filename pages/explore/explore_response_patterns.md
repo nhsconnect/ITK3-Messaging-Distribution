@@ -56,12 +56,12 @@ This requires both acknowledgement flags in the handling specification extension
 <tr>
 <td><b>START</b></td>
 <td></td>
-<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
+<td></td>
 </tr>
 <tr>
 <td>1..1</td>
 <td>Send Payload</td>
-<td></td>
+<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
 <td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 50%;"/></td>
