@@ -48,20 +48,26 @@ There are 3 possible flows:
 	<thead>
 		<tr>
 			<th width="15%">Sender</th>
-			<th width="35%">Payload</th>
+			<th width="35%">Flow</th>
 			<th width="5%">Receiver</th>
 		</tr>
 	</thead>
 	<tbody>
 <tr>
-<td>1..1</td>
-<td>Send any payload</td>
-<td>-----></td>
+<td colspan="3"><b>START</b></td>
 </tr>
 <tr>
-<td><-----</td>
+<td>1..1</td>
+<td>Send Payload</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
 <td>Infrastructure Level Response</td>
 <td>1..1</td>
+</tr>
+<tr>
+<td colspan="3"><b>END</b></td>
 </tr>
 </tbody>
 </table>		
