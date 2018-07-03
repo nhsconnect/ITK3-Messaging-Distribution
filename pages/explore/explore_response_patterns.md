@@ -54,7 +54,7 @@ There are 3 possible flows:
 	</thead>
 	<tbody>
 <tr>
-<td colspan="3"><p style="text-align:left"><b>START</b></td>
+<td colspan="3" style="text-align:left"><b>START</b></td>
 </tr>
 <tr>
 <td>1..1</td>
@@ -67,7 +67,7 @@ There are 3 possible flows:
 <td>1..1</td>
 </tr>
 <tr>
-<td colspan="3"><p style="text-align:right"><b>END</b></td>
+<td colspan="3" style="text-align:right"><b>END</b></td>
 </tr>
 </tbody>
 </table>		
