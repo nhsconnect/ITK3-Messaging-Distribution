@@ -126,9 +126,9 @@ This requires both acknowledgement flags in the handling specification extension
 <td></td>
 </tr>
 <tr>
+<td></td>
+<td></td>
 <td><b>END</b></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>	
