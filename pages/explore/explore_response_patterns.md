@@ -91,7 +91,49 @@ This requires both acknowledgement flags in the handling specification extension
 
 <img src="images/explore/Typical_sequence_without_mesh_3.png" style="width: 100%;max-width: 100%;"/>
 
-**Flow where an issue is detected at business level with MESH responses**
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="15%">Sender</th>
+			<th width="35%">Flow</th>
+			<th width="5%">Receiver</th>
+		</tr>
+	</thead>
+	<tbody>
+<tr>
+<td><b>START</b></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1..1</td>
+<td>Send Payload</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Infrastructure Level Response</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td></td>
+<td>Business Level Response</td>
+<td>1..1</td>
+</tr>
+<tr>
+<td>1..1</td>
+<td>Infrastructure Level Response</td>
+<td></td>
+</tr>
+<tr>
+<td><b>END</b></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>	
+
+**Flow where an issue is detected at business level without MESH responses**
 
 
 <a href="images/explore/Typical_sequence_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
