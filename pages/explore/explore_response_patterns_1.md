@@ -13,6 +13,10 @@ summary: "Response Patterns used in ITK3."
 
 This requires both acknowledgement flags in the handling specification extension to be set to "true". This is the most rigorous response framework supported by ITK3. The sender will receive up to two responses and will response to the business level response when two responses are received. There are 3 possible information flows which are defined below.
 
+
+----------
+
+
 ## Issue is Detected at Technical Level ##
 
 **The diagram below shows the response flows when an issue is detected at the technical level.**
@@ -58,6 +62,10 @@ This requires both acknowledgement flags in the handling specification extension
 <a href="images/explore/Typical_sequence_1.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_1.png" style="width: 100%;max-width: 100%;"/>
+
+
+----------
+
 
 ## Issue is Detected at Business Level ##
 
@@ -114,6 +122,9 @@ This requires both acknowledgement flags in the handling specification extension
 <a href="images/explore/Typical_sequence_3.pdf" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/Typical_sequence_3.png" style="width: 100%;max-width: 100%;"/>
+
+
+----------
 
 
 ## No Issues Detected ## 
@@ -174,4 +185,6 @@ This requires both acknowledgement flags in the handling specification extension
 
 <img src="images/explore/Typical_sequence_2.png" style="width: 100%;max-width: 100%;"/>
 
+
+----------
 
