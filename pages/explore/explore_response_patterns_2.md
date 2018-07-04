@@ -12,7 +12,7 @@ summary: "Response Patterns used in ITK3."
 
 ## Technical and Business Response Pattern ## 
 
-This requires both acknowledgement flags in the handling specification extension to be set to "true". This is similar to the Full Acknowledgement Response but original does not respond to any received responses. The sender will receive up to two responses and NOT response to any.
+This requires both acknowledgement flags in the handling specification extension to be set to "true". This is similar to the Full Acknowledgement Response but original sender does not respond to any received responses. The sender will receive up to two responses and NOT response to any.
 
 **Note: The diagrams assume that all response messages are valid and can be processed by receiving system.**
 
@@ -159,11 +159,6 @@ This requires both acknowledgement flags in the handling specification extension
 <td><img src="images/explore/arrow1.png" style="width: 25%;max-width: 50%;"/></td>
 <td>Business Level Response</td>
 <td>1..1</td>
-</tr>
-<tr>
-<td>1..1</td>
-<td>Infrastructure Level Response</td>
-<td><img src="images/explore/arrow.png" style="width: 50%;max-width: 50%;"/></td>
 </tr>
 <tr>
 <td></td>
