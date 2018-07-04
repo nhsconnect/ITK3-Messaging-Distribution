@@ -3,7 +3,7 @@ title: ITK3 Response Patterns
 keywords: explore Reference
 tags: [explore,fhir,error codes]
 sidebar: overview_sidebar
-permalink: explore_response_patterns.html
+permalink: explore_response_patterns_3.html
 summary: "Response Patterns used in ITK3."
 ---
 
