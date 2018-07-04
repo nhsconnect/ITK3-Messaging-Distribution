@@ -128,7 +128,7 @@ entries:
       type: homepage
     - title: Response Patterns
       output: web
-      subfolderitems:
+      subfolders:
       - title: Full Acknowlegement
         url: /explore_response_patterns.html
         output: web
