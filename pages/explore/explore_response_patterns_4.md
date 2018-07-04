@@ -9,7 +9,7 @@ summary: "Fire and forget response pattern used in ITK3."
 
 {% include custom/search.warnbanner.html %}
 
-## Fire and Forget ##
+## Fire and Forget Pattern ##
  
 This requires that both the acknowledgement flags in the handling specification extension are set to "false" or not to be present. This would normally never return any response, however in some error circumstances where the acknowledgement flags cannot be read a response will be returned as illustrated.  
 
