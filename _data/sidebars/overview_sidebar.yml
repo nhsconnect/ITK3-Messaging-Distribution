@@ -122,7 +122,6 @@ entries:
   - title: Response Codes
     url: /explore_response_codes.html
     output: web
-    
     folderitems:
     - title: Overview
       url: /explore_response_codes.html
