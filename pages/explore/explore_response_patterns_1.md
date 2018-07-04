@@ -4,7 +4,7 @@ keywords: explore Reference
 tags: [explore,fhir,error codes]
 sidebar: overview_sidebar
 permalink: explore_response_patterns_1.html
-summary: "Response Patterns used in ITK3."
+summary: "Full Acknowledgement response pattern used in ITK3."
 ---
 
 {% include custom/search.warnbanner.html %}
