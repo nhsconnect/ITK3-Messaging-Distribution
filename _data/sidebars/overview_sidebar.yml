@@ -126,9 +126,22 @@ entries:
       url: /explore_response_codes.html
       output: web
       type: homepage
-    - title: Response Patterns 
-      url: /explore_response_patterns.html
+    - title: Response Patterns
       output: web
+      subfolderitems:
+      - title: Full Acknowlegement
+        url: /explore_response_patterns.html
+        output: web
+      - title: Technical and Business
+        url: /explore_response_patterns.html
+        output: web
+      - title: Technical Only
+        url: /explore_response_patterns.html
+        output: web
+      - title: Fire and Forget
+        url: /explore_response_patterns.html
+        output: web
+        
     - title: Response Structure 
       url: /explore_response_structure.html
       output: web  
