@@ -9,11 +9,11 @@ summary: "Overview of sender and receiver requirements for ITK3 payloads."
 
 {% include custom/search.warnbanner.html %}
 
-These sections describe the sender and receiver requirements for ITK3 FHIR payloads
+These sections describe the sender and receiver requirements for ITK3 FHIR payloads.
 
 For the purpose of this specification: 
 
-- A ITK3 FHIR Document payload is defined as below:
+- An ITK3 FHIR Document payload is defined as below:
 
 FHIR Resources can be used to build documents that represent a Composition: a set of coherent information that is a statement of healthcare information, particularly including clinical observations and services. A document is an immutable set of Resources with a fixed presentation that is authored and/or attested by humans, organizations and devices.
 
@@ -24,10 +24,11 @@ There are two key identifiers on the document:
 - The Document identifier (mandatory). This is found in Bundle.id and is unique for this instance of the document, and is never re-used.
 - The Composition identifier (mandatory). This is found in Composition.identifier, and is the same for all documents that are derived from this Composition.
 
-The document has several dates in it:
+The document has two dates in it:
 
 - The Document date (mandatory). This is found in Bundle.meta.lastUpdated and identifies when the document bundle was assembled from the underlying Resources.
-- The Composition date (mandatory). This is found in Composition.date, which is when the author wrote the document logically
+- The Composition date (mandatory). This is found in Composition.date, which is when the author wrote the document.
+
 Once assembled into a bundle, the document is immutable - its content can never be changed, and the document id can never be reused. Any additional documents derived from the same Composition SHALL have a different document id.
 
  

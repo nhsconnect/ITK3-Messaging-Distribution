@@ -47,7 +47,7 @@ The following requirements relate to all Message Response processing.
 
 There is only one set of response codes used for all ITK3 FHIR Document implementations.
 
-For details of the response code usage see the section on [response codes](explore_response_codes.html)
+For details of the response code usage see the section on [response codes.](explore_response_codes.html)
 
 ## ITK3 Message Responses - Behavioural ## 
 
@@ -56,7 +56,7 @@ In order to provide comprehensive reporting for the Message Header, (note the Ha
 
 This section of the requirements only applies to the response codes associated with behavioural extensions created for ITK3 FHIR Messaging.
 
-The approach defines response codes for :
+The approach defines response codes for:
 - Mismatch, e.g. payload ID and payload type.
 - Bus Response problem, e.g. “server” can’t supply a business response.
 - Inf Response problem, e.g. “server” can’t supply an infrastructure response.

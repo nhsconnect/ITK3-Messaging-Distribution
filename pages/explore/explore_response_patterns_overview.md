@@ -16,7 +16,8 @@ The actual flow between the systems will be dependent on factors such as:
 
 - What responses have been requested (handling specification extension values sent)
 - If an issue is detected, the type of issue and when it is reported
-- How the MESH WorkflowID has been configured.
+- How the MESH Workflow ID has been configured
+- Whether MESH transfer reports have been requested in MESH client configuration
 
 There are four patterns supported.
 

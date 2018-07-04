@@ -32,7 +32,7 @@ Receiving systems must apply basic header validation to check that the system is
 <td>1</td>
 <td colspan="3">The system <b>MUST</b> where requested either :<br/>
 <ul>
-<li>Reject the message with an appropriate response code</li>
+<li>Reject the message with an appropriate <a href="explore_response_structure.html#itk3-business-level-response-codes</a>response code.</li>
 <li>Accept the message and pass it through to the clinical application for processing</li>
 </ul>
 </td>

@@ -124,9 +124,9 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 ## General Processing Requirements ##
 
 The system will need to provide several different views of a document depending on the access rights of individual users and what data they wish to view. 
-The simplest distinction is to
+The simplest distinction is to:
 1. provide an administrative view of the document which does not display any clinical content (except for document type) and 
-2. clinical view which displays all clinical data which may comprise structured coded data and text data.
+2. provide a clinical view which displays all clinical data which may comprise structured coded data and text data.
 
 
 <table style="width:100%;max-width: 100%;">

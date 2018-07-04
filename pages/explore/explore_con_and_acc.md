@@ -48,7 +48,7 @@ Sending and receiving systems are required to validate documents to their Messag
 </tr>
 </table> 
 
-## Use Of Coded Clinical Content ##
+## Use of Coded Clinical Content ##
 
 Coded entries are the mechanism used to exchange structured clinical information between systems. These are common, agreed structures for clinical data representation, and are the cornerstone of clinical data interoperability.
 
