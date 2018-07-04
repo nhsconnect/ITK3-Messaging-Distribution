@@ -132,16 +132,16 @@ entries:
         output: web
         subfolderitems:
         - title: Full Acknowlegement
-          url: /explore_response_patterns.html
+          url: /explore_patterns_1.html
           output: web
         - title: Technical and Business
-          url: /explore_response_patterns.html
+          url: /explore_patterns_2.html
           output: web
         - title: Technical Only
-          url: /explore_response_patterns.html
+          url: /explore_patterns_3.html
           output: web
         - title: Fire and Forget
-          url: /explore_response_patterns.html
+          url: /explore_patterns_4.html
           output: web
         
     - title: Response Structure 
