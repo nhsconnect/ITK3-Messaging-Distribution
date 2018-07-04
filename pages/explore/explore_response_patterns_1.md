@@ -13,7 +13,7 @@ summary: "Response Patterns used in ITK3."
 
 This requires both acknowledgement flags in the handling specification extension to be set to "true". This is the most rigorous response framework supported by ITK3. The sender will receive up to two responses and will response to the business level response when two responses are received. There are 3 possible information flows which are defined below.
 
-
+**Note: The diagrams assume that all response messages are valid and can be processed by receiving system.**
 ----------
 
 
