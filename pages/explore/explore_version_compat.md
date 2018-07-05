@@ -11,7 +11,7 @@ summary: "This section defines how versions at both MessageHeader level and Stru
 
 ## MessageDefinition versioning ##
 
-A MessageDefnition will have a version number. This will be "up versioned" when there is a change of functionality which is deemed to be a breaking change.
+A MessageDefinition will have a version number. This will be "up versioned" when there is a change of functionality which is deemed to be a breaking change.
 
 ## StructureDefinition versioning ##
 
@@ -29,7 +29,7 @@ For further details of versioning of FHIR structure definitions see the [NHS Dig
 
 ## Backward and Forward Compatibility ##
 
-All FHIR profiles are derived from FHIR resources defined in a FHIR standard therefore the type of information that can be exchanged and its structure is defined within the standard. FHIR does provide schema for these resources but they are very generic and have very little use for conformance purposes. The FHIR standard will evolve and mature over time and forward and backwards compatibility cannot be guaranteed. Implementers <b>SHOULD</b> be aware of this but forward and backward compatibility will need to be managed on a project-by-project basis at the business level.   
+All FHIR profiles are derived from FHIR resources defined in a FHIR standard therefore the type of information that can be exchanged and its structure is defined within the standard. FHIR does provide schemas for these resources but they are very generic and have very little use for conformance purposes. The FHIR standard will evolve and mature over time and forward and backwards compatibility cannot be guaranteed. Implementers <b>SHOULD</b> be aware of this but forward and backward compatibility will need to be managed on a project-by-project basis at the business level.   
 
 ## Compatibility ##
 

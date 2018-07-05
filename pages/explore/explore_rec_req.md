@@ -55,7 +55,7 @@ Receiving systems must apply basic header validation to check that the system is
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-RR-02</b></td>
-<td>Upon receipt of a FHIR document for a patient whose is not found in the receiving system, the system <b>MUST</b> send a response back to the sender with an appropriate response code.</td>
+<td>Upon receipt of a FHIR document for a patient whose identifiers are not found in the receiving system, the system <b>MUST</b> send a response back to the sender with an appropriate response code.</td>
 <td bgcolor="#dfefff">N</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
