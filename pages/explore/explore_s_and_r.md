@@ -7,7 +7,7 @@ permalink: explore_s_and_r.html
 summary: "Overview of sender and receiver requirements for ITK3 payloads."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 These sections describe the sender and receiver requirements for ITK3 FHIR payloads.
 

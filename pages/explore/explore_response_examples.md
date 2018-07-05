@@ -7,7 +7,7 @@ permalink: explore_response_examples.html
 summary: "Response code examples."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Error Scenario Examples ##
 

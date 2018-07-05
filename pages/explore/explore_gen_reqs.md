@@ -7,7 +7,7 @@ permalink: explore_gen_reqs.html
 summary: "There are a number of features associated with a document: i) the ability to view documents, ii) the need to acknowledge receipt of a document(s), iii) versioning and compatibility."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Audit Requirements - Clinical ##
 

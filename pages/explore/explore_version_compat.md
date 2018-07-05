@@ -7,7 +7,7 @@ permalink: explore_version_compat.html
 summary: "This section defines how versions at both MessageHeader level and StructureDefinition are implemented in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## MessageDefinition versioning ##
 

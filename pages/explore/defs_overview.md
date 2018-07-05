@@ -7,7 +7,7 @@ permalink: explore_defs_overview.html
 summary: "Overview of the Message Definitions section"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Use of Message Definitions ##
 

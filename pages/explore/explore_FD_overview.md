@@ -7,7 +7,7 @@ permalink: explore_FD_overview.html
 summary: "Sender and Receiver requirements for ITK3 FHIR documents."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

@@ -7,7 +7,7 @@ permalink: explore_bundle_refs.html
 summary: "Referencing within ITK3 bundles"
 ---
 
-{% include custom/search.warnbanner.html %}
+
  
 ## ITK3 Messaging Distribution Bundle Referencing Diagram ##
 

@@ -7,7 +7,7 @@ permalink: explore_hand_spec.html
 summary: "The ITK3 Handling Specification Usage."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

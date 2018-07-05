@@ -7,7 +7,7 @@ permalink: explore_reference.html
 summary: "Developer Cheat Sheet shortcuts for the <br/>technical build of ITK3 Messaging Distribution."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## 1. Care Connect Profiles: ##
 

@@ -7,7 +7,7 @@ permalink: explore_response_patterns_4.html
 summary: "Fire and forget response pattern used in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Fire and Forget Pattern ##
  

@@ -7,7 +7,7 @@ permalink: explore_response_patterns_1.html
 summary: "Full Acknowledgement response pattern used in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Full Acknowledgement ## 
 

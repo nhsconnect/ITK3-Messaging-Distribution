@@ -7,7 +7,7 @@ permalink: explore_response_patterns_overview.html
 summary: "Response Patterns used in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

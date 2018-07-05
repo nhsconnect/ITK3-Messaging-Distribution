@@ -7,7 +7,7 @@ permalink: explore_response_patterns_3.html
 summary: "Technical Only response pattern used in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 ## Technical Only Response Pattern ## 

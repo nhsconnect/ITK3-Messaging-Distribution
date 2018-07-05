@@ -7,7 +7,7 @@ permalink: explore_FM_overview.html
 summary: "Sender and Receiver requirements for ITK3 Messages."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

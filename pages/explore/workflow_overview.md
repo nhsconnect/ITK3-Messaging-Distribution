@@ -7,7 +7,7 @@ permalink: workflow_overview.html
 summary: "Overview of work flow."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

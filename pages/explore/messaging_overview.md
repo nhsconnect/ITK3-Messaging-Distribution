@@ -7,7 +7,7 @@ permalink: explore.html
 summary: "Overview of the Messaging Architecture section"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 This section details the "Messaging Architecture" used for ITK3 using FHIR messaging and documents such as: 
 

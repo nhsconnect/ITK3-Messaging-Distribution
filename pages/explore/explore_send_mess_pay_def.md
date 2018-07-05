@@ -7,7 +7,7 @@ permalink: explore_send_mess_pay_def.html
 summary: "Send Payload Message Definition"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Send Message Definition ##
 

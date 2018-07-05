@@ -7,7 +7,7 @@ permalink: overview_guide_versioning.html
 summary: An overview of this implementation guide is versioned.
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Beta ##
 

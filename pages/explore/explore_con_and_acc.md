@@ -7,7 +7,7 @@ permalink: explore_con_and_acc.html
 summary: "NHS Digital can provide conformance certification for sending and receiving systems processing FHIR Documents."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Verification and Validation ##
 

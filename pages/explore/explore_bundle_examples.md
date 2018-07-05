@@ -7,7 +7,7 @@ permalink: explore_bundle_examples.html
 summary: "Examples of the bundles used in ITK3"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## ITK3 Messaging Distribution Bundle Example ##
 

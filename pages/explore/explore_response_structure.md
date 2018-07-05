@@ -7,7 +7,7 @@ permalink: explore_response_structure.html
 summary: "Response codes, their associated FHIR elements and value sets."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 

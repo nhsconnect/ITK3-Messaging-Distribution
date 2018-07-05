@@ -7,7 +7,7 @@ permalink: explore_hand_attach.html
 summary: "Embedded binary objects (files) can be included in a Document.  When present the system must be able to detect them, and should inform the user of their presence, display them on demand and add them to the patient record if a user elects to do so."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 <table style="width:100%;max-width: 100%;">
 <tr>

@@ -9,7 +9,7 @@ This means that fault processing can halt and report at the appropriate point of
 "
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Recipient – Header Validation ##
 

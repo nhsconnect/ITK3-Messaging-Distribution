@@ -7,7 +7,7 @@ permalink: explore_response_codes.html
 summary: "Response codes for ITK3 messaging"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Response Code Types ##  
  

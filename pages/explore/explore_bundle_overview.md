@@ -7,7 +7,7 @@ permalink: explore_bundle_overview.html
 summary: "Overview of ITK3 bundles"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 To enable a standardised structure to carry information regarding common end-to-end distribution requirements, two Profiles have been defined, the ITK3 Message Bundle and the ITK3 MessageHeader that combine to make up the ITK3 Messaging Distribution Bundle. Two further ITK3 bundle Profiles are provided for possible use as the second bundle for a Payload: a bundle for use with document Payloads and a bundle for all other Payload types. 

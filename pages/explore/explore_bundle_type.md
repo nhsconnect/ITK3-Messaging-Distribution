@@ -7,7 +7,7 @@ permalink: explore_bundle_type.html
 summary: "The types of bundles used in ITK3"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## The ITK3 Messaging Distribution Bundle ##
 

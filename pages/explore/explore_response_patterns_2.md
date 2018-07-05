@@ -7,7 +7,7 @@ permalink: explore_response_patterns_2.html
 summary: "Technical and Business response pattern used in ITK3."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 ## Technical and Business Response Pattern ## 

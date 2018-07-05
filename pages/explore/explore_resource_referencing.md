@@ -7,7 +7,7 @@ permalink: explore_resource_referencing.html
 summary: "Resource referencing explained."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Overview ##
 This section details the referencing between resources.

@@ -7,7 +7,7 @@ permalink: explore_sender_reqs.html
 summary: "A Sender needs to be aware of a number of constraints associated with sending documents, generally considered in two categories, payload constraints and a patients' consent and preferences."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## ITK3 Number of Payloads Constraint ##
 

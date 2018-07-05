@@ -7,7 +7,7 @@ permalink: explore_mess_responses.html
 summary: "This section defines the response codes to be used by sending and receiving systems, e.g. the response codes include i) an inability to validate a message, ii) clinical level failure, iii) an inability to process a message etc. There will only be a maximum of 2 Message Responses, each containing a maximum of one Response Code."
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## ITK3 Message Processing ##
 
