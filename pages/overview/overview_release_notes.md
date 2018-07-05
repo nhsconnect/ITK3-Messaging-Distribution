@@ -79,7 +79,7 @@ This code system has changed:
 
 The [ITK3 Response Codes](explore_response_codes.html) has been improved by including the display values of the error codes, and the table of contents includes the error example scenarios.  There is a new error code to describe an unreadable message received.
 
-The [Bundle Structure Diagrams](https://nhsconnect.github.io/ITK3-FHIR-Messaging-Distribution/explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
+The [Bundle Structure Diagrams](explore_bundle_structures.html) have been corrected to reflect the changes to this specification. 
 
 The diagrams and examples have changed to reflect the changes to the Profiles, value sets and code systems.
 

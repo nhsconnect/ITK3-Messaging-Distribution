@@ -93,14 +93,10 @@ The following requirements aim to enhance reporting and pinpoint areas of Handli
 <th width="40%">Description</th>
 <th width="10%">Client</th>
 <th width="10%">Host</th>
-<th width="10%">MW</th>
-<th width="10%">SMSP</th>
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>RC-HS-02</b></td>
 <td>Implementations <b>SHOULD</b> be able to handle the Response Codes defined as <b>SHOULD</b> <a href="explore_response_structure.html">here</a></td>
-<td bgcolor="#dfefff">Y</td>
-<td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">Y</td>
 </tr>
