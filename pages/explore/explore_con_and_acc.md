@@ -1,10 +1,10 @@
 ---
-title: Conformance and Accreditation
+title: Conformance
 keywords: explore Reference
 tags: [explore,fhir]
 sidebar: overview_sidebar
 permalink: explore_con_and_acc.html
-summary: "NHS Digital compliant sending and receiving systems will need to be accredited for processing FHIR Documents."
+summary: "NHS Digital can provide conformance certification for sending and receiving systems processing FHIR Documents."
 ---
 
 {% include custom/search.warnbanner.html %}
