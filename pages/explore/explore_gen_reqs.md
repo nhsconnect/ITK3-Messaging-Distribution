@@ -100,7 +100,7 @@ The sending / receiving of Clinical Documents forms part of a patient’s record
 </tr>
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-DOC-05</b></td>
-<td>A Sending system <b>MUST</b> support the use of the SNOMED CT as defined in <a href="https://fhir.nhs.uk/STU3/ValueSet/DocumentType-1>ValueSet</a> during the creation of a FHIR Document, which has a NHS Digital profile that specifies SNOMED CT for the “Compostion.type” element within the composition resource.</td>
+<td>A Sending system <b>MUST</b> support the use of the SNOMED CT as defined in <a href="https://fhir.nhs.uk/STU3/ValueSet/DocumentType-1">ValueSet</a> during the creation of a FHIR Document, which has a NHS Digital profile that specifies SNOMED CT for the “Compostion.type” element within the composition resource.</td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
 </tr>
