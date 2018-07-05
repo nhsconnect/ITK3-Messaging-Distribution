@@ -11,7 +11,7 @@ summary: "NHS Digital compliant sending and receiving systems will need to be ac
 
 ## Verification and Validation ##
 
-Sending and receiving systems are required to validate documents to their Message Specifications. 
+Sending and receiving systems are required to validate documents conform to their Message Specifications. 
 
 <table style="width:100%;max-width: 100%;">
 <tr>
@@ -50,7 +50,7 @@ Sending and receiving systems are required to validate documents to their Messag
 
 ## Use of Coded Clinical Content ##
 
-Coded entries are the mechanism used to exchange structured clinical information between systems. These are common, agreed structures for clinical data representation, and are the cornerstone of clinical data interoperability.
+Coded entries are the mechanism used to exchange structured clinical information between systems. These are common, agreed structures for clinical data representation, and are the cornerstone of clinical data interoperability. A Coded entry is one or more Resources that are referenced from the FHIR element <b>Composition.section.entry.Reference</b>.
 
 <table style="width:100%;max-width: 100%;">
 <tr>
