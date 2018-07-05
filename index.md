@@ -20,7 +20,7 @@ FHIR Messaging components specified within this site have been developed by NHS 
 
 The INTEROPen vision is to create a library of nationally defined HL7® FHIR® resources and interaction patterns that implementers can adopt to simplify integration and interoperability within England's health and social care systems.
 
-Find out more on the [INTEROPen website](http://interopen.org/).
+Find out more on the <a href="http://interopen.org/" target="_blank">INTEROPen website</a>.
 
 ## Overview of The ITK3 Messaging Components ##
 
