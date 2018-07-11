@@ -25,7 +25,7 @@ This will be "up versioned" when there is a change of functionality which is dee
 
 The structure definition also has a version element internally, which can also be up versioned to indicate a minor change. This is not reflected in the XML instance.
 
-For further details of versioning of FHIR structure definitions see the [NHS Digital FHIR Policy](https://nhsconnect.github.io/fhir-policy/) 
+For further details of versioning of FHIR structure definitions see the [NHS Digital FHIR Policy](https://developer.nhs.uk/apis/fhir-policy/) 
 
 ## Backward and Forward Compatibility ##
 
