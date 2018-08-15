@@ -455,7 +455,7 @@ MessageHeader.extension(ITKMessageHandling) - RecipientType = "FI" (For Informat
 <tr>
 <td bgcolor="#dfefff"><b>FHIR-SR-03</b></td>
 <td>FHIR Mandate – To indicate the Sender Reference the originating system <b>MUST</b> set:<br/>
-MessageHeader.extension(ITKMessageHandling) – SenderReference = &lt;up to any 255 character string&gt; 
+MessageHeader.extension(ITKMessageHandling) – SenderReference = &lt;up to any 255 character string&gt; (Default Value= None)
 </td>
 <td bgcolor="#dfefff">Y</td>
 <td bgcolor="#dfefff">N</td>
