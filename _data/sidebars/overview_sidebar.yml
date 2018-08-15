@@ -50,7 +50,7 @@ entries:
           output: web
           
     - title: MESH
-      url: /explore_mesh.html
+      url: /mesh.html
       output: web 
     - title: Handling Specification
       url: /explore_hand_spec.html
