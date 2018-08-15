@@ -25,6 +25,10 @@ ITK-MessageEvent-2 has been updated with the new codes for Digital Medicines and
 
 All example have updated to align with the above changes.
 
+**Additional Guidance**
+
+Added a new page under Messaging Architecture for MESH with overview presentations and link to MESH website.
+
 ## 2.4.0-beta ##
 
 **Sender and Receiver Requirements**
