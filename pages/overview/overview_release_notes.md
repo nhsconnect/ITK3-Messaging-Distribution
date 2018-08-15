@@ -19,7 +19,7 @@ All remaining Handling Specifications have been made mandatory, with defaults fo
 
 **Value Sets / Code Systems**
 
-These have been updated with the new codes for Digital Medicines and GP Write Back.
+ITK-MessageEvent-2 have been updated with the new codes for Digital Medicines and GP Write Back.
 
 **Examples**
 
