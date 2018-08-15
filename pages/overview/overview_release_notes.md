@@ -12,16 +12,16 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 ## 2.5.0-beta ##
 
-** Handling Specification Extension**
+**Handling Specification Extension**
 
 The Priority Handling Specification has been removed due to an architectural decision to remove the priority of the processing of a message.
 All remaining Handling Specifications have been made mandatory, with defaults for "Sender Reference" and "Local" Handling  Specifications when not used by a message.
 
-** Value Sets / Code Systems **
+**Value Sets / Code Systems**
 
 These have been updated with the new codes for Digital Medicines and GP Write Back.
 
-** Examples **
+**Examples**
 
 All example have updated to align with the above changes.
 
