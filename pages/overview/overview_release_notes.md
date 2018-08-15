@@ -9,6 +9,22 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
+
+## 2.5.0-beta ##
+
+** Handling Specification Extension**
+
+The Priority Handling Specification has been removed due to an architectural decision to remove the priority of the processing of a message.
+All remaining Handling Specifications have been made mandatory, with defaults for "Sender Reference" and "Local" Handling  Specifications when not used by a message.
+
+** Value Sets / Code Systems **
+
+These have been updated with the new codes for Digital Medicines and GP Write Back.
+
+** Examples **
+
+All example have updated to align with the above changes.
+
 ## 2.4.0-beta ##
 
 **Sender and Receiver Requirements**

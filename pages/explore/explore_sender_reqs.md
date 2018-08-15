@@ -470,14 +470,6 @@ MessageHeader.extension(ITKMessageHandling) – SenderReference = &lt;up to any 
 <th width="10%">Receiver</th>
 </tr>
 
-<tr>
-<td bgcolor="#dfefff"><b>FHIR-SR-04</b></td>
-<td>FHIR Mandate – To indicate the priority the originating system <b>MUST</b> set:<br/>
-MessageHeader.extension(ITKMessageHandling) – priority = routine/urgent/asap/stat
-</td>
-<td bgcolor="#dfefff">Y</td>
-<td bgcolor="#dfefff">N</td>
-</tr>
 
 </table> 
 

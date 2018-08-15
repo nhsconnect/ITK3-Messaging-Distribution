@@ -31,10 +31,6 @@ summary: "Response code examples."
 
 <script src="https://gist.github.com/IOPS-DEV/1af0659abda0358f2fc1da5e48c32aaa.js"></script>
 
-## Infrastructure Level Response 10006: Fatal-Error - Priority Value - Processing Error ##
-
-<script src="https://gist.github.com/IOPS-DEV/8d97f3f8f10863669f22b913b5427ad4.js"></script>
-
 ## Infrastructure Level Response 10007: Sender Reference Value - Processing Error ##
 
 <script src="https://gist.github.com/IOPS-DEV/442295632e65283c9bc93277f724f4ba.js"></script>
@@ -64,12 +60,6 @@ When a system receives a message which is totally unreadable due to it being cor
 **Issue** - Unable to ascertain whether original message was for action or only for information.
 
 **Default Behaviour** - Assume for action and return acknowledgement.
-
-----------
-
-**Issue** - Unable to ascertain priority of original message.
-
-**Default Behaviour** - Return acknowledgement as soon as possible once error is detected. 
 
 ----------
 

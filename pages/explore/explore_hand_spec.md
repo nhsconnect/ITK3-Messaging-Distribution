@@ -66,25 +66,6 @@ This complex extension consists of extension elements each with their own extens
 </tr>
 
 <tr>
-<td rowspan="4">Priority</td>
-<td rowspan="4">Indicates the priority that processing of the Payload should be given by the recipient.<br>These codes are taken from the value set: <a href="https://fhir.nhs.uk/STU3/ValueSet/ITK-Priority-1">ITK-Priority-1</a><br>This value set is derived from the FHIR value set:<a href="http://hl7.org/fhir/ValueSet/request-priority">request-priority</a></td>
-<td>routine</td>
-<td>The request has normal priority</td>
-</tr>
-<tr>
-<td>urgent</td>
-<td>The request should be actioned promptly – a higher priority than routine</td>
-</tr>
-<tr>
-<td>asap</td>
-<td>The request should be actioned as soon as possible - higher priority than urgent</td>
-</tr>
-<tr>
-<td>stat</td>
-<td>The request should be actioned immediately - highest possible priority. E.g. an emergency</td>
-</tr>
-
-<tr>
 <td>MessageDefinition</td>
 <td>A reference to the MessageDefinition for the Payload</td>
 <td></td>

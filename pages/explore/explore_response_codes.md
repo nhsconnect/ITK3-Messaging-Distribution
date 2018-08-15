@@ -67,12 +67,6 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
 </tr>
 <tr>
-<td>10006</td>
-<td>Negative</td>
-<td>Priority Value - Processing Error</td>
-<td>The handling specification for Priority is present but cannot be processed. For example, may be unreadable or contain an incorrect value.</td>
-</tr>
-<tr>
 <td>10007</td>
 <td>Negative</td>
 <td>Sender Reference Value - Processing Error</td>

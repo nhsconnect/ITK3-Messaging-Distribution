@@ -176,13 +176,7 @@ relating to Handling Specification faults.</td>
 <td>Message Definition Version Value – Processing Error</td>
 <td>The handling specification for Message Definition is present but the version is not supported by the receiving system.</td>
 </tr>
-<tr>
-<td>issue.details.code</td>	
-<td>ITK-Response-Codes</td>
-<td>10006</td>
-<td>Priority Value - Processing Error</td>
-<td>The handling specification code for Priority is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
-</tr>
+
 <tr>
 <td>issue.details.code</td>	
 <td>ITK-Response-Codes</td>
