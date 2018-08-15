@@ -76,7 +76,7 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>10008</td>
 <td>Negative</td>
 <td>Handling Specification Business Rule Error</td>
-<td>The Handling Specification usage does not match business rules for included Payload. For example, an acknowledgement flag defined as mandatory by the Payload specification is missing.</td>
+<td>The Handling Specification usage does not match business rules for included Payload. For example, an acknowledgement flag defined as mandatory to contain the value "true" by the Payload specification contains the value "false".</td>
 </tr>
 <tr>
 <td>10009</td>

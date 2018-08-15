@@ -14,7 +14,7 @@ This section provides ITK3 implementers with the information required to utilise
 
 The responses defined in the message definitions do not include MESH responses see notes below:
 
-**Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  The MESH acknowledgements and responses are not defined in this specification
+**Note 1:** When using MESH, additional MESH responses will be available.  The MESH responses are not defined in this specification
 
 **Note 2:** Messages are structured in eXtensible Markup Language (XML) only.
 
@@ -26,7 +26,7 @@ Further guidance on the use of MessageDefinitions will be provided at a late dat
 
 ## Message Handling Flags ##
 
-Acknowledgement responses can be requested using the message handling flags:
+Responses(Acknowledgements) can be requested using the message handling flags:
 
 These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageHeader-2) and the actual responses allowed are specified in the Payload message definitions. 
 
@@ -44,29 +44,18 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Send Pa
 
 ---
 
-## ITK-InfAck-MessageDefinition-Instance-1 ##
+## ITK-Response-MessageDefinition-Instance-1 ##
 
-This is the MessageDefinition instance for the ITK3 Message Distribution Infrastructure Acknowledgement message which can be used to return positive and negative Infrastructure Acknowledgements to a sender of over MESH.
+This is the MessageDefinition instance for the ITK3 Message Distribution Response message which can be used to return positive and negative Responses to a sender of over MESH.
 
 - **Sender:** Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-InfAck-MessageDefinition-Instance-1
+- **MessageDefinition:** ITK-Response-MessageDefinition-Instance-1
 
 <script src="https://gist.github.com/IOPS-DEV/e4cefe1ba05fc847574d768e93b2cba7.js"></script>
 
 ----------
 
-## ITK-BusAck-MessageDefinition-Instance-1 ##
-
-This is the MessageDefinition instance for the ITK3 Message Distribution Business Acknowledgement message which can be used to return positive and negative Business Acknowledgements to a sender of over MESH.
-
-- **Sender:** Sending System
-- **Receiver:** Recipient System
-- **MessageDefinition:** ITK-BusAck-MessageDefinition-Instance-1
-
-<script src="https://gist.github.com/IOPS-DEV/dabb8d801f2ef88b7bd6311fd26b1eb2.js"></script>
-
-----------
 
 
 

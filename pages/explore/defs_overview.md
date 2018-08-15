@@ -53,7 +53,7 @@ For each message or document type there will be a message definition instance pr
 - The responses are allowed to be returned to the sender for the message or document.
 
 
-**Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  Any responses defined in the message definitions do not include MESH responses.
+**Note 1:** When using MESH, additional MESH responses will be available.  Any responses defined in the message definitions do not include MESH responses.
 
 ## Versioning of Message Definitions ##
 

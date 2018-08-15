@@ -45,27 +45,27 @@ When a system receives a message which is totally unreadable due to it being cor
 
 ----------
 
-**Issue** - Unable to ascertain if an acknowledgement has been requested.
+**Issue** - Unable to ascertain if a response has been requested.
 
-**Default Behaviour** - An acknowledgement must always be returned to the sender.
+**Default Behaviour** - A response must always be returned to the sender.
 
 ----------
 
 **Issue** - Unable to ascertain sender person or organisation.
 
-**Default Behaviour** - Return acknowledgement to MESH mailbox original message was sent from and original sending system will have to deal with acknowledgement the best it can. 
+**Default Behaviour** - Return a response to MESH mailbox original message was sent from and original sending system will have to deal with response the best it can. 
 
 ----------
 
 **Issue** - Unable to ascertain whether original message was for action or only for information.
 
-**Default Behaviour** - Assume for action and return acknowledgement.
+**Default Behaviour** - Assume for action and return response.
 
 ----------
 
 **Issue** - Unable to ascertain any other information
 
-**Default Behaviour** - Return acknowledgement as soon as possible once error is detected. 
+**Default Behaviour** - Return response as soon as possible once error is detected. 
 
 ----------
 
