@@ -32,25 +32,25 @@ These flags are configured within the [ITK-MessageHeader-2](https://fhir.nhs.uk/
 
 ---
 
-## ITK-SendPayload-MessageDefinition-Instance-1 ##
+## ITK-SendPayload-MessageDefinition-1 ##
 
 This is the MessageDefinition instance for the ITK3 Message Distribution Send Payload message. This message can be used to send any Payload. The Payload specification should be consulted for the Payload message definition. 
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-SendPayload-MessageDefinition-Instance-1
+- **MessageDefinition:** ITK-SendPayload-MessageDefinition-1(https://fhir.nhs.uk/STU3/MessageDefinition/ITK-SendPayload-MessageDefinition-1)
 
 <script src="https://gist.github.com/IOPS-DEV/3fb9cde87dc0fc9da48100f9efafef07.js"></script>
 
 ---
 
-## ITK-Response-MessageDefinition-Instance-1 ##
+## ITK-Response-MessageDefinition-1 ##
 
 This is the MessageDefinition instance for the ITK3 Message Distribution Response message which can be used to return positive and negative Responses to a sender of over MESH.
 
 - **Sender:** Sending System
 - **Receiver:** Recipient System
-- **MessageDefinition:** ITK-Response-MessageDefinition-Instance-1
+- **MessageDefinition:** [ITK-Response-MessageDefinition-1](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-Response-MessageDefinition-1)
 
 <script src="https://gist.github.com/IOPS-DEV/e4cefe1ba05fc847574d768e93b2cba7.js"></script>
 
