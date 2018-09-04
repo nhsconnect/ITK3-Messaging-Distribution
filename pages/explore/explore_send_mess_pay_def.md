@@ -19,7 +19,7 @@ This is the MessageDefinition instance for the ITK3 Message Distribution Send Pa
 
 **Note: This is a generic instance provided for information and development purposes and is not used within the MessageHeader handling specification.**  
 
-## Send Message Definition Instance ##
+## ITK-SendPayload-MessageDefinition-1 ##
 
 <script src="https://gist.github.com/IOPS-DEV/3fb9cde87dc0fc9da48100f9efafef07.js"></script>
 
