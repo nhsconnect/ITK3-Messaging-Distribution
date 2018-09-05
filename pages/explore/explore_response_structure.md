@@ -152,15 +152,15 @@ relating to Handling Specification faults.</td>
 <td>issue.details.code</td>	
 <td>ITK-Response-Codes</td>
 <td>10002</td>
-<td>Infrastructure Acknowledgement Flag - Processing Error</td>
-<td>The handling specification flag for infrastructure level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
+<td>Infrastructure Level Response Value - Processing Error</td>
+<td>The handling specification flag for infrastructure level response is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
 <td>ITK-Response-Codes</td>
 <td>10003</td>
-<td>Business Acknowledgement Flag - Processing Error</td>
-<td>The handling specification flag for business level acknowledgement is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
+<td>Business Level Response Value - Processing Error</td>
+<td>The handling specification flag for business level response is present but cannot be processed. For example may be unreadable or contain an incorrect value</td>
 </tr>
 <tr>
 <td>issue.details.code</td>	
@@ -251,7 +251,7 @@ These responses will be returned using the ITK3 Response message if requested by
 <td>ITK-Response-Codes</td>	
 <td>20013</td> 
 <td>Success</td>
-<td>The Message has been processed successfully. An response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgement request flag has been sent to “true”.</td>
+<td>The Message has been processed successfully. An response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business level response request flag has been sent to “true”.</td>
 </tr>
 </table>
 
