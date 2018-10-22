@@ -169,6 +169,11 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>The Message has been processed successfully at the infrastructure level. A response will be returned stating the fact. However, the message may still fail after further processing and result in another response if the business acknowledgement request flag has been sent to “true”.</td>
 </tr>
 <tr>
+<td>20014</td>
+<td>Negative</td>
+<td>Unable to Process Replacement Document</td>	
+</tr>
+<tr>
 <td>30001</td>
 <td>Positive</td>
 <td>Patient known here. (e.g. Patient is registered here)</td>
