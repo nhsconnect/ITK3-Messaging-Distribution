@@ -171,7 +171,8 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <tr>
 <td>20014</td>
 <td>Negative</td>
-<td>Unable to Process Replacement Document</td>	
+<td>Unable to Process Replacement Document</td>
+<td>A replacement document was received, but the receiver could not process the new document correctly and has therefore marked the new and original documents as "bad" on its system.</td>	
 </tr>
 <tr>
 <td>30001</td>
