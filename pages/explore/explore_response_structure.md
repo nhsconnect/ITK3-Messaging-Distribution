@@ -811,6 +811,49 @@ These responses will be returned using the ITK3 Response message if requested by
 </tr>
 </table>			
 
+<table width="100%">
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>	
+<td>ResponseType</td>	
+<td>fatal-error</td>
+<td>Fatal Error</td>
+<td>The message was rejected because of a problem with the content. There is no point in re-sending without change.</td>
+</tr>	
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th>
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>	
+<td>fatal</td>
+<td>Fatal</td>
+<td>The issue caused the action to fail, and no further checking could be performed.</td>
+</tr>
+<tr>
+<td>issue.code</td>
+<td>IssueType</td>	
+<td>processing</td>
+<td>Processing Failure</td>
+<td>Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		 
+<td>20014</td> 
+<td>Unable to Process Replacement Document</td>
+<td>A replacement document was received, but the receiver could not process the new document correctly and has therefore marked the new and original documents as "bad" on its system.</td>
+</tr>
+</table>	
 
 ## ITK3 Business Level Response Codes ##
 

@@ -130,6 +130,10 @@ Note: If only certain elements are missing or unreadable then the error codes as
 
 <script src="https://gist.github.com/IOPS-DEV/56fdf8105c60efa5811342a924ffe0fc.js"></script>
 
+## Infrastructure Level Response 20014: Unable to Process Replacement Document ##
+
+<script src="https://gist.github.com/IOPS-DEV/3fc67fc15aa7df8e0f466e8344af644e.js"></script>
+
 ----------
 
 ## Business Level Response 30001:  - Patient Known Here ##
