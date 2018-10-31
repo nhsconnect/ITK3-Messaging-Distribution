@@ -9,9 +9,20 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
 
-## 2.5.2-beta ##
+## 2.6.0-Release Candidate ##
 
-Patch to add new response code to allow reporting of replacement document errors
+**Response Codes**
+
+Added new response code to allow reporting of replacement document errors and example
+
+**Overview Diagram**
+
+Updated to make sender mandatory to align with the MessageHeader Profile
+
+**Status**
+
+Status of this specification has been changed to Release Candidate.
+
 
 ## 2.5.1-beta ##
 
