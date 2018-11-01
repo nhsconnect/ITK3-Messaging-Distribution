@@ -23,7 +23,7 @@ There are some pre-requisites for the use of the ITK3 Messaging Distribution spe
 ## ITK3 Messaging Distribution Requirements ##
 
 - SHALL support HL7 FHIR STU3.
-- SHALL implement ITK3 Sender and/or Receiver Responsibilities as per [ITK3 Document Sender and Receiver Requirements](explore_snd&rec_req.html) when sending an ITK3 FHIR Document.
+- SHALL implement ITK3 Sender and/or Receiver Responsibilities as per [ITK3 Document Sender and Receiver Requirements](explore_s_and_r.html) when sending an ITK3 FHIR Document.
 - SHALL support the XML format for all NHS Digital document and message flows.
 
 ## FHIR Conformance ##
