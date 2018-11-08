@@ -27,6 +27,9 @@ Updated to make sender mandatory to align with the MessageHeader Profile
 
 Status of this specification has been changed to Release Candidate.
 
+**Versioning Information**
+
+Guide versioning page now references NHS Digital FHIR Policy pages.
 
 ## 2.5.1-beta ##
 
