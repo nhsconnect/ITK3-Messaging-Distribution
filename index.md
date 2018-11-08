@@ -11,7 +11,7 @@ summary: A brief introduction to getting started with the ITK3 Messaging Distrib
 ## Introduction ##
 
 
-{% include custom/versions_warning.html %}
+<!-- {% include custom/versions_warning.html %} -->
 
 "ITK3 Messaging Distribution" is the term used for a set of generic FHIR messaging components. These messaging components have been developed by NHS Digital to allow a standard approach to FHIR MessageHeaders and responses (acknowledgements) across NHS message and document flows in England. The Payloads are not specified within this specification as these components can carry any Payload. These components, along with NHS Digital FHIR Message and FHIR Document specifications are part of the ITK3 solution. 
 

@@ -11,6 +11,10 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 ## 2.6.0-RC ##
 
+**Profiles**
+
+The ITK-Response-OperationOutcome-1 has been changed to allow multiple issues to be reported if required by future implementations. This change is deemed to be backward compatible and does not affect current implementations unless specified by the Messaging Implementation guidance. 
+
 **Response Codes**
 
 Added new response code to allow reporting of replacement document errors and example
