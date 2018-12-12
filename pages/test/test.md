@@ -29,7 +29,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |   |  | NHSD-Encounter-Type-1 |
 |  priority | Required | Indicates the urgency of the encounter |
 |   |  | v3 Code System ActPriority (Example) |
-|  subject | Mandatory | CareConnectPatient-1 |
+|  subject | Mandatory | [CareConnectPatient-1](https://data.developer.nhs.uk/specifications/sc-fhir-5/Profile.ADW-DischargeNotice/careconnect-patient-1.html) |
 
 
 
