@@ -12,7 +12,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |   |  |  |  |  |  |  |
 |  ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |  **Name** | **Base Card.** | **Imple Card.** | **Conformance** | **Type** | **Description & Constraints** | **Additional Constraints For This Implementation** |
-|  Procedure |  |  |  | DomainResource | An action that is being or was performed on a patient<br/>+ Reason not done is only permitted if notDone indicator is true<br/>Elements defined in Ancestors: id, meta, implicitRules, language, text, contained, extension, modifierExtension |  |
+|  [Procedure](http://hl7.org/fhir/STU3/procedure-definitions.html#Procedure) |  |  |  | [DomainResource](http://hl7.org/fhir/STU3/domainresource.html) | An action that is being or was performed on a patient<br/>+ Reason not done is only permitted if notDone indicator is true<br/>Elements defined in Ancestors: id, meta, implicitRules, language, text, contained, extension, modifierExtension |  |
 |  identifier | 0..* | 0..* | Mandatory | Identifier | External Identifiers for this procedure |  |
 |  definition | 0..* | 0..* | Not Used | Reference(PlanDefinition <code>&amp;#124;</code> ActivityDefinition <code>&amp;#124;</code> HealthcareService) | Instantiates protocol or definition |  |
 |  basedOn | 0..* | 0..* | Select | Reference(CarePlan <code>&amp;#124;</code> ProcedureRequest <code>&amp;#124;</code> ReferralRequest) | A request for this procedure |  |
@@ -46,6 +46,3 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  manipulated | 1..1 | 1..1 | Select | Reference(Device) | Device that was changed |  |
 |  usedReference | 0..* | 0..* | Select | Reference(Device <code>&amp;#124;</code> Medication <code>&amp;#124;</code> Substance) | Items used during procedure |  |
 |  usedCode | 0..* | 0..* | Select | CodeableConcept | Coded items used during the procedure<br/>FHIR Device Types (Example) |  |
-
-
-
