@@ -10,8 +10,6 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 ## Overview ##
 
 |  Element Name | **Conformance** | Description & Constraints for XXXX |
-|  ------ | ------ | ------ |
-|   |  |  |
 |  [identifier](http://hl7.org/fhir/encounter-definitions.html#Encounter.identifier) | Mandatory | Identifier(s) by which this encounter is known |
 |  [status](http://hl7.org/fhir/encounter-definitions.html#Encounter.status) | Mandatory | planned <code>&amp;#124;</code> arrived <code>&amp;#124;</code> triaged <code>&amp;#124;</code> in-progress <code>&amp;#124;</code> onleave <code>&amp;#124;</code> finished <code>&amp;#124;</code> cancelled + |
 |   |  | [EncounterStatus (Required)](https://www.hl7.org/fhir/valueset-encounter-status.html) |
