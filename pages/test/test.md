@@ -9,20 +9,27 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 
 ## Overview ##
 
-The Test section contains descriptions of approaches and suggestions for building ITK3 Messaging Solution.
+|  Element Name | **Conformance** | Description & Constraints for XXXX |
+|  ------ | ------ | ------ |
+|   |  |  |
+|  identifier | Mandatory | Identifier(s) by which this encounter is known |
+|  status | Mandatory | planned <code>&amp;#124;</code> arrived <code>&amp;#124;</code> triaged <code>&amp;#124;</code> in-progress <code>&amp;#124;</code> onleave <code>&amp;#124;</code> finished <code>&amp;#124;</code> cancelled + |
+|   |  | EncounterStatus (Required) |
+|  statusHistory | Not Used | List of past encounter statuses |
+|  status | Not Used | planned <code>&amp;#124;</code> arrived <code>&amp;#124;</code> triaged <code>&amp;#124;</code> in-progress <code>&amp;#124;</code> onleave <code>&amp;#124;</code> finished <code>&amp;#124;</code> cancelled + |
+|   |  | EncounterStatus (Required) |
+|  period | Not Used | The time that the episode was in the specified status |
+|  class | Optional | inpatient <code>&amp;#124;</code> outpatient <code>&amp;#124;</code> ambulatory <code>&amp;#124;</code> emergency + |
+|   |  | ActEncounterCode (Extensible) |
+|  classHistory | Not Used | List of past encounter classes |
+|  class | Not Used | inpatient <code>&amp;#124;</code> outpatient <code>&amp;#124;</code> ambulatory <code>&amp;#124;</code> emergency + |
+|   |  | ActEncounterCode (Extensible) |
+|  period | Not used | The time that the episode was in the specified class |
+|  type | Mandatory | Specific type of encounter |
+|   |  | NHSD-Encounter-Type-1 |
+|  priority | Required | Indicates the urgency of the encounter |
+|   |  | v3 Code System ActPriority (Example) |
+|  subject | Mandatory | CareConnectPatient-1 |
 
-| Page              |  Description    |
-|+---------------------|+--------------------------------+|
-| Patterns / Topology | Describes access patterns necessary which influence the access, security and use of ITK3 Messaging Solutions. Depending on the pattern or topology of the sending and receiving system. The relationship between the sender and receiver influences the choice of access mechanism, security of Payload etc. |
-| Access | The access mechanism and of sending system is influenced by many factors. This section demonstrates the design decisions to consider | 
-| Security | The security of the FHIR Payload, access and data at rest are all important design decisions while building an ITK3 Messaging Solution. | 
-| Test Data | The test data allows the testing of the ITK3 Messaging Distribution components and functionality at the individual response level. | 
-
-
-## Providing an ITK3 Messaging Solution ##
-
-The following diagram explains the elements of ITK3 Messaging Solutions allowing the development of the message solution:
-
-{% include custom/provide_messaging.svg %}
 
 
