@@ -23,20 +23,20 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 | 1 | extension (anaestheticIssues) | 0..1 | Required | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | [Details of any adverse reaction to any anaesthetic agents. Constraint (ext-1): Must have either extensions or value[x], not both URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1) |
 | 1 | modifierExtension | 0..* | Not Used | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | Extensions that cannot be ignored<br/>Constraint (ext-1): Must have either extensions or value[x], not both<br/>Slicing: Description: Extensions are always sliced by (at least) url, Discriminator: url, Ordering: false, Rules: Open |
 | 2 | identifier | 0..* | Mandatory | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | External Identifiers for this procedure |
-| 2 | use | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [usual : official  : temp : secondary (If known).Binding (required): Identifies the purpose for this identifier, if known .(http://hl7.org/fhir/stu3/valueset-identifier-use.html )](http://hl7.org/fhir/stu3/valueset-identifier-use.html) |
+| 3 | use | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [usual : official  : temp : secondary (If known).Binding (required): Identifies the purpose for this identifier, if known .(http://hl7.org/fhir/stu3/valueset-identifier-use.html )](http://hl7.org/fhir/stu3/valueset-identifier-use.html) |
 | 3 | type | 0..1 | Optional | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | Description of identifier<br/>Binding (extensible): A coded type for an identifier that can be used to determine which identifier to use for a specific purpose. ( http://hl7.org/fhir/stu3/valueset-identifier-type.html ) |
 | 4 | coding | 0..* | Optional | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system |
-| 4 | system | 0..1 | Optional | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
-|  ]]]]] | version | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
-|  ]]]]] | code | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
-|  ]]]]] | display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
-|  ]]]]] | userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
-|  ]]]] | text | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
-|  ]]] | system | 1..1 | Not Used | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | The namespace for the identifier value |
-|  ]]] | value | 1..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The value that is unique |
-|  ]]] | period | 0..1 | Optional | [Period](http://hl7.org/fhir/stu3/datatypes.html#period) | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
-|  >>>> | start | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | Starting time with inclusive boundary |
-|  >>>> | end | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | End time with inclusive boundary, if not ongoing |
+| 5 | system | 0..1 | Optional | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
+| 5 | version | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
+| 5 | code | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
+| 5 | display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
+| 5 | userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
+| 4 | text | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+| 3 | system | 1..1 | Not Used | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | The namespace for the identifier value |
+| 3 | value | 1..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The value that is unique |
+| 3 | period | 0..1 | Optional | [Period](http://hl7.org/fhir/stu3/datatypes.html#period) | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
+| 4 | start | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | Starting time with inclusive boundary |
+| 4 | end | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | End time with inclusive boundary, if not ongoing |
 |  >>> | assigner | 0..1 | Required | [Reference ( CareConnect-Organization-1 )](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) | Organization that issued id (may be just text)<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |  >>>> | reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  >>>> | identifier | 0..1 | Mandatory | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
