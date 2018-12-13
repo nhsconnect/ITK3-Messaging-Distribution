@@ -7,13 +7,13 @@ permalink: test.html
 summary: "These pages assist with requirements gathering and mapping stages of an ITK3 Messaging Solution development process."
 ---
 
-## Overview ##
+## Mapping table ##
 
 
 
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
 |  :------ | ------ | ------ | ------ | ------ |
-|  **Name** | **Card.** | **Conformance** | **Type** | **Description/Constraints For This Implemenation** |
+|  **Elemernt Name** | **Card.** | **Conformance** | **Type** | **Description/Constraints For This Implemenation** |
 |  Procedure | ​ |  |  | An action that is being or was performed on a patient<br/>Constraint (dom-2): If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>Constraint (dom-1): If the resource is contained in another resource, it SHALL NOT contain any narrative<br/>Constraint (dom-4): If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>Constraint (dom-3): If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource<br/>Constraint (pro-1): Reason not done is only permitted if notDone indicator is true |
 |  - Procedure.id | 0..1 | Not Used | [Id](http://hl7.org/fhir/stu3/datatypes.html#id) | Logical id of this artifact |
 |  - meta | 0..1 | Mandatory | [Meta](http://hl7.org/fhir/stu3/resource.html#Meta) | Metadata about the resource |
@@ -42,14 +42,14 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  - - - identifier | 0..1 | Mandatory | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
 |  - - - display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  - - definition | 0..* | Optional | Reference | Instantiates protocol or definition. Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - definition | 0..* | Optional | [Reference](http://hl7.org/fhir/stu3/references.html) | Instantiates protocol or definition. Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [PlanDefinition](http://hl7.org/fhir/stu3/plandefinition.html) |  |
 |   |  | Not Used | [ActivityDefinition](http://hl7.org/fhir/stu3/activitydefinition.html) |  |
 |   |  | Required | [CareConnect-NHSD-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) |  |
 |  - - - reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
 |  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  - - basedOn | 0..* | Not Used | Reference | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - basedOn | 0..* | Not Used | [Reference](http://hl7.org/fhir/stu3/references.html) | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [CarePlan](https://www.hl7.org/fhir/stu3/careplan.html) |  |
 |   |  | Not Used | [ProcedureRequest](https://www.hl7.org/fhir/stu3/procedurerequest.html) |  |
 |   |  | Not Used | [ReferralRequest](https://www.hl7.org/fhir/stu3/referralrequest.html) |  |
@@ -90,13 +90,13 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - - display | 1..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
 |  - - - - userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
 |  - - - text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
-|  - - subject | 1..1 | Mandatory | Reference | Who the procedure was performed on<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - subject | 1..1 | Mandatory | [Reference](http://hl7.org/fhir/stu3/references.html) | Who the procedure was performed on<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [Group](http://hl7.org/fhir/stu3/group.html) |  |
 |   |  | Mandatory | [CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1) |  |
 |  - - - reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
 |  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  - - context | 0..1 | Mandatory | Reference | Encounter or episode associated with the procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - context | 0..1 | Mandatory | [Reference](http://hl7.org/fhir/stu3/references.html) | Encounter or episode associated with the procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [EpisodeOfCare](http://hl7.org/fhir/stu3/episodeofcare.html) |  |
 |   |  | Mandatory | [CareConnect-Encounter-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1) |  |
 |  - - - reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
@@ -114,11 +114,11 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - - display | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
 |  - - - - userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
 |  - - - text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
-|  - - actor | 1..1 | Mandatory | Reference | The reference to the practitioner<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - actor | 1..1 | Mandatory | [Reference](http://hl7.org/fhir/stu3/references.html) | The reference to the practitioner<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [RelatedPerson](http://hl7.org/fhir/stu3/relatedperson.html) |  |
 |   |  | Not Used | [Device](http://hl7.org/fhir/stu3/device.html) |  |
 |   |  | Not Used | [CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) |  |
-|   |  | Not Used | CareConnect-Patient-1 |  |
+|   |  | Not Used | [CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1) |  |
 |   |  | Mandatory | [CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1) |  |
 |  - - - reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
@@ -209,7 +209,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
 |  - - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
 |  - - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  - - usedReference | 0..* | Optional | Reference ( Device <code>&amp;#124;</code>Substance <code>&amp;#124;</code> CareConnect-Medication-1 ) | Items used during procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - usedReference | 0..* | Optional | [Reference](http://hl7.org/fhir/stu3/references.html) | Items used during procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Optional | [Device](http://hl7.org/fhir/stu3/device.html) |  |
 |   |  | Optional | [Substance](http://hl7.org/fhir/stu3/substance.html) |  |
 |   |  | Optional | [CareConnect-Medication-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1) |  |
