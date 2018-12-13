@@ -10,6 +10,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 ## Overview ##
 
 
+
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
 |  :------ | ------ | ------ | :------ | ------ |
 |  **Name** | **Card.** | **Conformance** | **Type** | **Description/Constraints For This Implemenation** |
@@ -31,20 +32,23 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  code | 0..1 | Select | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
 |  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
 |  userSelected | 0..1 | Select | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
-|  text | 0..1 | Select | String | Plain text representation of the concept |
-|  system | 1..1 | Select | Uri | The namespace for the identifier value |
-|  value | 1..1 | Select | String | The value that is unique |
-|  period | 0..1 | Select | Period | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
-|  start | 0..1 | Select | dateTime | Starting time with inclusive boundary |
-|  end | 0..1 | Select | dateTime | End time with inclusive boundary, if not ongoing |
-|  assigner | 0..1 | Select | Reference ( CareConnect-Organization-1 ) | Organization that issued id (may be just text)<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | String | Text alternative for the resource |
-|  definition | 0..* | Select | Reference ( PlanDefinition <code>&amp;#124;</code>ActivityDefinition <code>&amp;#124;</code>HealthcareService ) | Instantiates protocol or definition<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | String | Text alternative for the resource |
+|  text | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+|  system | 1..1 | Select | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | The namespace for the identifier value |
+|  value | 1..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The value that is unique |
+|  period | 0..1 | Select | [Period](http://hl7.org/fhir/stu3/datatypes.html#period) | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
+|  start | 0..1 | Select | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | Starting time with inclusive boundary |
+|  end | 0..1 | Select | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | End time with inclusive boundary, if not ongoing |
+|  assigner | 0..1 | Select | [Reference ( CareConnect-Organization-1 )](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) | Organization that issued id (may be just text)<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  reference | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Select | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  definition | 0..* | Select | Reference | Instantiates protocol or definition. Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|   |  | Select | [PlanDefinition](http://hl7.org/fhir/stu3/plandefinition.html) |  |
+|   |  |  | [ActivityDefinition](http://hl7.org/fhir/stu3/activitydefinition.html) |  |
+|   |  |  | [HealthcareService](http://hl7.org/fhir/stu3/healthcareservice.html) |  |
+|  reference | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Select | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
 |  basedOn | 0..* | Select | Reference ( CarePlan <code>&amp;#124;</code>ProcedureRequest <code>&amp;#124;</code>ReferralRequest ) | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
 |  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
