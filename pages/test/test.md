@@ -11,84 +11,93 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 
 
 
+
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
 |  :------ | ------ | ------ | :------ | ------ |
 |  **Name** | **Card.** | **Conformance** | **Type** | **Description/Constraints For This Implemenation** |
 |  Procedure | ​ |  |  | An action that is being or was performed on a patient<br/>Constraint (dom-2): If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>Constraint (dom-1): If the resource is contained in another resource, it SHALL NOT contain any narrative<br/>Constraint (dom-4): If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>Constraint (dom-3): If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource<br/>Constraint (pro-1): Reason not done is only permitted if notDone indicator is true |
-|  Procedure.id | 0..1 |  | [Id](http://hl7.org/fhir/stu3/datatypes.html#id) | Logical id of this artifact |
-|  meta | 0..1 |  | [Meta](http://hl7.org/fhir/stu3/resource.html#Meta) | Metadata about the resource |
-|  implicitRules | 0..1 | Select | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | A set of rules under which this content was created |
-|  language | 0..1 | Select | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [Language of the resource content Binding (extensible): A human language. (http://hl7.org/fhir/stu3/valueset-languages.html)](http://hl7.org/fhir/stu3/valueset-languages.html) |
-|  text | 0..1 | Select | [Narrative](http://hl7.org/fhir/stu3/narrative.html#Narrative) | Text summary of the resource, for human interpretation |
-|  contained | 0..* | Select | [Resource](http://hl7.org/fhir/stu3/resource.html) | Contained, inline Resources |
-|  extension (anaestheticIssues) | 0..1 | Select | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | [Details of any adverse reaction to any anaesthetic agents. Constraint (ext-1): Must have either extensions or value[x], not both URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1) |
-|  modifierExtension | 0..* | Select | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | Extensions that cannot be ignored<br/>Constraint (ext-1): Must have either extensions or value[x], not both<br/>Slicing: Description: Extensions are always sliced by (at least) url, Discriminator: url, Ordering: false, Rules: Open |
-|  identifier | 0..* | Select | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | External Identifiers for this procedure |
-|  use | 0..1 | Select | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [usual : official  : temp : secondary (If known).Binding (required): Identifies the purpose for this identifier, if known .(http://hl7.org/fhir/stu3/valueset-identifier-use.html )](http://hl7.org/fhir/stu3/valueset-identifier-use.html) |
-|  type | 0..1 | Select | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | Description of identifier<br/>Binding (extensible): A coded type for an identifier that can be used to determine which identifier to use for a specific purpose. ( http://hl7.org/fhir/stu3/valueset-identifier-type.html ) |
-|  coding | 0..* | Select | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system |
-|  system | 0..1 | Select | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
-|  version | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
-|  code | 0..1 | Select | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
-|  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
-|  userSelected | 0..1 | Select | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
-|  text | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
-|  system | 1..1 | Select | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | The namespace for the identifier value |
-|  value | 1..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The value that is unique |
-|  period | 0..1 | Select | [Period](http://hl7.org/fhir/stu3/datatypes.html#period) | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
-|  start | 0..1 | Select | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | Starting time with inclusive boundary |
-|  end | 0..1 | Select | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | End time with inclusive boundary, if not ongoing |
-|  assigner | 0..1 | Select | [Reference ( CareConnect-Organization-1 )](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) | Organization that issued id (may be just text)<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  definition | 0..* | Select | Reference | Instantiates protocol or definition. Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|   |  | Select | [PlanDefinition](http://hl7.org/fhir/stu3/plandefinition.html) |  |
-|   |  |  | [ActivityDefinition](http://hl7.org/fhir/stu3/activitydefinition.html) |  |
-|   |  |  | [HealthcareService](http://hl7.org/fhir/stu3/healthcareservice.html) |  |
-|  reference | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  basedOn | 0..* | Select | Reference ( CarePlan <code>&amp;#124;</code>ProcedureRequest <code>&amp;#124;</code>ReferralRequest ) | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | String | Text alternative for the resource |
-|  partOf | 0..* | Select | Reference (MedicationAdministration <code>&amp;#124;</code>CareConnect-Procedure-1 <code>&amp;#124;</code>CareConnect-Observation-1 ) | Part of referenced event<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | String | Text alternative for the resource |
-|  status | 1..1 | Select | Code | preparation <code>&amp;#124;</code> in-progress <code>&amp;#124;</code> suspended <code>&amp;#124;</code> aborted <code>&amp;#124;</code> completed <code>&amp;#124;</code> entered-in-error <code>&amp;#124;</code> unknown<br/>Binding (required): A code specifying the state of the procedure. ( http://hl7.org/fhir/stu3/valueset-event-status.html ) |
-|  notDone | 0..1 | Select | Boolean | True if procedure was not performed as scheduled<br/>Default Value: false |
-|  notDoneReason | 0..1 | Select | CodeableConcept | Reason procedure was not performed<br/>Binding (example): A code that identifies the reason a procedure was not performed. (http://hl7.org/fhir/stu3/valueset-procedure-not-performed-reason.html ) |
-|  coding | 0..* | Select | Coding | Code defined by a terminology system |
-|  system | 0..1 | Select | Uri | Identity of the terminology system |
-|  version | 0..1 | Select | String | Version of the system - if relevant |
-|  code | 0..1 | Select | Code | Symbol in syntax defined by the system |
-|  display | 0..1 | Select | String | Representation defined by the system |
-|  userSelected | 0..1 | Select | Boolean | If this coding was chosen directly by the user |
-|  text | 0..1 | Select | String | Plain text representation of the concept |
-|  category | 0..1 | Select | CodeableConcept | Classification of the procedure<br/>Binding (example): A code that classifies a procedure for searching, sorting and display purposes. (http://hl7.org/fhir/stu3/valueset-procedure-category.html ) |
-|  coding | 0..* | Select | Coding | Code defined by a terminology system |
-|  system | 0..1 | Select | Uri | Identity of the terminology system |
-|  version | 0..1 | Select | String | Version of the system - if relevant |
-|  code | 0..1 | Select | Code | Symbol in syntax defined by the system |
-|  display | 0..1 | Select | String | Representation defined by the system |
-|  userSelected | 0..1 | Select | Boolean | If this coding was chosen directly by the user |
-|  text | 0..1 | Select | String | Plain text representation of the concept |
-|  code | 0..1 | Select | CodeableConcept | Identification of the procedure<br/>Binding (preferred): A code to identify a specific procedure. ( http://hl7.org/fhir/stu3/valueset-procedure-code.html ) |
-|  coding | 0..* | Select | Coding | Code defined by a terminology system<br/>Slicing: Discriminator: system, Ordering: false, Rules: Open |
-|  coding (snomedCT) | 0..1 | Select | Coding | Code defined by a terminology system<br/>Binding (extensible): A code from the SNOMED Clinical Terminology UK. (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1 ) |
-|  extension (snomedCTDescriptionID) | 0..1 | Select | Extension | The SNOMED CT Description ID for the display<br/>Constraint (ext-1): Must have either extensions or value[x], not both<br/>URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid |
-|  system | 1..1 | Select | Uri | Identity of the terminology system<br/>Fixed Value: http://snomed.info/sct |
-|  code | 1..1 | Select | Code | Symbol in syntax defined by the system |
-|  display | 1..1 | Select | String | Representation defined by the system |
-|  userSelected | 0..1 | Select | Boolean | If this coding was chosen directly by the user |
-|  text | 0..1 | Select | String | Plain text representation of the concept |
-|  subject | 1..1 | Select | Reference ( Group <code>&amp;#124;</code>CareConnect-Patient-1 ) | Who the procedure was performed on<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
-|  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
-|  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
-|  display | 0..1 | Select | String | Text alternative for the resource |
-|  context | 0..1 | Select | Reference ( EpisodeOfCare <code>&amp;#124;</code>CareConnect-Encounter-1 ) | Encounter or episode associated with the procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  Procedure.id | 0..1 | Not Used | [Id](http://hl7.org/fhir/stu3/datatypes.html#id) | Logical id of this artifact |
+|  meta | 0..1 | Mandatory | [Meta](http://hl7.org/fhir/stu3/resource.html#Meta) | Metadata about the resource |
+|  implicitRules | 0..1 | Not Used | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | A set of rules under which this content was created |
+|  language | 0..1 | Not Used | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [Language of the resource content Binding (extensible): A human language. (http://hl7.org/fhir/stu3/valueset-languages.html)](http://hl7.org/fhir/stu3/valueset-languages.html) |
+|  text | 0..1 | Not Used | [Narrative](http://hl7.org/fhir/stu3/narrative.html#Narrative) | Text summary of the resource, for human interpretation |
+|  contained | 0..* | Not Used | [Resource](http://hl7.org/fhir/stu3/resource.html) | Contained, inline Resources |
+|  extension (anaestheticIssues) | 0..1 | Required | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | [Details of any adverse reaction to any anaesthetic agents. Constraint (ext-1): Must have either extensions or value[x], not both URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1) |
+|  modifierExtension | 0..* | Not Used | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | Extensions that cannot be ignored<br/>Constraint (ext-1): Must have either extensions or value[x], not both<br/>Slicing: Description: Extensions are always sliced by (at least) url, Discriminator: url, Ordering: false, Rules: Open |
+|  identifier | 0..* | Mandatory | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | External Identifiers for this procedure |
+|  use | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | [usual : official  : temp : secondary (If known).Binding (required): Identifies the purpose for this identifier, if known .(http://hl7.org/fhir/stu3/valueset-identifier-use.html )](http://hl7.org/fhir/stu3/valueset-identifier-use.html) |
+|  type | 0..1 | Optional | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | Description of identifier<br/>Binding (extensible): A coded type for an identifier that can be used to determine which identifier to use for a specific purpose. ( http://hl7.org/fhir/stu3/valueset-identifier-type.html ) |
+|  coding | 0..* | Optional | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system |
+|  system | 0..1 | Optional | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
+|  version | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
+|  code | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
+|  display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
+|  userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
+|  text | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+|  system | 1..1 | Not Used | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | The namespace for the identifier value |
+|  value | 1..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The value that is unique |
+|  period | 0..1 | Optional | [Period](http://hl7.org/fhir/stu3/datatypes.html#period) | Time period when id is/was valid for use<br/>Constraint (per-1): If present, start SHALL have a lower value than end |
+|  start | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | Starting time with inclusive boundary |
+|  end | 0..1 | Not Used | [dateTime](http://hl7.org/fhir/stu3/datatypes.html#datetime) | End time with inclusive boundary, if not ongoing |
+|  assigner | 0..1 | Required | [Reference ( CareConnect-Organization-1 )](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1) | Organization that issued id (may be just text)<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Mandatory | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  definition | 0..* | Optional | Reference | Instantiates protocol or definition. Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|   |  | Not Used | [PlanDefinition](http://hl7.org/fhir/stu3/plandefinition.html) |  |
+|   |  | Not Used | [ActivityDefinition](http://hl7.org/fhir/stu3/activitydefinition.html) |  |
+|   |  | Required | [CareConnect-NHSD-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) |  |
+|  reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  basedOn | 0..* | Not Used | Reference | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|   |  | Not Used | [CarePlan](https://www.hl7.org/fhir/stu3/careplan.html) |  |
+|   |  | Not Used | [ProcedureRequest](https://www.hl7.org/fhir/stu3/procedurerequest.html) |  |
+|   |  | Not Used | [ReferralRequest](https://www.hl7.org/fhir/stu3/referralrequest.html) |  |
+|  reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  partOf | 0..* | Required | [Reference](http://hl7.org/fhir/stu3/references.html) | Part of referenced event<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|   |  | Not Used | [MedicationAdministration](http://hl7.org/fhir/stu3/medicationadministration.html) |  |
+|   |  | Required | [CareConnect-Procedure-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1) |  |
+|   |  | Required | [CareConnect-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1) |  |
+|  reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  status | 1..1 | Mandatory | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | preparation : in-progress : suspended : aborted : completed : entered-in-error : unknown. Binding (required): A code specifying the state of the procedure. ( http://hl7.org/fhir/stu3/valueset-event-status.html ) |
+|  notDone | 0..1 | Optional | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | True if procedure was not performed as scheduled<br/>Default Value: false |
+|  notDoneReason | 0..1 | Optional | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | Reason procedure was not performed. Binding (example): A code that identifies the reason a procedure was not performed. (http://hl7.org/fhir/stu3/valueset-procedure-not-performed-reason.html ) |
+|  coding | 0..* | Optional | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system |
+|  system | 0..1 | Optional | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
+|  version | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
+|  code | 0..1 | Optional | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
+|  display | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
+|  userSelected | 0..1 | Optional | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
+|  text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+|  category | 0..1 | Optional | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | Classification of the procedure<br/>Binding (example): A code that classifies a procedure for searching, sorting and display purposes. (http://hl7.org/fhir/stu3/valueset-procedure-category.html ) |
+|  coding | 0..* | Mandatory | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system |
+|  system | 0..1 | Mandatory | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system |
+|  version | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Version of the system - if relevant |
+|  code | 0..1 | Mandatory | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
+|  display | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
+|  userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
+|  text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+|  code | 0..1 | Mandatory | [CodeableConcept](http://hl7.org/fhir/stu3/datatypes.html#codeableconcept) | [Identification of the procedure. Binding (preferred): A code to identify a specific procedure. ( http://hl7.org/fhir/stu3/valueset-procedure-code.html )](https://www.hl7.org/fhir/stu3/procedure.html) |
+|  coding | 0..* | Mandatory | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system<br/>Slicing: Discriminator: system, Ordering: false, Rules: Open |
+|  coding (snomedCT) | 0..1 | Mandatory | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system. Binding (extensible): A code from the SNOMED Clinical Terminology UK. (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1 ) |
+|  extension (snomedCTDescriptionID) | 0..1 | Optional | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | The SNOMED CT Description ID for the display. Constraint (ext-1): Must have either extensions or value[x], not both. URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid |
+|  system | 1..1 | Mandatory | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system. Fixed Value: http://snomed.info/sct |
+|  code | 1..1 | Mandatory | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Symbol in syntax defined by the system |
+|  display | 1..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
+|  userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
+|  text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
+|  subject | 1..1 | Mandatory | Reference | Who the procedure was performed on<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|   |  | Not Used | [Group](http://hl7.org/fhir/stu3/group.html) |  |
+|   |  | Mandatory | [CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1) |  |
+|  reference | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
+|  identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
+|  display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  context | 0..1 | Mandatory | Reference ( EpisodeOfCare <code>&amp;#124;</code>CareConnect-Encounter-1 ) | Encounter or episode associated with the procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |  reference | 0..1 | Select | String | Literal reference, Relative, internal or absolute URL |
 |  identifier | 0..1 | Select | Identifier | Logical reference, when literal reference is not known |
 |  display | 0..1 | Select | String | Text alternative for the resource |
