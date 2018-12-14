@@ -11,9 +11,9 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 
 [View All Elements](test.html) 
 
-|Level 1|Procedure Resource|
-|Level 2|CareConnect-Procedure-1|
-|Level 3|CareConnect-NHSD-Procedure-1|
+|Level 1|Procedure Resource||
+|Level 2|CareConnect-Procedure-1|General Guidance for use of this level 2 profile is [here](http:///xxxx)|
+|Level 3|CareConnect-NHSD-Procedure-1|Guidance for use of this level 3 profile for DCH is contained in the tables below |
 
 
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
