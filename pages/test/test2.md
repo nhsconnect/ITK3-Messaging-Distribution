@@ -3,7 +3,7 @@ title: Test Overview
 keywords: test
 tags: [overview]
 sidebar: foundations_sidebar
-permalink: test.html
+permalink: test2.html
 summary: "These pages assist with requirements gathering and mapping stages of an ITK3 Messaging Solution development process."
 ---
 
