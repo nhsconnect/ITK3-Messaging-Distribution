@@ -9,6 +9,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 
 ## Mapping table ##
 
+
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
 |  ------ | ------ | ------ | ------ | ------ |
 |  **Elemernt Name** | **Card.** | **Conformance** | **Type** | **Mapping Constraints For This Implemenation** |
@@ -44,16 +45,16 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |   |  | Not Used | [PlanDefinition](http://hl7.org/fhir/stu3/plandefinition.html) |  |
 |   |  | Not Used | [ActivityDefinition](http://hl7.org/fhir/stu3/activitydefinition.html) |  |
 |   |  | Not Used | [CareConnect-NHSD-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) |  |
-|  - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
-|  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
-|  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
-|  - - basedOn | 0..* | Not Used | [Reference](http://hl7.org/fhir/stu3/references.html) | A request for this procedure<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
+|  - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) |  |
+|  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) |  |
+|  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) |  |
+|  - - basedOn | 0..* | Not Used | [Reference](http://hl7.org/fhir/stu3/references.html) |  |
 |   |  | Not Used | [`CarePlan`](https://www.hl7.org/fhir/stu3/careplan.html) |  |
 |   |  | Not Used | [ProcedureRequest](https://www.hl7.org/fhir/stu3/procedurerequest.html) |  |
 |   |  | Not Used | [ReferralRequest](https://www.hl7.org/fhir/stu3/referralrequest.html) |  |
-|  - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Literal reference, Relative, internal or absolute URL |
-|  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) | Logical reference, when literal reference is not known |
-|  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Text alternative for the resource |
+|  - - - reference | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) |  |
+|  - - - identifier | 0..1 | Not Used | [Identifier](http://hl7.org/fhir/stu3/datatypes.html#identifier) |  |
+|  - - - display | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) |  |
 |  - - partOf | 0..* | Not Used | [Reference](http://hl7.org/fhir/stu3/references.html) | Part of referenced event<br/>Constraint (ref-1): SHALL have a contained resource if a local reference is provided |
 |   |  | Not Used | [`MedicationAdministration`](http://hl7.org/fhir/stu3/medicationadministration.html) |  |
 |   |  | Optional | [`CareConnect-Procedure-1`](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1) | A refernce to a Procedure which this procedure is a part of. |
@@ -84,7 +85,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - coding (snomedCT) | 0..1 | Mandatory | [Coding](http://hl7.org/fhir/stu3/datatypes.html#coding) | Code defined by a terminology system. Binding (extensible): A code from the SNOMED Clinical Terminology UK. (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1 ) |
 |  - - - - extension (snomedCTDescriptionID) | 0..1 | Optional | [Extension](http://hl7.org/fhir/stu3/extensibility.html#Extension) | The SNOMED CT Description ID for the display. Constraint (ext-1): Must have either extensions or value[x], not both. URL: https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid |
 |  - - - - system | 1..1 | Mandatory | [Uri](http://hl7.org/fhir/stu3/datatypes.html#uri) | Identity of the terminology system. MUST contain the fixed Value: http://snomed.info/sct |
-|  - - - - code | 1..1 | Mandatory | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Must contain a SNOMED CT concept that conforms to the following expression:<br/>"<<71388002 <code>&amp;#124;</code>Procedure<code>&amp;#124;</code> OR<br/><<129125009 <code>&amp;#124;</code>Procedure with explicit context<code>&amp;#124;</code>  <br/>" |
+|  - - - - code | 1..1 | Mandatory | [Code](http://hl7.org/fhir/stu3/datatypes.html#code) | Must contain a SNOMED CT concept that conforms to the following expression:<br/>"<<71388002 &#124;<code>&amp;#124;</code>Procedure<code>&amp;#124;</code> OR<br/><<129125009 &#124;<code>&amp;#124;</code>Procedure with explicit context<code>&amp;#124;</code>  <br/>" |
 |  - - - - display | 1..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | The prefferred term for the SNOMED CT concept |
 |  - - - - userSelected | 0..1 | Optional | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
 |  - - - text | 0..1 | Not Used | [String](http://hl7.org/fhir/stu3/datatypes.html#string) |  |
@@ -222,5 +223,3 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 |  - - - - display | 0..1 | Mandatory | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Representation defined by the system |
 |  - - - - userSelected | 0..1 | Not Used | [Boolean](http://hl7.org/fhir/stu3/datatypes.html#boolean) | If this coding was chosen directly by the user |
 |  - - - text | 0..1 | Optional | [String](http://hl7.org/fhir/stu3/datatypes.html#string) | Plain text representation of the concept |
-
-
