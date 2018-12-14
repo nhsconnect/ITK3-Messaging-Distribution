@@ -9,6 +9,7 @@ summary: "These pages assist with requirements gathering and mapping stages of a
 
 ## Mapping table ##
 
+[View Used Elements Only](test.html) 
 
 |  [**Procedure - Profiled using CareConnect-NHSD-Procedure-1**](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-NHSD-Procedure-1) |  |  |  |  |
 |  ------ | ------ | ------ | ------ | ------ |
