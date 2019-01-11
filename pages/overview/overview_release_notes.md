@@ -9,6 +9,15 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 <!-- {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %} -->
 
+## 2.7.0-RC ##
+
+**Profiles**
+
+The CareConnect-ITK-Header-Practitioner-1 and CareConnect-ITK-Header-Organization have been changed in order to be compliant with their respective CareConnect profiles. Changes are:
+
+- Removal of identifier(localidentifier) 'slice'
+- Reinstated all identifier slicing child elements, restoring to default values
+
 ## 2.6.0-RC ##
 
 **Profiles**
