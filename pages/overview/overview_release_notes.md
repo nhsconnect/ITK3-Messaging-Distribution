@@ -13,10 +13,13 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 
 **Profiles**
 
-The CareConnect-ITK-Header-Practitioner-1 and CareConnect-ITK-Header-Organization have been changed in order to be compliant with their respective CareConnect profiles. Changes are:
+The CareConnect-ITK-Header-Practitioner-1 and CareConnect-ITK-Header-Organization have been changed in order to be compliant with their respective curated INTEROPen CareConnect profiles, CareConnect-Practitioner-1 and CareConnect-Organization-1. Changes are:
 
-- Removal of identifier(localidentifier) 'slice'
-- Reinstated all identifier slicing child elements, restoring to default values
+- Removal of identifier(localidentifier) element 'slice'
+- Reinstated all identifier slicing child elements for practitioner sdsUserId and sdsRoleProfileID, restoring to default values
+- Reinstated all identifier slicing child elements for organization odsOrganizationCode and odsSiteCode, restoring to default values
+- CareConnect-ITK-Header-Practitioner-1 and CareConnect-ITK-Header-Organization profiles changed to version 1.2
+- MessageDefintions updated to reflect profile version changes
 
 ## 2.6.0-RC ##
 
