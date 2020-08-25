@@ -147,3 +147,7 @@ Note: If only certain elements are missing or unreadable then the error codes as
 ## Business Level Response 30003: Fatal-Error - Patient no Longer at this Clinical Setting Error ##
 
 <script src="https://gist.github.com/IOPS-DEV/cf7eed45cfcf6523b3c40d7cb21f1612.js"></script>
+
+## Business Level Response 30004: Patient Known Here and Recently Deceased ##
+
+<script src="https://gist.github.com/IOPS-DEV/b4fbf2b138f4abd07a408008f8b0d44f.js"></script>

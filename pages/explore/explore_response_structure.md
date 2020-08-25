@@ -992,4 +992,47 @@ These responses will be returned using the ITK3 Response message if requested by
 <td></td>
 </tr>
 </table>
+<table>
+<tr>
+<th>Element</th>	
+<th>CodeSystem</th>	
+<th>Value</th>
+<th>Display</th>	
+<th>Definition</th>
+</tr>
+<tr>
+<th colspan="5" align="left">MessageHeader</th>
+</tr>
+<tr>
+<td>response.code</td>
+<td>ResponseType</td>	
+<td>ok</td>
+<td>OK</td>
+<td>The message was accepted and processed without error.</td>
+</tr>
+<tr>	
+<th colspan="5" align="left">OperationOutcome</th> 
+</tr>
+<tr>
+<td>issue.severity.code</td> 	
+<td>IssueSeverity</td>
+<td>information</td>
+<td>Information</td>
+<td>The issue has no relation to the degree of success of the action.</td>
+</tr>
+<tr>	
+<td>issue.code</td>	
+<td>IssueType</td>	
+<td>informational</td>
+<td>Informational Note</td>
+<td>A message unrelated to the processing success of the completed operation.</td>
+</tr>
+<tr>	
+<td>issue.details.code</td>
+<td>ITK-Response-Codes</td>		
+<td>30004</td>
+<td>Patient known here and recently deceased (i.e. patient record current in GP practice system at time of patient’s death and deduction subsequently occurred for this reason)</td>
+<td></td>	
+</tr>
+</table>
 

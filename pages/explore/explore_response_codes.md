@@ -192,6 +192,12 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>Patient no longer at this clinical setting</td>
 <td></td>
 </tr>
+<tr>
+<td>30004</td>
+<td>Positive</td>
+<td>Patient known here and recently deceased (i.e. patient record current in GP practice system at time of patient’s death and deduction subsequently occurred for this reason)</td>
+<td>This response is only applicable for a window of less than 6-months and would start at Date of Death of Patient (or Date of Deduction when reason for this is patient’s death). If an ITK3 payload message is then received at 6 months or beyond, then the response code would revert to a 30003.</td>	
+</tr>
 </table>	
 
 

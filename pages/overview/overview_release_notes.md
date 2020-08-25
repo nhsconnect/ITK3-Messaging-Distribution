@@ -8,6 +8,20 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 ---
 
 <!-- {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %} -->
+## 2.8.0-public-beta ##
+
+- Published ITK3 Relaxed Responses v1.1 document
+
+**Value Sets / Code Systems**
+
+- Added new response code to CodeSystem-ITK-Response-Codes-1 to reflect 'Patient known here and recently deceased for a GP practice'
+- Added new response code to response code list in the ITK3 specification
+
+**Examples**
+
+- Added example for the new response code
+- Updated all relevant xml example fragments in the specification with the new response code
+
 
 ## 2.7.0-RC ##
 
