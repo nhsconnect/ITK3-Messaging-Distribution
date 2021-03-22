@@ -8,6 +8,10 @@ summary: Summary release notes of the versions released in ITK3 Messaging Distri
 ---
 
 <!-- {% include important.html content="This site is under active development by NHS Digital on behalf of INTEROPen and is intended to provide all the technical resources you need to successfully develop the ITK3 Messaging Distributions. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %} -->
+## 2.9.0-live ##
+
+- Updated to 2.9.0-live
+
 ## 2.8.0-public-beta ##
 
 - Published ITK3 Relaxed Responses v1.1 document
