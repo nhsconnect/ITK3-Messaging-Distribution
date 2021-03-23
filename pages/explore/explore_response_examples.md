@@ -134,6 +134,10 @@ Note: If only certain elements are missing or unreadable then the error codes as
 
 <script src="https://gist.github.com/IOPS-DEV/3fc67fc15aa7df8e0f466e8344af644e.js"></script>
 
+## Infrastructure Level Response 20015: Message too large ##
+
+<script src="https://gist.github.com/KatieAnne/6d88ca251386043a5411f770208c844c.js"></script>
+
 ----------
 
 ## Business Level Response 30001:  - Patient Known Here ##

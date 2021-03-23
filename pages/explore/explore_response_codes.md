@@ -175,6 +175,12 @@ The ITK3 Response Codes have three prefixes. The codes are returned in response 
 <td>A replacement document was received, but the receiver could not process the new document correctly and has therefore marked the new and original documents as "bad" on its system.</td>	
 </tr>
 <tr>
+<td>20015</td>
+<td>Negative</td>
+<td>Message too large</td>
+<td>Payload is too large to be processed normally by the recipient system and has been rejected to avoid potential for manual intervention and subsequent loss of automated response codes.  The recommended maximum size limit is 5MB.</td>	
+</tr>
+<tr>
 <td>30001</td>
 <td>Positive</td>
 <td>Patient known here. (e.g. Patient is registered here)</td>
